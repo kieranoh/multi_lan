@@ -1,0 +1,20 @@
+from tempfile import NamedTemporaryFile, TemporaryFile, mktemp
+import os
+
+
+def write_results(results: str) -> str:
+    """
+    Create a temporary file, write the provided `results` to it, and return the file name for future reading.
+
+    Args:
+        results (str): The string content to write to the temporary file.
+
+    Returns:
+        str: The file name of the temporary file created.
+    """
+    # Create a temporary file with delete=False to keep it after closing
+    with NamedTemporaryFile(mode='w', delete=False, encoding='utf-8') as temp_file:
+        temp_file.write(results)
+        temp_file_name = temp_file.name
+    
+    return temp_file_name
