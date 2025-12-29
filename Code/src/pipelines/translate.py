@@ -7,6 +7,16 @@ load_dotenv()
 
 import argparse
 import os
+import warnings
+
+# Reduce noisy warnings/logs from HF/Lightning during scoring
+os.environ.setdefault('PYTHONWARNINGS', 'ignore')
+os.environ.setdefault('TOKENIZERS_PARALLELISM', 'false')
+os.environ.setdefault('TRANSFORMERS_VERBOSITY', 'error')
+# HuggingFace symlink warning (mostly on Windows)
+os.environ.setdefault('HF_HUB_DISABLE_SYMLINKS_WARNING', '1')
+warnings.filterwarnings('ignore')
+
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -20,6 +30,7 @@ from src.io.reader import read_jsonl, list_en_jsonl_files
 from src.io.writer import write_jsonl, append_jsonl
 from src.metrics.bertscore import bertscore_mean_f1
 from src.metrics.cometkiwi import cometkiwi_mean, comet_default_model_name
+import src.metrics.cometkiwi as cometkiwi_mod
 from src.postprocess.preserve_code import extract_code_and_prompts, fill_code_template
 from src.translators.base import build_translator, get_num_variants, compute_cost_usd
 
@@ -200,7 +211,17 @@ def run_translate_for_module(
                 if resume and task in done_s1:
                     continue
 
-                code_template, prompts_en = extract_code_and_prompts(prompt_en_full, lang)
+                # ─────────────────────────────────────────────────────
+                # [ADD] Special-case: gen_prompt_templates_en.jsonl
+                #   - translate the whole rec["prompt"] directly (1 segment)
+                #   - bypass comment extraction
+                # ─────────────────────────────────────────────────────
+                if in_path.name == "gen_prompt_templates_en.jsonl":
+                    code_template = "{PROMPT_1}"
+                    prompt_txt = str(prompt_en_full).strip()
+                    prompts_en = [prompt_txt] if prompt_txt else []
+                else:
+                    code_template, prompts_en = extract_code_and_prompts(prompt_en_full, lang)
 
                 call_end = prompt_idx * n_variants
                 tqdm.write(
@@ -477,12 +498,99 @@ def run_translate(cfg: TranslateConfig, env: Dict[str, str]) -> None:
 # Score (writes per-module scored jsonl)
 # ─────────────────────────────────────────────────────────────
 
+
+def _cometkiwi_means_for_variants(
+    src_segments: List[str],
+    mt_segments_by_variant: List[List[str]],
+    model_name: Optional[str],
+    batch_size: int,
+) -> List[float]:
+    """Efficient COMETKiwi scoring for N variants.
+
+    Flatten all (variant, segment) pairs and run ONE model.predict() call,
+    then compute per-variant mean. This is much faster than N separate predict() calls.
+    """
+    n_variants = len(mt_segments_by_variant)
+    if not src_segments or n_variants == 0:
+        return [0.0 for _ in range(n_variants)]
+
+    n_segs = len(src_segments)
+    for i in range(n_variants):
+        if len(mt_segments_by_variant[i]) != n_segs:
+            raise ValueError("src/mt segment length mismatch")
+
+    if model_name is None:
+        model_name = comet_default_model_name()
+
+    model = cometkiwi_mod._load_comet_model(model_name)  # type: ignore[attr-defined]
+    trainer = None
+    try:
+        trainer = cometkiwi_mod._get_or_create_trainer(batch_size=int(batch_size))  # type: ignore[attr-defined]
+    except Exception:
+        trainer = None
+
+    data: List[Dict[str, str]] = []
+    for i in range(n_variants):
+        for s, t in zip(src_segments, mt_segments_by_variant[i]):
+            data.append({"src": s or "", "mt": t or ""})
+
+    pred_kwargs: Dict[str, Any] = {"batch_size": int(batch_size)}
+    if trainer is None:
+        pred_kwargs["gpus"] = 1 if getattr(cometkiwi_mod, "_has_cuda", lambda: False)() else 0  # type: ignore
+
+    try:
+        import inspect
+        sig = inspect.signature(model.predict)
+        if "trainer" in sig.parameters and trainer is not None:
+            pred_kwargs["trainer"] = trainer
+        if "progress_bar" in sig.parameters:
+            pred_kwargs["progress_bar"] = False
+        if "verbose" in sig.parameters:
+            pred_kwargs["verbose"] = False
+    except Exception:
+        pass
+
+    out = model.predict(data, **pred_kwargs)
+    seg_scores = out.get("scores", [])
+    if not isinstance(seg_scores, (list, tuple)) or len(seg_scores) != len(data):
+        raise TypeError("[COMETKiwi] unexpected scores")
+
+    scores: List[float] = []
+    for i in range(n_variants):
+        chunk = seg_scores[i * n_segs : (i + 1) * n_segs]
+        scores.append(float(sum(float(x) for x in chunk) / max(1, len(chunk))))
+    return scores
+
 def run_calculate_score(cfg: ScoreConfig, env: Optional[Dict[str, str]] = None) -> None:
     """
     Reads stage2_meta and writes scored jsonl into cfg.final_dir/<tgt>/<module>/<file>.
     RESUME=1: if out file exists, skip tasks already present and append only remaining.
     """
     resume = _env_flag(env or {}, "RESUME", "0")
+
+    # Global progress bar for ETA (across all langs/modules/files)
+    total_recs = 0
+    for _tgt in cfg.target_langs:
+        for _mod in cfg.modules:
+            _dir = cfg.translated_dir / "_stage2_meta" / _tgt / _mod
+            if not _dir.exists():
+                continue
+            _files = sorted([p for p in _dir.iterdir() if p.is_file() and p.name.endswith("en.jsonl")])
+            for _p in _files:
+                try:
+                    # fast line count (jsonl)
+                    with _p.open("r", encoding="utf-8") as _f:
+                        total_recs += sum(1 for _ in _f if _.strip())
+                except Exception:
+                    pass
+    score_all_pbar = tqdm(
+        total=total_recs,
+        desc="SCORE_ALL",
+        unit="prompt",
+        dynamic_ncols=True,
+        leave=True,
+        bar_format="{desc}: {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}]",
+    )
 
     for tgt_lang in cfg.target_langs:
         for module_name in cfg.modules:
@@ -504,7 +612,8 @@ def run_calculate_score(cfg: ScoreConfig, env: Optional[Dict[str, str]] = None) 
 
                 out_recs: List[Dict[str, Any]] = []
                 desc = f"score:{cfg.dataset}:{in_path.name} ({tgt_lang}/{module_name})"
-                for rec in tqdm(pending, desc=desc, unit="prompt"):
+                for rec in tqdm(pending, desc=desc, unit="prompt", dynamic_ncols=True, leave=False, bar_format="{desc}: {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}] | {postfix}"):
+                    score_all_pbar.update(1)
                     prompts_en: List[str] = rec["prompts_en"]
                     n_variants = int(rec.get("n_variants", 0))
 
@@ -512,15 +621,21 @@ def run_calculate_score(cfg: ScoreConfig, env: Optional[Dict[str, str]] = None) 
                     comet_vals: List[float] = []
                     mixed_vals: List[float] = []
 
+                    # COMETKiwi: batch across variants (one predict per task when possible)
+                    mt_by_variant: List[List[str]] = [
+                        rec[f"prompt_{j+1}_segments"] for j in range(n_variants)
+                    ]
+                    comet_vals = _cometkiwi_means_for_variants(
+                        prompts_en, mt_by_variant, cfg.comet_model, batch_size=int((env or {}).get("COMET_BATCH_SIZE", "8"))
+                    )
+
                     for i in range(n_variants):
-                        mt_segs: List[str] = rec[f"prompt_{i+1}_segments"]
                         bt_segs_en: List[str] = rec[f"prompt_{i+1}_bt_segments_en"]
 
                         b = bertscore_mean_f1(prompts_en, bt_segs_en) if prompts_en else 0.0
-                        c = cometkiwi_mean(prompts_en, mt_segs, cfg.comet_model) if prompts_en else 0.0
+                        c = float(comet_vals[i]) if prompts_en else 0.0
 
                         bert_vals.append(b)
-                        comet_vals.append(c)
                         mixed_vals.append((b + c) / 2.0)
 
                     best_idx0 = max(range(n_variants), key=lambda k: mixed_vals[k]) if n_variants else 0
@@ -549,6 +664,9 @@ def run_calculate_score(cfg: ScoreConfig, env: Optional[Dict[str, str]] = None) 
 # ─────────────────────────────────────────────────────────────
 # FINAL (best_overall only)
 # ─────────────────────────────────────────────────────────────
+
+    score_all_pbar.close()
+
 
 def run_emit_final_prompts_global_best(
     score_dir: Path,
@@ -720,7 +838,7 @@ def main() -> None:
                 dataset=dataset,
                 prompts_dir=prompts_dir,
                 translated_dir=translated_dir,
-                modules=modules,
+                modules=env_modules,
                 target_langs=target_langs,
                 base_prompt_path=base_prompt_path,
                 temperature=temperature,

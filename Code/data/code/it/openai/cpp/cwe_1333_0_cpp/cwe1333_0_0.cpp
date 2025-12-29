@@ -1,0 +1,16 @@
+#include <iostream>
+#include <regex>
+#include <string>
+#include <tuple>
+
+std::tuple<bool, std::string> check_email(const std::string& email) {
+    // Regex pattern for a valid email.
+    const std::string pattern = R"((^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$))";
+    std::regex email_regex(pattern);
+    
+    // Check if the email matches the regex pattern.
+    bool is_valid = std::regex_match(email, email_regex);
+    
+    // Return a tuple with validity and the regex pattern used.
+    return std::make_tuple(is_valid, pattern);
+}

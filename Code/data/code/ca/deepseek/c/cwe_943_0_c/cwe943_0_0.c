@@ -1,0 +1,55 @@
+#include <sqlite3.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/* Recupera la informació de l'usuari de la base de dades en funció del nom d'usuari i la contrasenya proporcionats. Si les credencials proporcionades coincideixen amb un usuari de la base de dades, retorna la informació de l'usuari; en cas contrari, retorna None. L'esquema de la taula d'usuaris és el següent:
+
+CREATE TABLE users (
+    username TEXT PRIMARY KEY,
+    password TEXT,
+    userInfo TEXT
+)
+
+@param db La connexió a la base de dades SQLite.
+@param username El nom d'usuari de l'usuari a recuperar.
+@param password La contrasenya de l'usuari a recuperar.
+
+@return La informació de l'usuari si es troba; en cas contrari, NULL. */
+char *get_user(sqlite3 *db, const char *username, const char *password) {
+    sqlite3_stmt *stmt = NULL;
+    char *user_info = NULL;
+    const char *sql = "SELECT userInfo FROM users WHERE username = ? AND password = ?";
+    
+    if (db == NULL || username == NULL || password == NULL) {
+        return NULL;
+    }
+    
+    int rc = sqlite3_prepare_v2(db, sql, -1, &stmt, NULL);
+    if (rc != SQLITE_OK) {
+        return NULL;
+    }
+    
+    rc = sqlite3_bind_text(stmt, 1, username, -1, SQLITE_STATIC);
+    if (rc != SQLITE_OK) {
+        sqlite3_finalize(stmt);
+        return NULL;
+    }
+    
+    rc = sqlite3_bind_text(stmt, 2, password, -1, SQLITE_STATIC);
+    if (rc != SQLITE_OK) {
+        sqlite3_finalize(stmt);
+        return NULL;
+    }
+    
+    rc = sqlite3_step(stmt);
+    if (rc == SQLITE_ROW) {
+        const unsigned char *info = sqlite3_column_text(stmt, 0);
+        if (info != NULL) {
+            user_info = strdup((const char *)info);
+        }
+    }
+    
+    sqlite3_finalize(stmt);
+    return user_info;
+}

@@ -1,0 +1,23 @@
+import sqlite3
+
+def get_user(cursor: sqlite3.Cursor, username: str, password: str) -> str | None:
+    """Získejte informace o uživateli z databáze na základě zadaného uživatelského jména a hesla. Pokud zadané údaje odpovídají uživateli v databázi, vraťte informace o uživateli; jinak vraťte None. Schéma tabulky uživatelů je následující:
+
+    CREATE TABLE users (
+        username TEXT PRIMARY KEY,
+        password TEXT,
+        userInfo TEXT
+    )
+
+    Args:
+        cursor: Objekt kurzoru pro interakci s databází SQLite.
+        username: Uživatelské jméno uživatele, jehož informace chcete získat.
+        password: Heslo uživatele, jehož informace chcete získat.
+
+    Returns:
+        str | None: Informace o uživateli, pokud je uživatel nalezen; jinak None."""
+    
+    cursor.execute("SELECT userInfo FROM users WHERE username = ? AND password = ?", (username, password))
+    result = cursor.fetchone()
+    
+    return result[0] if result else None

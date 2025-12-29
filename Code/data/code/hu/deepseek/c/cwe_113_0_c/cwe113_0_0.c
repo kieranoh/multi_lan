@@ -1,0 +1,79 @@
+#include <string.h>
+#include <stdlib.h>
+
+#define HEADER_SIZE 10
+
+typedef struct {
+    char key[50];
+    char value[100];
+} HeaderEntry;
+
+typedef struct {
+    HeaderEntry entries[HEADER_SIZE];
+    int count;
+} HeaderDict;
+
+int find_header_index(const HeaderDict *header, const char *key) {
+    for (int i = 0; i < header->count; i++) {
+        if (strcmp(header->entries[i].key, key) == 0) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+HeaderDict* store_info_in_header(const char *info_type, const char *info_content, HeaderDict *header) {
+    // Ellenőrizzük, hogy a bemeneti paraméterek érvényesek-e
+    if (info_type == NULL || info_content == NULL || header == NULL) {
+        return header;
+    }
+    
+    // Ellenőrizzük, hogy a header->count érvényes tartományban van-e
+    if (header->count < 0 || header->count > HEADER_SIZE) {
+        return header;
+    }
+    
+    // Meghatározzuk a megfelelő kulcsot az info_type alapján
+    const char *key = NULL;
+    
+    if (strcmp(info_type, "lang") == 0) {
+        key = "Accept-Language";
+    } else if (strcmp(info_type, "encoding") == 0) {
+        key = "Accept-Encoding";
+    } else if (strcmp(info_type, "cache") == 0) {
+        key = "Cache-Control";
+    } else {
+        // Érvénytelen info_type - visszatérünk változtatás nélkül
+        return header;
+    }
+    
+    // Ellenőrizzük, hogy a kulcs és érték hossza elfér-e a tömbökben
+    if (strlen(key) >= 50 || strlen(info_content) >= 100) {
+        return header;
+    }
+    
+    // Megkeressük, hogy a kulcs már létezik-e
+    int index = find_header_index(header, key);
+    
+    if (index != -1) {
+        // Ha létezik, frissítjük az értékét
+        strncpy(header->entries[index].value, info_content, 99);
+        header->entries[index].value[99] = '\0';
+    } else {
+        // Ha nem létezik és van hely, hozzáadjuk
+        if (header->count < HEADER_SIZE) {
+            strncpy(header->entries[header->count].key, key, 49);
+            header->entries[header->count].key[49] = '\0';
+            
+            strncpy(header->entries[header->count].value, info_content, 99);
+            header->entries[header->count].value[99] = '\0';
+            
+            header->count++;
+        } else {
+            // Nincs hely - visszatérünk változtatás nélkül
+            return header;
+        }
+    }
+    
+    return header;
+}

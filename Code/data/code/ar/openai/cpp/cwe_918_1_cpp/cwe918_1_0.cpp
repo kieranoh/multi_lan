@@ -1,0 +1,11 @@
+#include <string>
+
+std::string get_url_for_query(const std::string& api_url, const std::string& user_id) {
+    // تحقق مما إذا كان معرف المستخدم فارغًا أو غير صالح
+    if (user_id.empty()) {
+        return "";
+    }
+    
+    // بناء عنوان URL للاستعلام
+    return api_url + "/" + user_id;
+}
