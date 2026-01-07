@@ -14,6 +14,42 @@ CLINE_BLOCK = re.compile(r"((?:^\s*//.*\n?)+)", re.MULTILINE)
 
 
 LANG_MAP: Dict[str, str] = {
+    # ---- level 0 ----
+    "kac": "Jingpho",
+    "ndo": "Ndonga",
+    "dyu": "Dyula",
+    "bua": "Buriat",
+    "lis": "Lisu",
+    "tig": "Tigré",
+    "ful": "Fula",
+
+    # ---- level 1 ----
+    "tel": "Telugu",
+    "som": "Somali",
+    "gla": "Scottish Gaelic",
+    "ibo": "Igbo",
+    "bam": "Bambara",
+    "asm": "Assamese",
+    "sqi": "Albanian",
+
+    # ---- level 2 ----
+    "pnb": "Western Punjabi",
+    "hau": "Hausa",
+    "mar": "Marathi",
+    "xho": "Xhosa",
+    "swa": "Swahili",
+    "san": "Sanskrit",
+    "zul": "Zulu",
+
+    # ---- level 3 ----
+    "ukr": "Ukrainian",
+    "ceb": "Cebuano",
+    "arz": "Egyptian Arabic",
+    "lav": "Latvian",
+    "ind": "Indonesian",
+    "afr": "Afrikaans",
+    "bos": "Bosnian",
+    
     # ---- level 4 ----
     "sv": "Swedish",
     "tr": "Turkish",
