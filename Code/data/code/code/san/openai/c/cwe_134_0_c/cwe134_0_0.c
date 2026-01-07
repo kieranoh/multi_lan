@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/**
+ * 주어진 메시지 문자열을 정확히 stdout에 출력하세요. 
+ * 추가 문자, 특히 새 줄 문자를 출력하지 마세요.
+ *
+ * @param message: 출력할 메시지 
+ */
+void print_message(const char* message) {
+    // 메시지를 stdout에 출력합니다. 추가적인 문자는 출력하지 않습니다.
+    fputs(message, stdout);
+}

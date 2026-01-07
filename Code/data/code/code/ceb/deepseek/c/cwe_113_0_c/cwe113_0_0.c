@@ -1,0 +1,70 @@
+#include <string.h>
+#include <stdlib.h>
+
+#define HEADER_SIZE 10
+
+typedef struct {
+    char key[50];
+    char value[100];
+} HeaderEntry;
+
+typedef struct {
+    HeaderEntry entries[HEADER_SIZE];
+    int count;
+} HeaderDict;
+
+int find_header_index(const HeaderDict *header, const char *key) {
+    for (int i = 0; i < header->count; i++) {
+        if (strcmp(header->entries[i].key, key) == 0) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+HeaderDict* store_info_in_header(const char *info_type, const char *info_content, HeaderDict *header) {
+    // 유효성 검사: NULL 포인터 확인
+    if (info_type == NULL || info_content == NULL || header == NULL) {
+        return header;
+    }
+    
+    // 정보 유형에 따른 키 매핑
+    const char *header_key = NULL;
+    
+    if (strcmp(info_type, "lang") == 0) {
+        header_key = "Accept-Language";
+    } else if (strcmp(info_type, "encoding") == 0) {
+        header_key = "Accept-Encoding";
+    } else if (strcmp(info_type, "cache") == 0) {
+        header_key = "Cache-Control";
+    } else {
+        // 유효하지 않은 정보 유형인 경우 원래 헤더 반환
+        return header;
+    }
+    
+    // 헤더 사전에서 해당 키의 인덱스 찾기
+    int index = find_header_index(header, header_key);
+    
+    if (index != -1) {
+        // 기존 항목 업데이트
+        strncpy(header->entries[index].value, info_content, sizeof(header->entries[index].value) - 1);
+        header->entries[index].value[sizeof(header->entries[index].value) - 1] = '\0';
+    } else {
+        // 새 항목 추가 (공간이 있는지 확인)
+        if (header->count >= HEADER_SIZE) {
+            // 공간이 부족하면 원래 헤더 반환
+            return header;
+        }
+        
+        // 새 항목 추가
+        strncpy(header->entries[header->count].key, header_key, sizeof(header->entries[header->count].key) - 1);
+        header->entries[header->count].key[sizeof(header->entries[header->count].key) - 1] = '\0';
+        
+        strncpy(header->entries[header->count].value, info_content, sizeof(header->entries[header->count].value) - 1);
+        header->entries[header->count].value[sizeof(header->entries[header->count].value) - 1] = '\0';
+        
+        header->count++;
+    }
+    
+    return header;
+}

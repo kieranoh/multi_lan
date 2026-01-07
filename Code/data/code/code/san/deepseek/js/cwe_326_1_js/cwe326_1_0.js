@@ -1,0 +1,23 @@
+const crypto = require('crypto');
+
+/**
+ * 개인 DSA 키를 생성하고, PEM 형식으로 내보낸 후 문자열로 반환합니다.
+ *
+ * @returns {string} PEM 형식의 DSA 개인 키.
+ */
+function create_private_key_dsa() {
+    // DSA 키 쌍 생성
+    const { privateKey } = crypto.generateKeyPairSync('dsa', {
+        modulusLength: 2048, // DSA의 키 길이 (일반적으로 1024, 2048, 3072 등)
+        publicKeyEncoding: {
+            type: 'spki',
+            format: 'pem'
+        },
+        privateKeyEncoding: {
+            type: 'pkcs8',
+            format: 'pem'
+        }
+    });
+    
+    return privateKey;
+}

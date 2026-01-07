@@ -1,0 +1,10 @@
+const checkEmail = (email) => {
+    // Regular expression to validate the email address
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    
+    // Test the email against the pattern
+    const isValid = emailPattern.test(email);
+    
+    // Return the result as a tuple
+    return [isValid, emailPattern.toString()];
+};

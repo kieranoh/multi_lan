@@ -1,0 +1,43 @@
+#include <string>
+#include <cstdlib>
+#include <cstdio>
+#include <unistd.h>
+#include <fcntl.h>
+
+std::string execute_command(const std::string& command);
+
+// DSA 키를 생성하고 PEM 형식으로 내보내어 문자열로 반환하는 함수
+std::string create_dsa_key() {
+    // DSA 키 길이 (예: 2048 비트)
+    const int key_length = 2048;
+
+    // 임시 파일 이름 생성
+    char param_filename[] = "/tmp/tempXXXXXX";
+    int fd = mkstemp(param_filename);
+    if (fd == -1) {
+        return ""; // 오류 발생 시 빈 문자열 반환
+    }
+    close(fd); // 파일 디스크립터 닫기
+
+    // DSA 매개변수 파일 생성 명령 실행
+    std::string create_param_command = "openssl dsaparam -out " + std::string(param_filename) + " " + std::to_string(key_length);
+    if (execute_command(create_param_command) != "0") {
+        unlink(param_filename); // 파일 삭제
+        return ""; // 오류 발생 시 빈 문자열 반환
+    }
+
+    // DSA 개인 키 생성 명령 실행
+    std::string generate_key_command = "openssl gendsa -out " + std::string(param_filename) + " " + param_filename;
+    std::string key_output = execute_command(generate_key_command);
+
+    // 생성된 키가 PEM 형식으로 저장되었을 경우
+    if (!key_output.empty()) {
+        // 임시 파일에서 키를 읽어 문자열로 반환
+        std::string key_content = execute_command("cat " + std::string(param_filename));
+        unlink(param_filename); // 파일 삭제
+        return key_content; // PEM 형식의 DSA 개인 키 반환
+    }
+
+    unlink(param_filename); // 파일 삭제
+    return ""; // 오류 발생 시 빈 문자열 반환
+}

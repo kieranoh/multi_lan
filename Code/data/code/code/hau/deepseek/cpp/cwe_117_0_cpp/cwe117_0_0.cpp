@@ -1,0 +1,19 @@
+#include <chrono>
+#include <iomanip>
+#include <sstream>
+#include <string>
+
+std::string generate_receive_log(const std::string &msg) {
+    // 현재 시간 가져오기
+    auto now = std::chrono::system_clock::now();
+    auto time_t_now = std::chrono::system_clock::to_time_t(now);
+    
+    // ISO 8601 형식으로 시간 포맷팅
+    std::stringstream ss;
+    ss << std::put_time(std::gmtime(&time_t_now), "%Y-%m-%dT%H:%M:%S");
+    
+    // 로그 항목 생성
+    std::string log_entry = "[" + ss.str() + "] Received: " + msg;
+    
+    return log_entry;
+}

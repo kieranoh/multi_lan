@@ -1,0 +1,16 @@
+package main
+
+import (
+	"crypto/sha256"
+	"encoding/hex"
+)
+
+/* 주어진 인증서를 안전하게 해시하고 해시를 16진수 문자열로 반환합니다. */
+func hashCertificate(cert string) string {
+	if cert == "" {
+		return ""
+	}
+	
+	hash := sha256.Sum256([]byte(cert))
+	return hex.EncodeToString(hash[:])
+}

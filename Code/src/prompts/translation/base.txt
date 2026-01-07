@@ -30,4 +30,57 @@ Rules:
 4. Use a natural, concise developer-style tone (clear, direct, informal but professional).
 5. Do NOT add explanations, comments, summaries, or extra text.
 
-Translate from {{SRC_LABEL}} to {{TARGET_LABEL}}.
+Translate from English to {TARGET_LANGUAGE_NAME}.
+
+Output Example:
+
+Input segments:
+prompt_1: This function calculates the sum of two numbers.
+prompt_2: Returns the result as an integer.
+
+Expected output:
+{
+  "prompt_1": "이 함수는 두 숫자의 합을 계산합니다.",
+  "prompt_2": "결과를 정수로 반환합니다."
+}
+
+Output Example (with escaping):
+
+Input segments:
+prompt_1: Use "double quotes" and a backslash \ in this text.
+prompt_2: Keep new lines:
+- first line
+- second line
+
+Expected output:
+{
+  "prompt_1": "이 텍스트에서 \\\"double quotes\\\"와 백슬래시 \\\\ 를 사용합니다.",
+  "prompt_2": "새 줄을 유지하세요:\\n- 첫 번째 줄\\n- 두 번째 줄"
+}
+
+JSON Output Safety Rules (IMPORTANT):
+
+- Output must be valid JSON that can be parsed by Python json.loads.
+- Use DOUBLE QUOTES for all keys and all string values.
+- In string values, you MUST escape:
+  - any double quote as \"
+  - any backslash as \\
+  - any newline as \n
+  - any tab as \t
+- Do NOT include raw line breaks inside JSON strings. Represent them as \n.
+- Do NOT wrap the JSON in code fences (```).
+- Do NOT include any text before or after the JSON object.
+
+Key Integrity Rules (CRITICAL):
+
+- Keys MUST be lowercase and MUST match EXACTLY: "prompt_1", "prompt_2", ... in order.
+- Do NOT output "Prompt_1", "prompt1", "prompt-1", "prompt_01", or any other variation.
+- You MUST output ALL keys from "prompt_1" up to the last label you received, with no missing keys.
+- Do NOT output any extra keys besides the required prompt_* keys.
+
+Self-check before finalizing (do this silently):
+
+- Count how many prompt labels you received (N).
+- Ensure your JSON object contains exactly N keys: "prompt_1" ... "prompt_N".
+- Ensure every value is a JSON string with proper escaping (\n, \", \\).
+- If any key is missing or formatting is invalid, REWRITE the JSON correctly.

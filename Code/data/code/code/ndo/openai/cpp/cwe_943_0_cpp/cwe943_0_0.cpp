@@ -1,0 +1,25 @@
+#include <sqlite3.h>
+#include <string>
+
+std::string getUser(sqlite3* db, const std::string& username, const std::string& password) {
+    std::string userInfo;
+    sqlite3_stmt* stmt;
+    const char* sql = "SELECT userInfo FROM users WHERE username = ? AND password = ?";
+
+    if (sqlite3_prepare_v2(db, sql, -1, &stmt, nullptr) != SQLITE_OK) {
+        return ""; // SQL statement preparation failed
+    }
+
+    sqlite3_bind_text(stmt, 1, username.c_str(), -1, SQLITE_STATIC);
+    sqlite3_bind_text(stmt, 2, password.c_str(), -1, SQLITE_STATIC);
+
+    if (sqlite3_step(stmt) == SQLITE_ROW) {
+        const char* result = reinterpret_cast<const char*>(sqlite3_column_text(stmt, 0));
+        if (result) {
+            userInfo = result; // Store the user info if found
+        }
+    }
+
+    sqlite3_finalize(stmt); // Clean up prepared statement
+    return userInfo; // Return user info or empty string if not found
+}

@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+// 함수 선언
+char* execute_command(const char* command);
+
+char* create_dsa_key() {
+    // 임시 파일 이름 생성 (DSA 매개변수 파일용)
+    char param_filename[] = "/tmp/tempXXXXXX";
+    int fd = mkstemp(param_filename);
+    
+    if (fd == -1) {
+        return NULL;
+    }
+    
+    // 파일 디스크립터 닫기 (파일은 생성되었지만 내용은 아직 없음)
+    close(fd);
+    
+    // 키 길이 설정 (2048비트)
+    int key_length = 2048;
+    
+    // 1. DSA 매개변수 생성
+    char param_cmd[256];
+    snprintf(param_cmd, sizeof(param_cmd), 
+             "openssl dsaparam -out %s %d 2>/dev/null", 
+             param_filename, key_length);
+    
+    char* param_result = execute_command(param_cmd);
+    if (param_result == NULL) {
+        remove(param_filename);
+        return NULL;
+    }
+    free(param_result);
+    
+    // 2. DSA 개인 키 생성
+    char key_cmd[256];
+    snprintf(key_cmd, sizeof(key_cmd), 
+             "openssl gendsa %s 2>/dev/null", 
+             param_filename);
+    
+    char* key_result = execute_command(key_cmd);
+    
+    // 임시 파일 정리
+    remove(param_filename);
+    
+    // 키 생성 결과 반환
+    return key_result;
+}

@@ -1,0 +1,45 @@
+#include <openssl/aes.h>
+#include <openssl/rand.h>
+#include <vector>
+#include <tuple>
+#include <stdexcept>
+
+std::vector<uint8_t> pkcs7_pad(const std::vector<uint8_t>& data, size_t block_size) {
+    size_t padding_len = block_size - (data.size() % block_size);
+    std::vector<uint8_t> padded = data;
+    padded.insert(padded.end(), padding_len, static_cast<uint8_t>(padding_len));
+    return padded;
+}
+
+std::tuple<std::vector<uint8_t>, std::vector<uint8_t>, std::vector<uint8_t>>
+encrypt_data(const std::vector<uint8_t>& key, const std::vector<uint8_t>& data) {
+    if (key.size() < 32) {
+        throw std::invalid_argument("Key must be at least 32 bytes long.");
+    }
+    
+    // Use the first 32 bytes of the key for AES-256
+    std::vector<uint8_t> encryption_key(key.begin(), key.begin() + 32);
+    
+    // Prepare the IV
+    std::vector<uint8_t> iv(AES_BLOCK_SIZE);
+    if (!RAND_bytes(iv.data(), AES_BLOCK_SIZE)) {
+        throw std::runtime_error("Failed to generate random IV.");
+    }
+
+    // Pad the data
+    std::vector<uint8_t> padded_data = pkcs7_pad(data, AES_BLOCK_SIZE);
+
+    // Initialize the AES encryption
+    AES_KEY aes_key;
+    if (AES_set_encrypt_key(encryption_key.data(), 256, &aes_key) < 0) {
+        throw std::runtime_error("Failed to set AES encryption key.");
+    }
+
+    // Encrypt the data
+    std::vector<uint8_t> encrypted_data(padded_data.size());
+    for (size_t i = 0; i < padded_data.size(); i += AES_BLOCK_SIZE) {
+        AES_cbc_encrypt(padded_data.data() + i, encrypted_data.data() + i, AES_BLOCK_SIZE, &aes_key, iv.data(), AES_ENCRYPT);
+    }
+
+    return std::make_tuple(encrypted_data, iv, encryption_key);
+}
