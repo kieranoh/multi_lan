@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772024197.411268, "reason": "Text is primarily in English with some Icelandic comments."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772024199.4375362, "reason": "Text contains programming code and is not primarily in Icelandic."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772024199.4450536, "reason": "Text contains programming code and is not primarily written in Icelandic."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772024200.2379434}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772024202.326293, "reason": "Text contains programming code and comments, which are not primarily in Icelandic."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772024202.6308084}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772024203.4879806}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772024203.5930302}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772024204.271167}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772024206.7067187, "reason": "Text contains a significant amount of English programming terminology and code comments, making it primarily not in Icelandic."}
+{"task": "cwe_329_0_cpp", "ok": true, "ts": 1772024206.9686582}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772024208.0988903}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772024214.8211248}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772024216.1327236}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772024216.280499, "reason": "Text contains programming code and comments in Icelandic, but is primarily in English."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772024218.0377316}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772024218.968951, "reason": "Text contains programming code and is not primarily in Icelandic."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772024219.20789, "reason": "Text contains programming code and is not primarily written in Icelandic."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772024220.5128028}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772024221.2796443}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772024224.9922378, "reason": "Text contains a mix of programming code and comments in Icelandic, but the primary content is not in Icelandic."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772024225.3642523}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772024226.9845343}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772024227.2405748}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772024227.4968255}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772024228.2278287}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772024229.9847834}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772024234.6253662}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772024235.5461001, "reason": "Text contains programming code and comments in English, which indicates it is not primarily in Icelandic."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772024238.4760473, "reason": "Text contains a significant amount of English programming terminology and code, making it primarily not in Icelandic."}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772024239.289507}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772024242.1666868, "reason": "Text contains a significant amount of English programming terminology and code, making it primarily not in Icelandic."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772024245.4117205}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772024249.9843264, "reason": "Text contains programming code and comments in Icelandic, but is primarily written in C++."}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772024250.7530508}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772024252.536899, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Icelandic phrases."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772024254.1661747}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772024254.2685647}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772024255.877421}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772024256.5211933}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772024257.3056777}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772024298.003862, "reason": "Text contains a significant amount of English programming comments and code, which makes it primarily not in Icelandic."}

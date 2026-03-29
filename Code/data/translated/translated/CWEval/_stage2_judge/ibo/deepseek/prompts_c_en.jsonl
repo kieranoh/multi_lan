@@ -1,0 +1,59 @@
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771952617.6761236}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771952618.0384247}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771952619.0992475}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771952620.352402}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771952621.4923105}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771952630.8607516}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771952631.6740537}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771952639.012762}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771952643.6541219}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771952654.0311747}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771952658.6274626}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771952658.7728775}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771952660.0029244}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771952669.0202613}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771952670.1122372}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771952678.141812}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771952679.2679207}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771952681.0046766}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771952691.6073122}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771952694.8320518}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772016146.8705394, "reason": "The text contains programming code and comments in English, which are not primarily in Igbo."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772016147.3281367, "reason": "The text is primarily written in English with some Igbo phrases."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772016147.9308534, "reason": "The text contains programming code and comments in English, with only a small portion in Igbo."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772016148.7479277, "reason": "The text is primarily written in English with some Igbo phrases."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772016148.7695165, "reason": "The text contains a mix of programming code and comments in English, which is not primarily in Igbo."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772016148.927901, "reason": "The text contains a mix of Igbo and programming language syntax, making it primarily not in Igbo."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772016149.428074, "reason": "The text is primarily written in English with some Igbo phrases."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772016149.500185, "reason": "The text contains a mix of programming code and comments in English, with only a small portion in Igbo."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772016155.9036167, "reason": "The text contains a mix of programming code and comments in English, with only a small portion in Igbo. The primary language is not Igbo."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772016155.9754655, "reason": "The text is primarily written in C programming language with only a small portion in Igbo."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772016156.4091976, "reason": "The text is primarily written in C programming language with only a small portion in Igbo."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772016157.1284258, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Igbo."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772016159.780085, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Igbo."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772016160.7608113, "reason": "The text contains a mix of Igbo and programming code, making it primarily in English."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772016162.373597, "reason": "The text is primarily written in English with some Igbo phrases."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772016162.5593207, "reason": "The text is primarily written in English with some Igbo phrases."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772016163.0060508, "reason": "The text contains a mix of programming language syntax and comments in English, not primarily in Igbo."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772016163.8974214, "reason": "The text contains a mix of programming code and comments in English, with only a small portion in Igbo."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772016164.3495357, "reason": "The text contains a mix of programming language syntax and comments in Igbo, but the primary content is not in Igbo."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772016165.1692204, "reason": "The text contains programming code and comments in English, not primarily in Igbo."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772016165.5035996, "reason": "The text contains a mix of Igbo and programming language syntax, making it primarily not in Igbo."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772016169.6806486, "reason": "The text is primarily written in C programming language with only a small portion in Igbo."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772016170.8270752, "reason": "The text contains a mix of programming code and comments in Igbo, but the primary content is not in Igbo."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772016171.0127342, "reason": "The text contains a mix of English and programming language syntax, with only a few Igbo phrases."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772016172.0372748, "reason": "The text contains programming code and comments in English, which are not primarily in Igbo."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772016174.5129304, "reason": "The text is primarily written in English with some Igbo phrases."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772016175.5923848, "reason": "The text contains a mix of Igbo and programming code, making it primarily in English."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772016177.4549215, "reason": "The text contains a mix of programming code and comments in English, with only a small portion in Igbo. The primary language is not Igbo."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772016177.7692246, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Igbo."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772016177.8703344, "reason": "The text contains a mix of programming code and comments in English, with only a small portion in Igbo."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772016181.2389593, "reason": "The text contains a mix of programming language syntax and comments in Igbo, but the primary content is not in Igbo."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772016184.9733813, "reason": "The text is primarily written in English with only a small portion in Igbo."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772016185.1141214, "reason": "The text is primarily written in English with some Igbo phrases."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772016185.5210192, "reason": "The text is primarily written in C programming language with only a small portion in Igbo."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772016187.021536, "reason": "The text contains programming code and comments in Igbo, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772016189.817236, "reason": "The text is primarily written in C programming language with only a small portion in Igbo."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772016191.1343832, "reason": "The text contains a significant amount of code and comments in English, with only a portion in Igbo."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772016193.576331, "reason": "The text contains a mix of programming code and comments in English, with only a small portion in Igbo, making it primarily not in Igbo."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772016200.4541128, "reason": "The text contains a significant amount of code and comments in English, with only a few phrases in Igbo, making it primarily not in Igbo."}

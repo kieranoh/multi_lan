@@ -1,0 +1,42 @@
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772024930.1333385, "reason": "The text contains programming code and is not primarily written in Cebuano."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772024932.060812, "reason": "The text contains programming code and comments in English, which makes it primarily not in Cebuano."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772024932.6860764, "reason": "The text contains programming code and comments in English, which makes it not primarily in Cebuano."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772024932.8620374, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Cebuano."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772024933.733796, "reason": "The text contains a mix of Cebuano and programming language syntax, making it primarily not in Cebuano."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772024934.1448674, "reason": "The text contains a mix of programming code and comments in Cebuano, but the primary content is not in Cebuano."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772024934.8468657, "reason": "The text contains a mix of programming code and comments in English, which makes it not primarily in Cebuano."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772024935.2079477, "reason": "The text contains a mix of Cebuano and programming language syntax, making it primarily not in Cebuano."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772024936.5611174, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Cebuano."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772024939.7732801, "reason": "The text contains a mix of programming code and comments in Cebuano, but the primary content is not in Cebuano."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772024939.7958791, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily in English rather than Cebuano."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772024940.0451255, "reason": "The text contains a significant amount of programming code and technical terms, which are not primarily in Cebuano."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772024945.8061974, "reason": "The text contains a mix of Cebuano and programming code, which makes it primarily not in Cebuano."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772024948.2588706}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772024948.3299632, "reason": "The text contains programming code and comments in English, which makes it primarily not in Cebuano."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772024949.5611885}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772024952.0654821, "reason": "The text contains programming code and comments in English, which makes it not primarily in Cebuano."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772024952.32113, "reason": "The text contains a mix of Cebuano and programming code, which makes it primarily not in Cebuano."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772024954.2548857, "reason": "The text contains a mix of Cebuano and programming language syntax, making it primarily not in Cebuano."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772024954.6346214}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772024955.7729974, "reason": "The text contains a significant amount of programming code and technical terms that are not in Cebuano, making it primarily not in Cebuano."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772024957.835377, "reason": "The text contains a mix of programming code and comments in Cebuano, but the primary content is not in Cebuano."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772024958.3834574, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Cebuano."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772024958.526554, "reason": "The text contains a significant amount of programming code and comments in English, which detracts from its primary use of Cebuano."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772024958.8988292}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772024963.5533714}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772024964.749814}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772024965.2411685, "reason": "The text contains a mix of programming language syntax and comments in Cebuano, but the primary content is not in Cebuano."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772024968.0773497, "reason": "The text contains a mix of Cebuano and programming language syntax, making it primarily not in Cebuano."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772024970.963482, "reason": "The text contains a significant amount of English programming terminology and syntax, which makes it primarily not in Cebuano."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772024971.9371192, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Cebuano."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772024975.9911826, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Cebuano."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772024976.963772, "reason": "The text contains a significant amount of technical programming language and English terms, which makes it primarily not in Cebuano."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772024981.1437702, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not in Cebuano."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772024982.1319928, "reason": "The text contains a significant amount of programming code and technical terms that are not in Cebuano, making it primarily not in Cebuano."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772024982.4743829, "reason": "The text contains a significant amount of programming code and comments in English, which detracts from its primary use of Cebuano."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772024982.8679547, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Cebuano."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772024983.898165}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772024987.186613}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772024990.1675296}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772024994.1261406}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025030.7956326, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not in Cebuano."}

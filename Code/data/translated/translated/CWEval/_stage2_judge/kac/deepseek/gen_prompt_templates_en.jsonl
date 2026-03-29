@@ -1,0 +1,17 @@
+{"task": "ppt_compl_js", "ok": false, "ts": 1772011852.0408862, "reason": "The text contains a significant amount of English and programming terminology, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_compl_go", "ok": false, "ts": 1772011852.2958398, "reason": "The text contains a significant amount of English technical terminology and structure, indicating it is not primarily in Jingpho."}
+{"task": "ppt_compl_py", "ok": false, "ts": 1772011853.1073272, "reason": "The text contains a significant amount of English terms and structure, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_compl_go", "ok": false, "ts": 1772011853.2324653, "reason": "The text contains a significant amount of English words and phrases, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_compl_c", "ok": false, "ts": 1772011854.8518944, "reason": "The text contains a significant amount of English and programming terminology, which indicates it is not primarily written in Jingpho."}
+{"task": "ppt_secure_js", "ok": false, "ts": 1772011860.8461177, "reason": "The text contains a significant amount of English terms and phrases, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_direct_cpp", "ok": false, "ts": 1772011888.533623, "reason": "The text is primarily in English with some Jingpho words, but it does not constitute a coherent text in Jingpho."}
+{"task": "ppt_direct_go", "ok": false, "ts": 1772011888.7731252, "reason": "The text contains a significant amount of repetitive phrases and does not appear to follow the grammatical structure or vocabulary typical of Jingpho."}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1772011914.326215, "reason": "The text contains a significant amount of English technical terminology and structure, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_secure_c", "ok": true, "ts": 1772011925.7601795}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1772011937.008217, "reason": "The text contains a significant amount of English and programming terminology, which indicates it is not primarily written in Jingpho."}
+{"task": "ppt_secure_c", "ok": false, "ts": 1772011953.9163594, "reason": "The text contains a significant amount of English technical terms and phrases, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_secure_py", "ok": false, "ts": 1772012018.9195473, "reason": "The text contains a significant amount of English terms and phrases, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_direct_py", "ok": false, "ts": 1772012034.7098112, "reason": "The text contains a significant amount of English terms and phrases, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_direct_c", "ok": false, "ts": 1772012050.075934, "reason": "The text contains a significant amount of English technical terms and phrases, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_direct_js", "ok": false, "ts": 1772012065.8342073, "reason": "The text contains a significant amount of English technical terminology and structure, indicating it is not primarily written in Jingpho."}
+{"task": "ppt_secure_go", "ok": false, "ts": 1772012114.851298, "reason": "The text contains a significant amount of English technical terminology and structure, indicating it is not primarily written in Jingpho."}

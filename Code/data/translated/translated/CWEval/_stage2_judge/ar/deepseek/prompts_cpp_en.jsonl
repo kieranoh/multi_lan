@@ -1,0 +1,40 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772030287.893037, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772030289.3492506, "reason": "The text contains a significant amount of English programming syntax and comments, which makes it primarily not in Arabic."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772030290.2243948, "reason": "The text contains a mix of Arabic and programming code, making it primarily not Arabic."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772030290.6168988, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772030291.2033613, "reason": "The text contains a mix of Arabic and programming code, making it primarily not Arabic."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772030291.9495814, "reason": "The text contains a mix of Arabic and programming code, with a significant portion in English."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772030294.1609037, "reason": "The text contains a mix of Arabic and programming code, but the primary language is not Arabic."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772030294.8549366, "reason": "The text contains a mix of Arabic and programming code, which makes it primarily not Arabic."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772030295.1538985, "reason": "The text contains a mix of Arabic and programming code, making it primarily not Arabic."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772030295.4313622, "reason": "The text is primarily written in C++ with some Arabic comments, but the majority of the content is not in Arabic."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772030297.2572155, "reason": "The text contains a significant amount of programming code and English terms, making it not primarily in Arabic."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772030298.3148646, "reason": "The text contains a significant amount of code and comments in Arabic, but the primary content is in English."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772030304.179124, "reason": "The text contains a significant amount of English programming syntax and comments, which makes it primarily not in Arabic."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772030304.877382, "reason": "The text contains a significant portion of English programming syntax and keywords, which makes it not primarily in Arabic."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772030306.7017283}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772030307.7656503, "reason": "The text contains a significant amount of English code and comments, making it primarily not in Arabic."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772030308.7237108, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772030309.17027, "reason": "The text is primarily written in English with some Arabic phrases."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772030313.0873067, "reason": "The text contains a mix of Arabic and programming code, making it primarily not Arabic."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772030313.1968307, "reason": "The text contains a significant amount of code and English comments, making it primarily not in Arabic."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772030313.605693, "reason": "The text contains a mix of Arabic and programming code, with a significant portion in English."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772030314.0380464, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772030314.4512913, "reason": "The text contains a mix of Arabic and programming code, which is not primarily Arabic."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772030315.2168052, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Arabic."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772030316.1547258, "reason": "The text contains a mix of Arabic and programming code, which is not primarily Arabic."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772030316.8618824, "reason": "The text contains a mix of Arabic and programming code, making it not primarily in Arabic."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772030321.189763}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772030324.3099773, "reason": "The text contains a mix of Arabic and programming code, making it primarily not Arabic."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772030329.3126364}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772030329.314267, "reason": "The text contains a significant portion of English programming syntax and keywords, which makes it not primarily in Arabic."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772030329.4215975, "reason": "The text contains a significant amount of code and English comments, making it primarily not in Arabic."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772030332.388327, "reason": "The text contains a significant amount of programming code and English terms, which makes it not primarily in Arabic."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772030333.207816, "reason": "The text contains a significant amount of code and comments in Arabic, but the primary language is not Arabic due to the presence of extensive programming syntax and English keywords."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772030336.2031462, "reason": "The text contains a significant amount of code and English comments, making it primarily not in Arabic."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772030336.382618, "reason": "The text contains a mix of Arabic and programming code, but the primary language is Arabic."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772030337.2826376, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Arabic."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772030340.582244, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Arabic."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772030341.4588}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772030342.775584, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily not in Arabic."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772030345.170151}

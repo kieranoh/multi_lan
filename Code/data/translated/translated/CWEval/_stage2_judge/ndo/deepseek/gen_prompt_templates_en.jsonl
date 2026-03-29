@@ -1,0 +1,24 @@
+{"task": "ppt_compl_go", "ok": true, "ts": 1771915887.544577}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771915888.5179894}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771915889.5346367}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771915904.9206877}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1771915906.2905424}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771915915.5505161}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771915936.199581}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771915956.2774947}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771915982.624573}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771915983.8613658}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771915987.9337668}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771915999.8837624}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771916000.6190808}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771916015.298683}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771916025.0440855}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771916045.3853135}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771916049.428812}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771916050.0007246}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771916063.8063898}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771916092.859273}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771916129.984908}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771916163.6850626}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771916193.7860954}
+{"task": "ppt_compl_js", "ok": false, "ts": 1772012293.5901737, "reason": "The text consists primarily of repeated words without meaningful content, which does not conform to the structure or vocabulary of Ndonga."}

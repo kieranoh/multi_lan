@@ -1,0 +1,59 @@
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771963293.0632617}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771963294.1845548}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771963294.6736958}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771963294.7196496}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771963295.4833212}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771963295.7300258}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771963296.8736258}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771963298.432824}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771963307.6882768}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771963309.9645095}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771963310.2171037}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771963310.3103218}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771963310.5729282}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771963312.1338537}
+{"task": "cwe_760_0_c", "ok": true, "ts": 1771963313.2354515}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771963313.3240595}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771963315.6082602}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771963317.3061018}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771963321.4180984}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771963323.0935388}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771963326.1194344}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771963327.0015407}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771963327.7587972}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771963328.546947}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771963329.0399878}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771963330.08279}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771963331.5969255}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771963335.9365516}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771963336.3877046}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771963338.307567}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771963341.8881114}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771963342.498747}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771963342.603727}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771963347.1752768}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771963347.6512525}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771963353.847879}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771963354.1962466}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771963355.0918236}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771963355.9988534}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771963358.7415361}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771963359.260118}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771963365.7375774}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772020043.3577101, "reason": "The text contains a mix of Serbian and programming code, making it not primarily in Serbian."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772020043.446732, "reason": "The text contains a mix of Serbian and programming code, making it primarily not in Serbian."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772020046.6829512, "reason": "Text contains programming code and comments in English, not primarily in Serbian."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772020047.6083407, "reason": "Text contains programming code and comments in English, not primarily in Serbian."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772020048.9547079, "reason": "The text is primarily written in English with some Serbian comments."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772020048.985958, "reason": "The text is primarily written in English with some Serbian comments."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772020049.161163, "reason": "The text contains a mix of Serbian and programming language syntax, making it primarily technical rather than purely Serbian."}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1772020056.8186984}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772020056.9583404, "reason": "The text contains a mix of programming code and comments in Serbian, but the primary language of the comments is Serbian."}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1772020058.4527419}
+{"task": "cwe_918_1_c", "ok": false, "ts": 1772020059.2882528, "reason": "Text contains programming code and comments, which are not primarily in Serbian."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772020061.0492952, "reason": "Text contains a significant amount of code and comments in Serbian, but the overall structure is primarily in English."}
+{"task": "cwe_327_2_c", "ok": true, "ts": 1772020061.2976468}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772020061.8620713, "reason": "Text contains a mix of programming code and Serbian language, but the majority of the text is in English."}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1772020063.0481935}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020102.414715, "reason": "Text contains a significant portion of English comments and code, making it not primarily in Serbian."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020112.2224834, "reason": "Text contains a significant amount of English programming terminology and comments, making it primarily not in Serbian."}

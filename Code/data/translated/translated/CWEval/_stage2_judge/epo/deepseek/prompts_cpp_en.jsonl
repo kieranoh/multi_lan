@@ -1,0 +1,40 @@
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772007051.8542664}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772007358.112761}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023254.3361428, "reason": "The text contains programming code and comments in Esperanto, but the majority is not in Esperanto."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772023255.5215952, "reason": "The text contains programming code and comments in a language other than Esperanto."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772023255.8816085, "reason": "The text contains programming code and syntax that is not in Esperanto."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772023256.7328472, "reason": "The text contains programming code and comments in a mix of languages, primarily English, which does not conform to Esperanto."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772023256.920288, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but is primarily in English."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772023257.9192166, "reason": "The text contains programming code and comments in a language that is not primarily Esperanto."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772023258.0596766, "reason": "The text contains programming code and comments in a mix of languages, primarily English, which disqualifies it from being primarily in Esperanto."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772023258.2787087, "reason": "The text contains programming code and comments in a language that is not primarily Esperanto."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772023258.4794745, "reason": "The text contains programming code and comments in a mix of Esperanto and English, which makes it not primarily in Esperanto."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023260.9498382, "reason": "The text contains a significant amount of code and comments in English, with only a small portion in Esperanto."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772023261.380337, "reason": "The text contains programming code and comments in a mix of languages, primarily English, which does not conform to the criteria for being primarily in Esperanto."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772023262.7914174, "reason": "The text contains programming code and technical terms that are not in Esperanto."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023263.7191803, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Esperanto."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772023264.8052797, "reason": "The text contains programming code and is not written in Esperanto."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772023266.3386977, "reason": "The text is written in C++ programming language, not in Esperanto."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772023266.6418648, "reason": "The text contains programming code and is not written in Esperanto."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772023266.690281, "reason": "The text is written in C++ programming language, not in Esperanto."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772023267.5806348, "reason": "The text is primarily written in C++ programming language, not in Esperanto."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023268.0372634, "reason": "The text is primarily written in C++ programming language, not in Esperanto."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023268.8889937, "reason": "The text is primarily written in C++ programming language, not in Esperanto."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772023269.3663857, "reason": "The text contains a significant amount of programming code and technical terms that are not in Esperanto, making it primarily not in Esperanto."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772023269.974474, "reason": "The text is primarily written in C++ programming language, not in Esperanto."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772023270.6553535, "reason": "The text contains programming code and English language elements, which are not in Esperanto."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772023272.9860744, "reason": "The text is written in C++ programming language, not in Esperanto."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023273.8261824, "reason": "The text contains programming code and C++ syntax, which is not written in Esperanto."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772023275.2826052, "reason": "The text is written in C++ programming language, not in Esperanto."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023276.2524755, "reason": "The text contains a significant amount of programming code and technical terms that are not in Esperanto, making it primarily not in Esperanto."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772023276.3148592, "reason": "The text contains a significant amount of programming code and technical terms that are not in Esperanto, making it primarily not in Esperanto."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023276.39275, "reason": "The text is primarily written in C++ programming language, not in Esperanto."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772023276.593729, "reason": "The text is written in C++ programming language, not in Esperanto."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772023277.0079994, "reason": "The text contains programming code and comments, which are not in Esperanto."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772023277.0339508, "reason": "The text is primarily written in C/C++ programming language, not in Esperanto."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772023277.6837423, "reason": "The text contains programming code and English language elements, not primarily Esperanto."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772023277.8289828, "reason": "The text contains programming code and comments in a language that is not Esperanto."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023278.3269868, "reason": "The text contains programming code and comments in English, which is not consistent with Esperanto."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772023278.9531937, "reason": "The text is primarily written in C++ programming language, not in Esperanto."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023279.3381972, "reason": "The text contains programming code and comments in a mix of languages, primarily English and programming syntax, with only a small portion in Esperanto."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772023306.2013173, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Esperanto."}

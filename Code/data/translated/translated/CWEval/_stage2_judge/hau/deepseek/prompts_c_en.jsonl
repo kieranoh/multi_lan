@@ -1,0 +1,59 @@
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771956181.9648814}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771956211.747645}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017314.0478568, "reason": "The text contains programming code and comments in English, which makes it not primarily in Hausa."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772017314.0580459, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772017314.399346, "reason": "The text contains programming code and comments in English, which makes it not primarily in Hausa."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017314.5646198, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772017315.483033, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Hausa."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017315.6524084, "reason": "The text contains programming code and comments in Hausa, but it is primarily written in a programming language (C) which is not Hausa."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772017317.8594737, "reason": "The text contains a mix of Hausa and programming language syntax, making it primarily not in Hausa."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772017319.5709794, "reason": "The text contains programming code and comments in Hausa, but it is primarily a technical description and not purely in Hausa."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017320.128458, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Hausa."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017321.5785844, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Hausa."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772017322.065832, "reason": "The text contains programming code and comments in Hausa, but it is not primarily written in Hausa as it includes technical terms and syntax that are not part of the Hausa language."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017325.820047, "reason": "The text is primarily written in C programming language with only a small portion in Hausa."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772017326.876954, "reason": "The text contains programming code and comments in English, which makes it not primarily in Hausa."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772017327.9415596, "reason": "The text contains a significant amount of technical programming language and code, which is not primarily in Hausa."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772017329.5271432, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772017331.5978074, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017332.253351, "reason": "The text contains a significant amount of code and technical terms that are not in Hausa, making it primarily not in Hausa."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017333.4342737, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772017334.5022788, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017335.0781853, "reason": "The text contains programming code and comments in Hausa, but it is primarily written in C programming language, which is not Hausa."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772017335.7870004, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017336.1025891, "reason": "The text is primarily written in C programming language with a small portion of Hausa comments."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772017336.8639882, "reason": "The text contains programming code and comments in Hausa, but the primary content is not in Hausa."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772017336.884403, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_918_1_c", "ok": false, "ts": 1772017339.7950678, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Hausa."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017341.4406586, "reason": "The text contains programming code and is not primarily written in Hausa."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017343.574884, "reason": "The text contains a mix of Hausa and programming code, making it primarily not in Hausa."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772017345.5104003, "reason": "The text contains programming code and comments in English, which makes it primarily not in Hausa."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017345.6046324, "reason": "The text contains programming code and comments in English, not primarily in Hausa."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772017346.7035153, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Hausa."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772017347.7421227, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Hausa."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772017348.747782, "reason": "The text contains programming code and comments in English, which makes it not primarily in Hausa."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772017349.175111, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017350.1370795, "reason": "The text contains programming code and comments in English, which makes it not primarily in Hausa."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772017351.653313, "reason": "The text contains programming code and comments in English, which makes it not primarily in Hausa."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017352.1352422, "reason": "The text contains programming code and comments in Hausa, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772017354.7434409, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Hausa."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772017356.9598448, "reason": "The text contains programming code and comments in Hausa, but it is not primarily written in Hausa."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772017357.4906862, "reason": "The text contains programming code and comments in Hausa, but it is primarily a technical description and not purely in Hausa."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772017359.4980564, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017359.8238688, "reason": "The text is primarily written in English with programming syntax and comments, not in Hausa."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772017360.052343, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017360.228913, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Hausa."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772017364.6952555, "reason": "The text contains programming code and comments in Hausa, but it is primarily written in a programming language (C) with mixed English terms."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017364.718517, "reason": "The text is primarily written in C programming language with some Hausa comments, but the majority of the content is code."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772017365.281298, "reason": "The text contains programming code and comments in English, which is not primarily in Hausa."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772017367.3829844, "reason": "The text contains programming code and comments in Hausa, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017369.2135408, "reason": "The text contains programming code and is not primarily in Hausa."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017370.4164915, "reason": "The text contains programming code and comments in English, which makes it primarily not in Hausa."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017371.1095955, "reason": "The text contains a mix of Hausa and programming language syntax, making it primarily not in Hausa."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772017372.5933788, "reason": "The text contains programming code and comments in English, which makes it not primarily in Hausa."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017373.3551908, "reason": "The text is primarily written in C programming language with only a small portion in Hausa."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017375.1980991, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Hausa."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772017375.6086776, "reason": "The text contains programming code and comments in English, which makes it not primarily in Hausa."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017377.2830946, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Hausa."}
+{"task": "cwe_918_1_c", "ok": false, "ts": 1772017380.1017983, "reason": "The text contains programming code and technical terms that are not primarily in Hausa."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772017383.2841365, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Hausa."}

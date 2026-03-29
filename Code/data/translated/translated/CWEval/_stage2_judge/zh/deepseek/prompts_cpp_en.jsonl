@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772030428.2799296, "reason": "The text contains a significant amount of English code and comments, making it primarily not in Chinese."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772030428.3742738, "reason": "The text contains a mix of Chinese and programming code, making it primarily not in Chinese."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772030429.7089157, "reason": "The text contains a mix of C++ code and Chinese comments, but is primarily in English due to the code structure."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772030431.2819116, "reason": "The text contains a mix of Chinese and English programming language syntax, but is primarily in English."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772030432.3897283}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772030432.9379642, "reason": "The text contains a mix of Chinese and programming code, making it primarily in English."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772030433.7686684, "reason": "The text contains a significant amount of English programming code and comments, with only a few Chinese phrases."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772030433.925914}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772030434.4169707}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772030434.4284945}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772030436.3424034, "reason": "The text is primarily in English with some Chinese comments."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772030439.1707118}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772030443.2519166, "reason": "The text contains a mix of Chinese and programming code, which makes it primarily not in Chinese."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772030443.8613684}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772030445.3773832, "reason": "The text is primarily in English with only a small portion in Chinese."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772030446.281874}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772030447.419566, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772030448.841661, "reason": "The text contains a mix of programming code and comments in Chinese, but the primary content is in English."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772030450.0279918, "reason": "The text contains a mix of Chinese and programming code, but the primary content is not in Chinese."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772030452.321928, "reason": "The text contains a mix of Chinese and English programming code."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772030452.614113, "reason": "The text contains a mix of Chinese and programming code, but is primarily in English."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772030453.0547872, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Chinese."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772030453.138333}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772030455.370524}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772030456.3501542, "reason": "The text contains a mix of C++ code and comments in Chinese, but the primary content is code."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772030457.3164988}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772030458.2077138}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772030461.6879864, "reason": "The text contains a mix of Chinese and English, primarily written in English."}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772030465.0290954}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772030466.0736895, "reason": "The text is primarily in English with some Chinese comments."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772030467.2316115, "reason": "The text contains a mix of Chinese and programming code, making it not primarily in Chinese."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772030469.3156314, "reason": "The text is primarily written in English with some Chinese comments."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772030473.1457844}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772030474.8661094, "reason": "The text contains a mix of C++ code and Chinese comments, but is primarily written in English."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772030475.4382894, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Chinese."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772030478.2794542, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Chinese."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772030478.9607363}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772030480.3821306}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772030483.3130405}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772030484.4830265}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772030486.793333, "reason": "The text is primarily in English with only a small portion in Chinese."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772030525.7341893, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Chinese."}

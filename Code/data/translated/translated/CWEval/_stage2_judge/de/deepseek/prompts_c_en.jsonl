@@ -1,0 +1,61 @@
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771963873.0041604}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771963873.623913}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771963875.2974596}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771963875.6931102}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771963875.8707814}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771963875.9191678}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771963878.0226722}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771963886.9091094}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771963887.8331945}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771963890.1739254}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771963890.316771}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771963892.6235108}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771963892.7492104}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771963893.8576317}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771963894.5607347}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771963896.9328854}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771963899.4480166}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771963901.692893}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771963904.2786515}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771963905.428935}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771963905.6372707}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771963906.3924925}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771963907.9711337}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771963908.8963661}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771963911.1070871}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771963911.1743784}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771963916.3331447}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771963920.0650454}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771963920.2083776}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771963920.7022643}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771963921.8074956}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771963928.5488222}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771963929.2891676}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771963931.0590472}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771963934.013617}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771963934.8487756}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771963935.0629046}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771963935.4824271}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771963936.553886}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771963941.9239461}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771963947.2978745}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772020314.8408618, "reason": "The text contains a mix of German and programming code, but the primary language is not German."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772020318.3122954, "reason": "The text contains programming code and comments in German, but it is primarily in English due to the code structure and syntax."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772020318.7499151, "reason": "The text contains programming code and comments in German, but it is primarily written in English due to the code structure and syntax."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772020318.852893, "reason": "The text contains programming code and comments in German, but it is not primarily written in German as it includes code syntax."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772020319.1118212, "reason": "The text contains programming code and comments in German, but it is not primarily written in German."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772020320.3795385, "reason": "The text is primarily written in English, with only a small portion in German."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772020326.0017424, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily not in German."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772020326.0194385, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily in English despite some German comments."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772020326.4559577, "reason": "The text is primarily written in C programming language with a small portion of German comments."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772020329.3815694, "reason": "The text contains a significant amount of programming code and comments in German, but it is primarily a technical document with code elements."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772020329.403206, "reason": "The text contains a significant amount of programming code and comments in German, but the presence of code makes it primarily not a German text."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772020331.2573135, "reason": "The text is primarily written in C programming language with some German comments, but the majority is not in German."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772020331.7177887, "reason": "The text is primarily written in C programming language with some German comments, but the majority is code."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772020332.6840897, "reason": "The text contains a mix of German and programming code, but the primary content is not in German."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772020334.0500128, "reason": "The text contains programming code and comments in German, but the primary content is not in German."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772020338.1689465, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in German."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772020340.0806594, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in German."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772020342.11827, "reason": "The text is primarily written in C programming language with a small portion of German comments."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020370.1647947, "reason": "The text contains a significant amount of English programming comments and code, which makes it primarily not in German."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020386.6541061, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some German comments."}

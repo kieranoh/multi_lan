@@ -1,0 +1,62 @@
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771961682.7473507}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771961683.8303764}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771961684.359988}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771961685.0365152}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771961687.6554122}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771961688.1114497}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771961689.207226}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771961695.519943}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771961696.8451009}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771961701.595758}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771961702.386373}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771961702.6838958}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771961703.667499}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771961704.2843857}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771961704.3544192}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771961704.5280333}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771961705.1324196}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771961706.341131}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771961708.479221}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771961711.526721}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771961711.820271}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771961713.903502}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771961714.5543582}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771961717.7906272}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771961718.1361947}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771961721.2477803}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771961721.324387}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771961723.7191885}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771961727.6140714}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771961728.234329}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771961731.6292531}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771961734.6446521}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771961735.3463058}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771961735.8707707}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771961736.4205797}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771961741.6448889}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771961742.913586}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771961743.0594537}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771961747.4060812}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771961748.149611}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771961749.1456785}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771961750.1390119}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771961750.4975934}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771961752.7495923}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771961753.8035645}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771961757.1848423}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019393.8383904, "reason": "The text contains a mix of Polish and programming code, but the primary content is not in Polish."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019394.3935926, "reason": "The text contains a mix of Polish and programming code, but the primary content is not in Polish."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019397.78394, "reason": "The text contains programming code and comments in Polish, but it is primarily written in English due to the code structure."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019397.8504589, "reason": "The text contains programming code and comments in Polish, but the primary content is not in Polish."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019399.205407, "reason": "The text contains a mix of programming code and comments in Polish, but the primary content is not in Polish."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019399.3120506, "reason": "The text contains a mix of programming code and comments in Polish, but the primary content is not in Polish."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019403.474646, "reason": "The text contains a mix of programming code and Polish comments, but the primary content is not in Polish."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019403.5888743, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Polish."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019404.237349, "reason": "The text is primarily written in C programming language with a small portion of Polish comments."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019404.877973, "reason": "The text is primarily written in C programming language with a small portion of Polish comments."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019405.7876694, "reason": "The text contains a significant amount of programming code and comments in Polish, but the overall structure and context are primarily technical and not purely in Polish."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019406.4656, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Polish."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019409.3563542, "reason": "The text is primarily written in English with some Polish comments."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019409.361409, "reason": "The text is primarily written in English with some Polish comments."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019444.8219366, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily not in Polish."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019444.9005105, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Polish."}

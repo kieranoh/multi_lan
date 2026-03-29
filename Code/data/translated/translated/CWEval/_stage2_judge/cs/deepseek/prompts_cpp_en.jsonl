@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027342.9372647, "reason": "Text contains programming code and comments in Czech, but is primarily in English due to the code structure."}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772027347.120912}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027347.1871293}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027347.7290406}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027347.866262}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772027348.0965989, "reason": "Text contains a significant amount of programming code and comments in Czech, but the primary content is not in Czech."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772027348.141124}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027349.4731615}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772027349.4918988}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027351.7126758}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027351.763335, "reason": "Text contains a mix of programming code and comments in Czech, but the primary content is not in Czech."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772027355.2772014}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772027360.3548765}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027360.5878897}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027363.3825974}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772027363.9582975}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027365.0478833, "reason": "Text contains programming code and comments in Czech, but is primarily in English due to the code structure."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772027365.7643466}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027367.14665}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027368.9699445}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027370.4443443}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772027371.4591005}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027373.643323}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027374.079957}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772027374.198735}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027374.80206}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027375.5425954}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772027381.2830958}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027382.6413987}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772027384.4299428, "reason": "Text contains a mix of programming code and comments in Czech, but the primary content is not in Czech."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027387.0812557, "reason": "Text contains a significant amount of English programming terminology and code, with only a few sentences in Czech."}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772027387.3227012}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772027388.6505356}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027394.6262958}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772027398.1005359}
+{"task": "cwe_022_2_cpp", "ok": true, "ts": 1772027398.1562202}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027398.3410769}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027398.8151972}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027401.0536287}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027401.7150521}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772027402.5273046}
+{"task": "cwe_022_2_cpp", "ok": true, "ts": 1772027444.0661695}

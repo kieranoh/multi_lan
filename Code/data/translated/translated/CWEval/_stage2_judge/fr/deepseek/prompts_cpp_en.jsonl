@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772030099.990794, "reason": "The text contains programming code and comments in French, but the primary content is not in French."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772030105.232878, "reason": "The text contains a mix of French and programming code, making it primarily in English due to the code context."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772030105.271285}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772030105.599495, "reason": "The text contains programming code and comments in French, but it is primarily written in English due to the code structure and syntax."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772030106.3639357}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772030106.4634402, "reason": "The text contains a mix of French and programming code, making it primarily in English due to the presence of code syntax."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772030106.5688558}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772030108.0029104, "reason": "The text is primarily written in English with some French comments."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772030109.0126436}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772030109.9422166}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772030110.3289146, "reason": "The text is primarily written in C++ with some French comments, but the majority of the content is code."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772030117.2271798}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772030118.0363898, "reason": "The text contains a mix of French and programming code, which includes English terms and syntax."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772030119.6454527, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in French."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772030121.9824328}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772030122.1664376, "reason": "The text contains programming code and comments in French, but the majority is in English."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772030126.6251569}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772030128.984462}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772030129.2623165, "reason": "The text contains a mix of French and programming code, making it primarily in English due to the presence of code syntax."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772030129.50408, "reason": "The text contains a mix of programming code and French comments, but the primary content is not in French."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772030130.0689788}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772030131.3723664}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772030132.8074117, "reason": "The text contains a significant amount of programming code and comments in French, but the overall structure is primarily in English due to the code syntax."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772030132.8710985}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772030134.2191641}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772030136.9426184}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772030139.2685266}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772030141.189601, "reason": "The text contains a mix of French and programming code, making it primarily in English due to the presence of code syntax and keywords."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772030141.5253415, "reason": "The text is primarily written in English with some French comments."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772030141.6587598}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772030146.0245125, "reason": "The text is primarily written in C++ with some French comments, but the majority of the content is code."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772030149.535112, "reason": "The text contains a mix of French and programming code, which includes English terms and syntax."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772030153.5936408}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772030154.3215077, "reason": "The text contains a mix of programming code and French comments, but the primary content is not in French."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772030154.3540645, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some French phrases."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772030157.6237886, "reason": "The text contains a significant amount of programming code and comments in French, but the overall structure is primarily in English due to the code syntax."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772030158.8245275, "reason": "The text contains a mix of French and programming code, which makes it primarily not in French."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772030162.2653768}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772030162.6075673}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772030164.4092095}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772030170.1265368}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772030203.5503051, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some French comments."}

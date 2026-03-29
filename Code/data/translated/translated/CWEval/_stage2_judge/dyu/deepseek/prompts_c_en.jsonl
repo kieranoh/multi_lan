@@ -1,0 +1,45 @@
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771940372.6864178}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771940447.190958}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772014473.096337, "reason": "The text contains a significant amount of programming language syntax and English, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772014474.6434233, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772014475.6240845, "reason": "The text contains a mix of programming code and English, which is not primarily in Dyula."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772014476.4968138, "reason": "The text is primarily written in C programming language with comments in a mix of English and Dyula, but not predominantly in Dyula."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772014486.4588664, "reason": "The text is primarily written in French, not Dyula."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772014487.504705, "reason": "The text contains a significant amount of code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772014488.6087627, "reason": "The text contains programming code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772014490.4932935, "reason": "The text contains a mix of programming code and English, which is not primarily in Dyula."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772014491.1636925, "reason": "The text contains programming code and comments in a mix of English and Dyula, but is primarily in English."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772014497.7318988, "reason": "The text contains programming code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772014502.2798588, "reason": "The text contains programming code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772014504.0967598, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772014504.230394, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772014514.5397463, "reason": "The text contains a significant amount of code and technical terminology that is not in Dyula, making it primarily in English with some Dyula phrases."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772014515.6950824, "reason": "The text contains a significant amount of programming language syntax and English terms, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_676_0_c", "ok": false, "ts": 1772014518.026361, "reason": "The text contains a significant amount of programming language syntax and English terms, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772014519.55158, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772014523.8682199, "reason": "The text contains a significant amount of code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772014530.0729895, "reason": "The text contains a mix of Dyula and programming language syntax, making it primarily not in Dyula."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772014531.0974936, "reason": "The text contains a significant amount of programming code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772014533.342145, "reason": "The text contains programming code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772014543.6668146, "reason": "The text contains a significant amount of programming code and technical terminology that is not in Dyula, making it primarily in English."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772014544.065325, "reason": "The text contains programming code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772014553.0821936, "reason": "The text contains programming code and is not primarily in Dyula."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772014556.200519, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Dyula."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772014558.8345976, "reason": "The text contains a significant amount of programming code and technical terminology that is not in Dyula, making it primarily in English."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772014560.8229566, "reason": "The text contains programming code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_676_0_c", "ok": false, "ts": 1772014573.981055, "reason": "The text contains a significant amount of English programming terminology and syntax, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772014586.6488807, "reason": "The text contains a significant amount of English programming terminology and syntax, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772014597.184948, "reason": "The text contains programming code and is not primarily in Dyula."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772014624.6161737, "reason": "The text contains a significant amount of programming code and comments, which are not in Dyula."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772014632.2611232, "reason": "The text contains a mix of Dyula and programming code, which is not primarily in Dyula."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772014638.0624769, "reason": "The text contains programming code and is not primarily in Dyula."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772014638.3309212, "reason": "The text is primarily written in C programming language with a small portion in Dyula, but the majority is code and comments in English."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772014640.0267093, "reason": "The text is primarily written in C programming language with only a small portion in Dyula."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772014654.6908078, "reason": "The text contains a significant amount of programming language syntax and English, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772014712.3672676, "reason": "The text contains a significant amount of code and comments in English, which is not primarily Dyula."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772014714.594483, "reason": "The text contains a significant amount of non-Dyula content, specifically technical terms and code syntax that are not part of the Dyula language."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772014714.741391, "reason": "The text contains a significant amount of programming code and comments in English, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772014791.673459, "reason": "The text contains a mix of programming code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772014808.5332787, "reason": "The text contains a significant amount of English programming terminology and syntax, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772014808.976463, "reason": "The text contains a significant amount of programming code and comments in English, which is not primarily in Dyula."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772014893.0698025, "reason": "The text contains a significant amount of code and comments in C programming language, which is not in Dyula."}

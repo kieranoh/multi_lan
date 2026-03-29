@@ -1,0 +1,21 @@
+{"task": "ppt_compl_js", "ok": true, "ts": 1771916855.9116833}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1771916858.0146787}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771916871.6727953}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771916873.0168538}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771916902.4567828}
+{"task": "ppt_compl_js", "ok": true, "ts": 1771916939.1342487}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771916958.0843618}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771916960.5207403}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1771916976.9519432}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771916983.0410538}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771916997.7015512}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771916999.3192885}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771917003.8596182}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771917284.0350196}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771917313.390584}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1772012353.1446364, "reason": "The text contains a significant amount of English and programming terminology, which indicates it is not primarily written in Dyula."}
+{"task": "ppt_secure_go", "ok": false, "ts": 1772012364.436147, "reason": "The text contains a significant amount of English and does not appear to be primarily in Dyula."}
+{"task": "ppt_direct_cpp", "ok": false, "ts": 1772012396.0877688, "reason": "The text contains a significant amount of English technical terminology and structure, indicating it is not primarily in Dyula."}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1772012427.9434931, "reason": "The text contains a significant amount of repeated phrases and does not demonstrate coherent structure or meaning typical of Dyula."}
+{"task": "ppt_secure_go", "ok": false, "ts": 1772012430.5937755, "reason": "The text contains English phrases and does not appear to be primarily in Dyula."}
+{"task": "ppt_direct_cpp", "ok": false, "ts": 1772012472.623494, "reason": "The text contains a significant amount of repetitive phrases and does not appear to be coherent or meaningful in Dyula."}

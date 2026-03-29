@@ -1,0 +1,37 @@
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772005494.887552}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772005495.0511408}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772005495.3904114}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772005804.6736135}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772005804.734115}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023187.5116298, "reason": "The text contains a mix of programming code and Assamese language, but the primary content is not in Assamese."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772023189.5076725, "reason": "The text contains a mix of Assamese and programming code, which makes it primarily not in Assamese."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772023189.6497724, "reason": "The text contains a mix of Assamese and programming code, which is not primarily in Assamese."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772023189.9466357, "reason": "The text contains programming code and comments in English, which makes it not primarily in Assamese."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772023190.123264, "reason": "The text contains a significant amount of code and English programming terminology, which makes it primarily not in Assamese."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772023191.6006398, "reason": "The text contains a mix of Assamese and programming code, which makes it primarily not in Assamese."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772023191.769433, "reason": "The text contains a mix of Assamese and programming code, which is not primarily in Assamese."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772023191.9746532}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772023192.5051138, "reason": "The text contains a mix of Assamese and programming code, which makes it not primarily in Assamese."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023193.5711389, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Assamese."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772023194.0188568}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772023194.718337, "reason": "The text contains a mix of programming code and comments in Assamese, but the primary content is not in Assamese."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023196.3479652, "reason": "The text contains a mix of programming code and Assamese language, but the primary content is not in Assamese."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772023196.4657218, "reason": "The text is written in C++ programming language, not in Assamese."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023196.6790366, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Assamese."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023197.9463181, "reason": "The text is primarily written in C++ programming language, not in Assamese."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772023198.7891264, "reason": "The text is written in C++ programming language, not in Assamese."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772023199.5568848, "reason": "The text is written in C++ programming language, not in Assamese."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023199.6612763, "reason": "The text is primarily written in C++ programming language, not Assamese."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023200.5324955, "reason": "The text is primarily written in C++ programming language, not Assamese."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772023200.5903034, "reason": "The text is primarily written in C++ programming language, not Assamese."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772023200.808675, "reason": "The text is primarily written in C++ programming language, not in Assamese."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023200.8771994, "reason": "The text is primarily written in C++ programming language, not Assamese."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772023201.2693508, "reason": "The text is primarily written in C++ programming language, not Assamese."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772023203.0141382, "reason": "The text is written in C++ programming language, not in Assamese."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023204.6179404, "reason": "The text is primarily written in C++ programming language, not in Assamese."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772023204.8352304, "reason": "The text is primarily written in C++ programming language, not in Assamese."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772023204.9042504, "reason": "The text is primarily written in C++ programming language, not in Assamese."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023205.8047092, "reason": "The text contains a significant amount of code and technical terms that are not in Assamese, making it primarily not in Assamese."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772023207.07121, "reason": "The text is primarily written in C++ programming language, not Assamese."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772023207.1383429, "reason": "The text is primarily written in C++ programming language, not in Assamese."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772023240.9040701, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Assamese."}

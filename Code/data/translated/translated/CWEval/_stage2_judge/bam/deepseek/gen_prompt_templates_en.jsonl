@@ -1,0 +1,25 @@
+{"task": "ppt_compl_js", "ok": true, "ts": 1771920565.421199}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771920565.478357}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771920565.8947392}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771920566.1972382}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771920567.5212574}
+{"task": "ppt_compl_js", "ok": true, "ts": 1771920584.431158}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771920584.9082549}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771920584.9331336}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771920678.8209603}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771920695.9095538}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771920737.1810484}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771920741.8935573}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771920778.1912682}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771920779.4820876}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771920779.6066985}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771920821.4605172}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771920823.408305}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771920825.0679157}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771920862.5846195}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771920886.410507}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771920992.9601786}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771921041.7077627}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1772013049.007461}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1772013050.338684}
+{"task": "ppt_direct_js", "ok": false, "ts": 1772013290.0784178, "reason": "The text contains a significant amount of English technical terminology and code-related language, which indicates it is not primarily written in Bambara."}

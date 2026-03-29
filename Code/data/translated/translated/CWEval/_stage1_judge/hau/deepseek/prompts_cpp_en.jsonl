@@ -1,0 +1,58 @@
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772023608.689899, "attempt": 1, "reason": "The text contains a significant amount of technical terminology and structure that is not typical of the Hausa language, indicating it is primarily written in English."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772023611.4081259, "attempt": 1}
+{"task": "cwe_327_0_cpp", "ok": true, "ts": 1772023612.1674476, "attempt": 1}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772023613.5186403, "attempt": 1}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772023614.9090652, "attempt": 1}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772023616.4941456, "attempt": 1}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772023617.2299106, "attempt": 1}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772023618.402494, "attempt": 1}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772023618.6031957, "attempt": 1}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023621.2327764, "attempt": 1, "reason": "The text contains technical terms and phrases that are not primarily in Hausa, indicating a mix of languages."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772023625.1061475, "attempt": 1}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772023627.3775575, "attempt": 1}
+{"task": "cwe_327_2_cpp", "ok": true, "ts": 1772023627.7291505, "attempt": 1}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772023633.1417234, "attempt": 1}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772023633.1925557, "attempt": 1}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772023633.638724, "attempt": 1, "reason": "The text contains a significant amount of technical content and programming instructions in English, which makes it primarily not in Hausa."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772023644.2164514, "attempt": 1, "reason": "The text contains technical terms and programming references that are not primarily in Hausa, indicating a mix of languages."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772023646.2685342, "attempt": 1}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772023648.8332474, "attempt": 1}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772023652.4730155, "attempt": 1}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772023664.7365887, "attempt": 1, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Hausa."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772023678.0983913, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023679.7930017, "reason": "stage2_judge_failed"}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772023679.9203522, "reason": "stage2_judge_failed"}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772023680.180307, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772023681.7320766, "reason": "stage2_judge_failed"}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772023682.5760086, "reason": "stage2_judge_failed"}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772023682.6252558, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772023683.9384055, "reason": "stage2_judge_failed"}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772023684.0538113, "reason": "stage2_judge_failed"}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023684.9797437, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023687.0202262, "reason": "stage2_judge_failed"}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772023689.1539676, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772023692.4556313, "reason": "stage2_judge_failed"}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772023692.7307284, "reason": "stage2_judge_failed"}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772023693.1484573, "reason": "stage2_judge_failed"}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023696.529393, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023696.7366314, "reason": "stage2_judge_failed"}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772023697.5270472, "reason": "stage2_judge_failed"}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772023700.2108412, "reason": "stage2_judge_failed"}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772023701.1381974, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772023701.1689675, "reason": "stage2_judge_failed"}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772023702.5707474, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772023702.7249887, "reason": "stage2_judge_failed"}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772023703.2848008, "reason": "stage2_judge_failed"}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023703.7754457, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772023705.4021544, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772023708.4531152, "reason": "stage2_judge_failed"}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772023710.6233616, "reason": "stage2_judge_failed"}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772023711.575206, "reason": "stage2_judge_failed"}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772023715.663341, "reason": "stage2_judge_failed"}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772023719.730733, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023719.875297, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772023722.549112, "reason": "stage2_judge_failed"}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023722.6259413, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772023725.9882174, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772023727.8096716, "reason": "stage2_judge_failed"}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023728.8830066, "reason": "stage2_judge_failed"}

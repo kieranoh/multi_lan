@@ -1,0 +1,37 @@
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772033019.1527283, "attempt": 1, "reason": "The text is written in Mongolian, not Buriat."}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772033024.221311, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772033025.3416228, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772033026.8490434, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772033027.762674, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772033032.0690644, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772033033.536038, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772033034.5325465, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772033037.3409858, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772033039.6570857, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772033041.9859114, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772033043.5568776, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772033044.711755, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772033046.8098645, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772033056.6863658, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772033059.9591227, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772033066.418379, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772033068.5151086, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772033069.5193791, "attempt": 1, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772033081.531004, "reason": "stage2_judge_failed"}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772033085.2605913, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772033085.836583, "reason": "stage2_judge_failed"}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772033085.9304178, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772033085.9606755, "reason": "stage2_judge_failed"}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772033086.5561397, "reason": "stage2_judge_failed"}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772033089.09908, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772033089.1662405, "reason": "stage2_judge_failed"}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772033089.2270784, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772033091.028179, "reason": "stage2_judge_failed"}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772033091.8765416, "reason": "stage2_judge_failed"}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772033092.162609, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772033093.3230543, "reason": "stage2_judge_failed"}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772033097.2957478, "reason": "stage2_judge_failed"}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772033099.1559365, "reason": "stage2_judge_failed"}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772033109.6591344, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772033110.9209845, "reason": "stage2_judge_failed"}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772033112.7536407, "reason": "stage2_judge_failed"}

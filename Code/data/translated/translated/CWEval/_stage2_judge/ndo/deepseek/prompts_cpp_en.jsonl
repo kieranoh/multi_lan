@@ -1,0 +1,31 @@
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1771985031.262596}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1771985058.1717207}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1771985069.5666978}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1771985285.8258917}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1771985303.5175185}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1771985479.4006338}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772021201.4993286, "reason": "The text contains programming code and English phrases, which are not primarily in Ndonga."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772021202.445652, "reason": "The text contains programming code and technical terms that are not in Ndonga, indicating it is primarily in English."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772021202.5948224, "reason": "The text contains programming code and English phrases, which indicates it is not primarily written in Ndonga."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772021204.1232958, "reason": "The text contains programming code and comments in English, which is not primarily Ndonga."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772021204.8163488, "reason": "The text contains programming code and technical terms that are not primarily in Ndonga."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772021219.0168383, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Ndonga."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772021219.2068002, "reason": "The text contains programming code and comments in English, which is not primarily Ndonga."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772021220.0541332, "reason": "The text contains a mix of programming code and comments in English, which is not primarily Ndonga."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772021222.053016, "reason": "The text contains a significant amount of programming code and comments in English, which detracts from its primary use of Ndonga."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772021225.9857328, "reason": "The text contains a significant amount of programming code and comments in English, with only a small portion in Ndonga. The primary language of the text is not Ndonga."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772021239.5374413, "reason": "The text contains a significant amount of programming code and comments in English, which detracts from the primary use of Ndonga."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772021243.6320918, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Ndonga."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772021269.5354645, "reason": "The text is primarily in English with a small portion in Ndonga, but the majority is not in Ndonga."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772021269.8749459, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Ndonga."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772021270.8283656, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Ndonga."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772021279.1920419, "reason": "The text contains a significant amount of technical programming language and terminology that is not in Ndonga, indicating it is not primarily written in Ndonga."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772021344.492689, "reason": "The text contains a significant amount of programming code and comments in English, which is not primarily Ndonga."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772021410.5183222, "reason": "The text contains a large number of repeated phrases and does not demonstrate coherent structure or meaning typical of Ndonga."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772021473.9464176, "reason": "The text contains a significant amount of code and comments in English, which is not primarily Ndonga."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772021475.4348652, "reason": "The text is primarily in English and contains programming code, not Ndonga."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772021475.6086278, "reason": "The text is not primarily written in Ndonga; it consists mostly of repetitive phrases without meaningful content."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772021478.271984, "reason": "The text is primarily in English and contains programming code, not Ndonga."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772021510.0933287, "reason": "The text contains a significant amount of programming code and comments in English, which is not primarily Ndonga."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772021518.4308114}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772021597.8145094}

@@ -1,0 +1,61 @@
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771959873.5731306}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771959874.4445753}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771959874.9007525}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771959875.4096386}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771959878.0225494}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771959879.051722}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771959887.2569838}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771959888.3619332}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771959891.103056}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771959891.898761}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771959892.3249924}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771959892.3944457}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771959893.4516973}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771959894.452745}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771959895.6525543}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771959897.414643}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771959898.9887838}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771959900.5725477}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771959903.0751212}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771959904.7737925}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771959905.313289}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771959907.1406715}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771959908.2147286}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771959910.6041465}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771959913.138425}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771959917.306302}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771959920.0831678}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771959921.9321408}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771959922.4577525}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771959923.0819867}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771959923.3895092}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771959925.4399972}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771959934.3019557}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771959935.2725415}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771959936.1269882}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771959936.1803987}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771959937.2437644}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771959939.0034022}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771959939.0228727}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771959939.502123}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771959940.9123147}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771959943.644809}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771959950.2203658}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772018725.8561003, "reason": "The text contains a mix of Turkish and programming code, making it not primarily in Turkish."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772018728.090052, "reason": "The text contains programming code and comments in Turkish, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772018728.504364, "reason": "The text contains programming code and comments in Turkish, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772018729.6228628, "reason": "The text contains a mix of Turkish and programming code, but the primary language is not Turkish due to the presence of code syntax."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772018731.0263517, "reason": "The text contains programming code and comments in Turkish, but it is not primarily written in Turkish as it includes technical terms and syntax."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772018731.3137152, "reason": "The text contains a mix of C programming language syntax and Turkish comments, but it is primarily written in English due to the code structure and function definition."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772018731.3211424, "reason": "The text contains a mix of C programming language syntax and Turkish comments, but it is primarily written in English due to the code structure and function definition."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772018734.4947252, "reason": "The text contains a significant amount of code and comments in Turkish, but it is primarily a programming code snippet, which is not considered primarily written in Turkish."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772018734.9839227, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Turkish."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772018735.4522645, "reason": "The text contains a mix of C programming code and Turkish comments, but the primary content is not in Turkish."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772018736.4168434, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Turkish."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772018736.672345, "reason": "The text contains a significant amount of programming code and comments in Turkish, but the presence of code makes it primarily not a Turkish text."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772018736.8247216, "reason": "The text contains a significant amount of code and comments in Turkish, but the presence of programming language syntax and English keywords makes it primarily not Turkish."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772018738.1641219, "reason": "The text contains a mix of Turkish and programming code, but the primary content is not in Turkish."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772018743.2812421, "reason": "The text contains a significant amount of programming code and comments in Turkish, but the primary content is in English, which makes it not primarily Turkish."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772018743.9281762, "reason": "The text is primarily written in C programming language with only a small portion in Turkish."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772018776.8670716, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Turkish comments."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772018790.3324678, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Turkish."}

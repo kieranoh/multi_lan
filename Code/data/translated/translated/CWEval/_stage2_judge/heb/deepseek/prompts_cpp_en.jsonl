@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025705.8831758, "reason": "The text is primarily written in English with some Hebrew comments."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772025706.8919182, "reason": "The text contains a mix of Hebrew and programming code, with the primary content being in English."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772025708.855615, "reason": "The text contains a mix of programming code and Hebrew comments, but is primarily in English due to the code structure."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772025710.933119, "reason": "The text contains a mix of Hebrew and programming code, which is not primarily in Hebrew."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772025711.204935}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772025711.6636887}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772025711.932363}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025712.0541854, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hebrew."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772025713.2701535}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025714.3572352}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025714.5937405, "reason": "The text contains a significant amount of code and comments in Hebrew, but it is primarily written in English due to the presence of programming syntax and keywords."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772025716.9943979}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772025720.590182, "reason": "The text contains a mix of Hebrew and English programming syntax, which makes it primarily not Hebrew."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772025722.8366451}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025725.7293634, "reason": "The text contains a mix of programming code and Hebrew, but is primarily in English."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025725.733595}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772025725.9700444, "reason": "The text contains a significant amount of English content, including code and comments, which makes it primarily not in Hebrew."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772025727.2631097, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hebrew."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772025727.2672439, "reason": "The text contains a mix of Hebrew and programming code, but is primarily in English."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772025727.9216096, "reason": "The text contains a mix of Hebrew and programming code, making it primarily not Hebrew."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772025733.7576976}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772025733.759116}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772025734.6400974, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772025735.0750077}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772025737.5871716, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hebrew."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025738.0292792}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772025738.329247}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772025742.3450553, "reason": "The text contains a mix of Hebrew and English programming syntax, which makes it primarily not Hebrew."}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772025743.2828467}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025743.6878846}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025745.0709498, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hebrew."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025748.621053, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hebrew."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772025752.099499}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772025754.806982, "reason": "The text contains a significant amount of code and comments in English, making it primarily not in Hebrew."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772025755.975144, "reason": "The text contains a significant amount of English programming terminology and code, making it primarily not in Hebrew."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772025757.348084, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hebrew."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025758.330664}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025760.3730438, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hebrew."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025760.4863737}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772025764.2902496}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772025766.462417, "reason": "The text contains a significant amount of English programming terminology and structure, making it primarily in English despite the Hebrew content."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025803.6619487, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hebrew."}

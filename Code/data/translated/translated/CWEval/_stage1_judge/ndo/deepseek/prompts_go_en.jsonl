@@ -1,0 +1,39 @@
+{"task": "cwe_117_0_go", "ok": true, "ts": 1772031279.7040696, "attempt": 1}
+{"task": "cwe_347_0_go", "ok": true, "ts": 1772031287.5234337, "attempt": 1}
+{"task": "cwe_113_0_go", "ok": true, "ts": 1772031297.143353, "attempt": 1}
+{"task": "cwe_022_0_go", "ok": true, "ts": 1772031300.022362, "attempt": 1}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772031341.1556172, "attempt": 1, "reason": "The text contains a significant amount of English technical terms and code, which detracts from it being primarily in Ndonga."}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772031351.0275989, "attempt": 1, "reason": "The text contains repetitive phrases and lacks meaningful content in Ndonga."}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772031370.8406057, "attempt": 1, "reason": "The text contains a significant amount of technical content and code that is not in Ndonga, indicating that it is not primarily written in Ndonga."}
+{"task": "cwe_918_0_go", "ok": true, "ts": 1772031400.8441384, "attempt": 1}
+{"task": "cwe_329_0_go", "ok": true, "ts": 1772031445.6053574, "attempt": 1}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772031511.0922916, "attempt": 1, "reason": "The text contains a significant amount of words and phrases that are not in Ndonga, indicating it is primarily written in another language."}
+{"task": "cwe_079_0_go", "ok": true, "ts": 1772031512.6066885, "attempt": 1}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772031513.6161768, "attempt": 1, "reason": "The text contains technical terms and phrases that are not characteristic of Ndonga, indicating it is primarily written in a programming or technical context."}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772031514.2854733, "attempt": 1, "reason": "The text consists primarily of repetitive phrases and does not contain meaningful content in Ndonga."}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772031514.7783675, "attempt": 1, "reason": "The text contains a significant amount of repeated words and technical terms that do not conform to the Ndonga language structure."}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772031519.620931, "attempt": 1, "reason": "The text contains excessive repetition of the word 'osho' and lacks coherent structure, making it difficult to validate as primarily Ndonga."}
+{"task": "cwe_327_0_go", "ok": true, "ts": 1772031589.9526136, "attempt": 1}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772031597.628202, "attempt": 1, "reason": "The text contains a significant amount of technical jargon and English terms that are not characteristic of Ndonga."}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772031652.2207234, "attempt": 1, "reason": "The text contains a significant amount of repetitive phrases and does not demonstrate coherent or meaningful content in Ndonga."}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772031694.8443139, "attempt": 1, "reason": "The text contains a significant amount of repetitive phrases and does not adhere to coherent language structure typical of Ndonga."}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772031707.7095451, "reason": "stage2_judge_failed"}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772031721.9763527, "reason": "stage2_judge_failed"}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772031724.691264, "reason": "stage2_judge_failed"}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772031739.8756936, "reason": "stage2_judge_failed"}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772031745.5853834, "reason": "stage2_judge_failed"}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772031785.559726, "reason": "stage2_judge_failed"}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772031788.8571086, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772031790.3041432, "reason": "stage2_judge_failed"}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772031790.4749095, "reason": "stage2_judge_failed"}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772031863.1800745, "reason": "stage2_judge_failed"}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772031864.1804268, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772031873.601356, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772031883.8309317, "reason": "stage2_judge_failed"}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772031884.9226177, "reason": "stage2_judge_failed"}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772031937.1286845, "reason": "stage2_judge_failed"}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772031942.7384226, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772032010.91191, "reason": "stage2_judge_failed"}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772032034.609599, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772032097.708272, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772032104.9806218, "reason": "stage2_judge_failed"}

@@ -1,0 +1,26 @@
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772001364.4355574}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772001454.22084}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772022286.381897, "reason": "The text is primarily in English with programming syntax and does not contain Nuer language content."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772022288.7896366, "reason": "The text is primarily written in English with some Nuer words, but it does not constitute a primarily Nuer text."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772022289.5802963, "reason": "The text contains a large amount of repeated phrases in a non-Nuer context, primarily consisting of XML data and programming syntax, which does not represent the Nuer language."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772022289.8956833, "reason": "The text contains a mix of programming language syntax and English, with only a few words in Nuer, making it primarily not in Nuer."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772022292.2761226, "reason": "The text is primarily in English with programming syntax and does not contain Nuer language content."}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772022301.768003, "reason": "The text is primarily written in English with some Nuer words, but it does not constitute a coherent text in Nuer."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772022302.0189233, "reason": "The text is primarily written in English, not Nuer."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772022304.3282795, "reason": "The text contains programming code and comments in a non-Nuer language, primarily English, with no significant Nuer content."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772022310.483003, "reason": "The text contains programming code and comments in English, which is not primarily in Nuer."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772022316.7294874, "reason": "The text is primarily written in English with some phrases in another language, but it does not primarily consist of Nuer (nus)."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772022321.7296762, "reason": "The text is primarily written in C++ programming language, not in Nuer."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772022364.4039292, "reason": "The text contains a mix of programming code and Nuer language, but the majority is not in Nuer."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772022366.0571952, "reason": "The text is primarily written in English with some Nuer words, but it does not constitute a coherent text in Nuer."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772022368.9856157, "reason": "The text is primarily written in C++ programming language with some Nuer phrases, but it is not predominantly in Nuer."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772022446.4699888, "reason": "The text contains a significant amount of programming code and technical terminology that is not in Nuer, making it primarily not written in Nuer."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772022602.0062015, "reason": "The text contains a large number of repeated phrases and does not form coherent sentences in Nuer."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772022614.0280075, "reason": "The text contains programming code and comments, which are not in Nuer language."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772022629.2735474, "reason": "The text contains programming code and comments, which are not primarily in Nuer."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772022679.8821967, "reason": "The text is primarily in English with some Nuer words, but it does not constitute a coherent text in Nuer."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772022680.0583963, "reason": "The text contains a mix of Nuer and programming code, which is not primarily in Nuer."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772022680.556318, "reason": "The text is primarily written in English, not Nuer."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772022690.5812826, "reason": "The text is primarily in English with some Nuer words, but it does not constitute a coherent text in Nuer."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772022695.8263755, "reason": "The text contains programming code and comments in English, which is not primarily in Nuer."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772022710.0770578, "reason": "The text contains programming code and comments in English, which is not primarily in Nuer."}

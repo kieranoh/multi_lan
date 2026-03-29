@@ -1,0 +1,16 @@
+{"task": "ppt_compl_py", "ok": true, "ts": 1771921068.8307664, "attempt": 1}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771921069.0508492, "attempt": 1}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771921069.9471288, "attempt": 1}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1771921070.6981127, "attempt": 1}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771921097.3458972, "attempt": 1}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771921098.4856298, "attempt": 1}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771921099.1719413, "attempt": 1}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771921099.4450529, "attempt": 1}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771921100.1860979, "attempt": 1}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771921101.0974987, "attempt": 1}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771921101.1443293, "attempt": 1}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771921101.6476707, "attempt": 1}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771921102.3388982, "attempt": 1}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771921103.40772, "attempt": 1}
+{"task": "ppt_compl_js", "ok": false, "ts": 1771921135.1214905, "reason": "stage2_judge_failed"}
+{"task": "ppt_compl_js", "ok": false, "ts": 1772013305.1634214, "reason": "stage2_judge_failed"}

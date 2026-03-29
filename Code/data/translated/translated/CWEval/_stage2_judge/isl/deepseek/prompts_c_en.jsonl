@@ -1,0 +1,60 @@
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771956885.2754798}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771956885.57305}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771956886.1802232}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771956886.3176472}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771956888.1965046}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771956889.4966466}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1771956896.5795646}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771956897.7211637}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771956900.6684346}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771956902.7163057}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771956904.0749648}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771956905.879412}
+{"task": "cwe_327_2_c", "ok": true, "ts": 1771956906.081578}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771956906.3665266}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771956908.5114849}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771956912.0443192}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771956917.6409142}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771956918.510572}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771956919.547251}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771956919.8589709}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771956920.0206916}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771956923.0499966}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771956923.125391}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771956926.7086966}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771956928.3361394}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771956931.0934682}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1771956933.7271695}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771956935.6227372}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771956936.3853703}
+{"task": "cwe_327_2_c", "ok": true, "ts": 1771956937.4657593}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771956938.5392299}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771956944.1495056}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771956944.492188}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771956949.1739125}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771956949.7544646}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771956955.1679866}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771956957.1157098}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771956958.900863}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771956961.8654945}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771956964.687636}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017567.0805626, "reason": "Text contains a mix of Icelandic and programming code, making it primarily not Icelandic."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017568.6222503, "reason": "Text contains a mix of programming language syntax and comments in Icelandic, but is primarily written in English."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017569.8181324, "reason": "Text contains programming code and comments in English, not primarily in Icelandic."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017570.3337424, "reason": "Text contains programming code and comments in English, not primarily in Icelandic."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017571.2498455, "reason": "Text contains programming code and comments in Icelandic, but is not primarily written in Icelandic."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017572.8171234, "reason": "Text contains a mix of programming language syntax and comments in Icelandic, but is primarily written in English."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017573.3011212, "reason": "Text contains a mix of Icelandic and programming language syntax, making it primarily not Icelandic."}
+{"task": "cwe_117_0_c", "ok": true, "ts": 1772017573.8790932}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017577.447773, "reason": "Text contains a significant amount of English programming language syntax and comments, making it primarily not in Icelandic."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017579.769743, "reason": "Text contains programming code and comments in Icelandic, but is not primarily written in Icelandic."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017579.7937655, "reason": "Text contains a mix of Icelandic and programming code, making it primarily not Icelandic."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017580.820106, "reason": "Text contains programming code and comments in Icelandic, but is not primarily written in Icelandic."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017583.1016266, "reason": "Text contains a mix of programming code and Icelandic comments, but is primarily written in English with only a few Icelandic phrases."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017583.3013217, "reason": "Text contains a mix of Icelandic and programming language syntax, making it primarily not Icelandic."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017583.7763684, "reason": "Text contains a significant amount of programming code and comments in Icelandic, but the primary structure is not in Icelandic."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017588.3103006, "reason": "Text is primarily in English with a small portion of Icelandic comments."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017588.40029, "reason": "Text contains a significant amount of code and comments in English, which makes it primarily not Icelandic."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017589.1907482, "reason": "Text contains a mix of programming code and Icelandic comments, but the primary language is not Icelandic."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017624.4634943, "reason": "Text contains a significant amount of English programming terminology and comments, making it primarily in English."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017638.488105, "reason": "Text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Icelandic content."}

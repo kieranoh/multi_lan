@@ -1,0 +1,42 @@
+{"task": "cwe_326_0_go", "ok": true, "ts": 1772032122.7815814, "attempt": 1}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772032129.07671, "attempt": 1, "reason": "The text contains technical terms and phrases in English, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772032131.228507, "attempt": 1, "reason": "The text contains a significant amount of English vocabulary and structure, indicating it is not primarily in Dyula."}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772032137.6977708, "attempt": 1, "reason": "The text contains technical terms and phrases that are not characteristic of the Dyula language, indicating it is primarily written in another language."}
+{"task": "cwe_020_0_go", "ok": true, "ts": 1772032149.682588, "attempt": 1}
+{"task": "cwe_022_0_go", "ok": true, "ts": 1772032154.2219434, "attempt": 1}
+{"task": "cwe_918_0_go", "ok": true, "ts": 1772032166.0733259, "attempt": 1}
+{"task": "cwe_918_1_go", "ok": true, "ts": 1772032174.7201219, "attempt": 1}
+{"task": "cwe_732_2_go", "ok": true, "ts": 1772032201.0160415, "attempt": 1}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772032203.7749403, "attempt": 1, "reason": "The text contains a significant amount of English, particularly in the context of HTML and usernames, which indicates it is not primarily written in Dyula."}
+{"task": "cwe_022_2_go", "ok": true, "ts": 1772032211.95895, "attempt": 1}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772032214.9207275, "attempt": 1, "reason": "The text contains a significant amount of technical terminology and English phrases that are not characteristic of Dyula."}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772032217.4508238, "attempt": 1, "reason": "The text contains technical terms and phrases that are not primarily in Dyula, indicating a mix of languages or a focus on a specific technical context."}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772032226.2545485, "attempt": 1, "reason": "The text contains a significant amount of English, including XML code and programming references, which makes it primarily not in Dyula."}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772032227.7143135, "attempt": 1, "reason": "The text contains English terms such as 'storeInfoInHeader', 'HTTP', and 'jaabi', which are not part of the Dyula language."}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772032421.7532024, "attempt": 1, "reason": "The text is primarily in English, with no significant use of Dyula language."}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772032499.078277, "attempt": 1, "reason": "The text contains a command in English ('ls -l') and is primarily repetitive without meaningful content in Dyula."}
+{"task": "cwe_117_0_go", "ok": true, "ts": 1772032502.0905514, "attempt": 1}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772032524.3569443, "attempt": 1, "reason": "The text consists primarily of repeated characters and does not contain recognizable Dyula language structure or vocabulary."}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772032536.8448036, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772032537.0801702, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772032541.226149, "reason": "stage2_judge_failed"}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772032542.686658, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772032544.7954934, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772032555.133925, "reason": "stage2_judge_failed"}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772032555.490234, "reason": "stage2_judge_failed"}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772032564.9843488, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772032567.1515546, "reason": "stage2_judge_failed"}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772032577.3552225, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772032583.6964657, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772032618.764123, "reason": "stage2_judge_failed"}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772032619.8551283, "reason": "stage2_judge_failed"}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772032621.743691, "reason": "stage2_judge_failed"}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772032624.2810104, "reason": "stage2_judge_failed"}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772032634.115854, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772032639.7547565, "reason": "stage2_judge_failed"}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772032658.577908, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772032665.8514223, "reason": "stage2_judge_failed"}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772032778.9282365, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772032782.8320909, "reason": "stage2_judge_failed"}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772032860.4339817, "reason": "stage2_judge_failed"}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772032957.7113862, "reason": "stage2_judge_failed"}

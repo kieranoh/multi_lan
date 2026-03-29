@@ -1,0 +1,39 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026080.8652375, "reason": "The text contains programming code and comments primarily in English, with only a small portion in Tagalog."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772026083.5088034, "reason": "The text contains programming code and comments in English, which makes it not primarily in Tagalog."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772026083.7404764, "reason": "The text contains a mix of Tagalog and programming language syntax, making it primarily not Tagalog."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772026083.9345615, "reason": "The text contains programming code and English terms, making it not primarily in Tagalog."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772026084.4812233, "reason": "The text contains programming code and comments in English, which makes it not primarily in Tagalog."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026084.602138, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily in English."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772026085.6036646, "reason": "The text contains programming code and English terms, making it not primarily in Tagalog."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772026085.6304817, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily in English."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772026085.705445, "reason": "The text contains a mix of Tagalog and programming language syntax, making it primarily not Tagalog."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026089.6144855, "reason": "The text contains a significant amount of programming code and English comments, making it primarily not in Tagalog."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772026089.8493881, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily not in Tagalog."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772026090.260466, "reason": "The text contains a significant amount of code and technical terms in English, with only a few phrases in Tagalog, making it primarily in English."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772026095.7422504, "reason": "The text contains a significant amount of programming code and English terms, making it primarily not in Tagalog."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772026096.0490458, "reason": "The text contains a mix of Tagalog and programming code, which makes it primarily not in Tagalog."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026097.501562, "reason": "The text contains programming code and comments primarily in English, with only a small portion in Tagalog."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772026099.532663}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772026100.1406138, "reason": "The text contains a mix of Tagalog and programming code, making it primarily not in Tagalog."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772026100.3450766, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily not in Tagalog."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772026101.0384464, "reason": "The text contains programming code and comments in English, which makes it not primarily in Tagalog."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772026101.5862045, "reason": "The text contains a mix of Tagalog and programming language syntax, making it primarily not Tagalog."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772026104.7724025, "reason": "The text is primarily written in English, with no Tagalog content."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026105.0171342, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Tagalog."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772026105.2000875, "reason": "The text contains programming code and comments in English, which makes it not primarily in Tagalog."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772026105.6906953, "reason": "The text contains a significant amount of programming code and English, which makes it not primarily in Tagalog."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772026106.1388998, "reason": "The text contains programming code and is primarily in English, despite having some Tagalog phrases."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772026108.183334, "reason": "The text contains programming code and English terms, making it not primarily in Tagalog."}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772026109.47665, "reason": "The text contains programming code and comments in English, which makes it not primarily in Tagalog."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772026113.273664, "reason": "The text contains a significant amount of code and technical terms that are not in Tagalog."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772026115.0044427, "reason": "The text contains a mix of Tagalog and programming language syntax, making it primarily not Tagalog."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772026115.4135745, "reason": "The text contains a mix of Tagalog and programming code, which includes English terms and syntax."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026118.590357, "reason": "The text contains a significant amount of programming code and English comments, making it primarily not in Tagalog."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772026123.0764358, "reason": "The text contains a significant amount of code and technical terms in English, making it primarily in English rather than Tagalog."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772026123.8476722, "reason": "The text contains a significant amount of programming code and English terms, making it primarily not in Tagalog."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772026126.9122562, "reason": "The text contains a significant amount of code and technical terms that are not in Tagalog."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772026127.7361703, "reason": "The text contains a significant amount of code and technical terms that are not in Tagalog, making it primarily not in Tagalog."}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772026130.4021513, "reason": "The text contains programming code and comments in English, which makes it not primarily in Tagalog."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772026132.6703813}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772026134.7530682, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily not in Tagalog."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772026136.7115383, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Tagalog phrases."}

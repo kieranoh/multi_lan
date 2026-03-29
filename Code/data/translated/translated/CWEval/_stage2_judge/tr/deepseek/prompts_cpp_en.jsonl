@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026426.569795, "reason": "The text contains programming code and comments in Turkish, but the primary content is not in Turkish."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772026429.713811, "reason": "The text contains programming code and comments in Turkish, but it is not primarily written in Turkish as it includes technical syntax and keywords."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772026432.5906887}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026433.4578521, "reason": "The text contains a mix of programming code and comments in Turkish, but the primary content is not in Turkish."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772026433.7077277}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772026434.4152524}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772026435.0275185}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026435.3105252, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Turkish."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772026436.115761}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772026436.4059799}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772026437.1876187, "reason": "The text contains a significant amount of programming code and comments in Turkish, but the primary content is not in Turkish."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772026440.9984562}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772026442.5637352, "reason": "The text contains programming code and English terms, making it not primarily in Turkish."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772026444.7592373, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Turkish."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772026447.971331}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026449.4236975, "reason": "The text contains programming code and comments in Turkish, but the primary content is not in Turkish."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772026451.0375526}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772026452.5085325, "reason": "The text contains programming code and comments in English, which makes it not primarily in Turkish."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026453.4731588, "reason": "The text contains a significant amount of code and comments in Turkish, but it is primarily a programming context with English syntax and keywords."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772026453.899695}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772026455.9589992}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772026456.2463284}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772026456.3726208, "reason": "The text contains programming code and comments in Turkish, but the primary content is not purely in Turkish due to the presence of code."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772026457.9098701}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772026460.903118}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772026462.6592755}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772026462.688133}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772026465.389007}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026465.995789, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Turkish."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772026468.8951113}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772026471.6309972, "reason": "The text contains programming code and English terms, making it not primarily in Turkish."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772026475.0740583, "reason": "The text contains a significant amount of programming code and comments in Turkish, but the primary content is not in Turkish."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772026477.3405917}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772026480.1999032, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not in Turkish."}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772026481.8681843}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772026483.748243}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772026485.288759}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772026488.645622}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772026489.0466437}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772026490.8884695}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772026492.4570887, "reason": "The text contains a significant amount of English programming terminology and structure, making it primarily in English despite some Turkish content."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772026529.5741885, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it not primarily in Turkish."}

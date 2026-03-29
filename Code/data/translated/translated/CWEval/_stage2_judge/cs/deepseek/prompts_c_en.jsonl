@@ -1,0 +1,61 @@
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771961095.4650407}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771961096.2527926}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771961097.660202}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771961098.0631456}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771961098.3443696}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771961098.6229715}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771961100.778772}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1771961102.8348489}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771961102.8430197}
+{"task": "cwe_327_2_c", "ok": true, "ts": 1771961104.0435412}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771961109.870137}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771961112.8498106}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771961114.453373}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771961114.5327418}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771961114.6724164}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771961114.8289273}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771961117.1367533}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771961117.5326679}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771961118.8804917}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771961119.1054618}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771961119.5791438}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771961122.734571}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771961123.398635}
+{"task": "cwe_787_2_c", "ok": true, "ts": 1771961124.638588}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771961127.6190512}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771961128.123895}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771961130.9466944}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771961131.6576052}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771961132.7963865}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771961133.7021508}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771961135.1038878}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771961135.1456506}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771961135.3281934}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771961138.0570886}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771961141.357063}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1771961145.6522603}
+{"task": "cwe_022_2_c", "ok": true, "ts": 1771961145.852237}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771961147.0746045}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771961147.624669}
+{"task": "cwe_327_2_c", "ok": true, "ts": 1771961148.5728602}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771961148.7121222}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771961149.266478}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771961149.7382631}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771961156.6822999}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771961156.909027}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771961157.0651488}
+{"task": "cwe_787_2_c", "ok": true, "ts": 1771961158.0666344}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771961162.749218}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771961163.4753373}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771961163.680942}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771961164.1381757}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771961167.2882419}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771961167.3255723}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771961171.9264226}
+{"task": "cwe_022_2_c", "ok": true, "ts": 1771961211.98603}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019221.1885521, "reason": "Text contains programming code and comments in Czech, but is primarily in English due to the code structure."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019224.0000901, "reason": "Text contains programming code and comments in Czech, but is primarily in English due to the code structure."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019226.9333396, "reason": "Text contains a significant amount of code and comments in Czech, but the majority is in English."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019227.3493414, "reason": "Text contains a significant amount of code and comments in Czech, but the majority is in English."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019233.0964887, "reason": "Text contains programming code and comments in Czech, but is primarily written in English."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019233.8008425, "reason": "Text contains a mix of programming code and comments in Czech, but the primary content is not in Czech."}

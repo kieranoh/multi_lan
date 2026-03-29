@@ -1,0 +1,35 @@
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772033179.9470313, "reason": "The text contains programming code and English language elements, which makes it not primarily in Dari."}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772033182.6828341, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Dari."}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772033184.1244946, "reason": "The text contains a mix of Dari and programming syntax, which is not primarily in Dari."}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772033184.629629, "reason": "The text contains a significant amount of technical programming language and English terms, which makes it primarily not in Dari."}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772033185.4656432, "reason": "The text contains programming code and comments in Persian (Dari), but it is primarily written in a programming language (Go) with mixed English terms."}
+{"task": "cwe_327_0_go", "ok": true, "ts": 1772033186.9691617}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772033187.8016253, "reason": "The text contains programming code and comments in Persian, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772033188.3126597, "reason": "The text contains programming code and comments in Persian (Dari), but it is primarily written in a programming language (Go) which is not Dari."}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772033190.3625941, "reason": "The text contains programming code and comments in Persian (Dari) but is primarily written in a programming language (Go)."}
+{"task": "cwe_022_2_go", "ok": true, "ts": 1772033191.1226254}
+{"task": "cwe_347_0_go", "ok": true, "ts": 1772033191.2665992}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772033191.713744, "reason": "The text contains programming code and comments in Persian (Dari), but it is primarily written in a programming language (Go) with mixed English terms."}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772033193.179526, "reason": "The text contains technical programming language and terms that are not primarily in Dari."}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772033196.2495549, "reason": "The text contains programming code and English language elements, which makes it not primarily in Dari."}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772033198.106742, "reason": "The text contains programming code and comments in Persian (Dari), but it is primarily written in a programming language (likely Go), which is not Dari."}
+{"task": "cwe_113_0_go", "ok": true, "ts": 1772033198.9482799}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772033200.752028, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Dari."}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772033203.0483394, "reason": "The text contains a mix of Dari and programming syntax, which is not primarily in Dari."}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772033205.4149628, "reason": "The text contains programming code and comments in Persian, but it is not primarily written in Dari."}
+{"task": "cwe_327_0_go", "ok": true, "ts": 1772033206.533466}
+{"task": "cwe_918_0_go", "ok": true, "ts": 1772033206.8119218}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772033207.7987573, "reason": "The text contains programming code and SQL syntax, which is not primarily written in Dari."}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772033209.3274832, "reason": "The text contains a significant amount of programming code and technical terms that are not in Dari, making it primarily not in Dari."}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772033212.497937, "reason": "The text contains a significant amount of English programming terminology and code comments, which are not in Dari."}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772033213.0133095, "reason": "The text contains programming code and comments in Persian (Dari), but it is primarily written in a programming language (Go) with English syntax."}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772033213.2108536, "reason": "The text contains a mix of programming language syntax and English terms, which makes it not primarily in Dari."}
+{"task": "cwe_022_2_go", "ok": true, "ts": 1772033213.289164}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772033213.5362287, "reason": "The text contains programming code and comments in Persian (Dari), but it also includes English programming syntax and keywords, which makes it not primarily in Dari."}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772033216.1578135, "reason": "The text contains programming code and comments in Persian (Dari), but it is primarily written in a programming language (Go) with mixed English terms."}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772033218.8125165, "reason": "The text contains programming code and comments in Persian (Dari), but it is primarily written in a programming language (Go) with mixed English terms."}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772033226.3389294, "reason": "The text contains programming code and English terms that are not primarily in Dari."}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772033226.7096198, "reason": "The text contains programming code and comments in Persian, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_327_2_go", "ok": true, "ts": 1772033227.632689}
+{"task": "cwe_918_0_go", "ok": true, "ts": 1772033228.159479}
+{"task": "cwe_918_1_go", "ok": true, "ts": 1772033236.6527407}

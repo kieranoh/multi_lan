@@ -1,0 +1,24 @@
+{"task": "ppt_direct_py", "ok": true, "ts": 1771919212.1789503}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771919244.8921392}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771919245.185805}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771919257.6124523}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771919263.7213438}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771919264.8629282}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771919273.8690312}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771919289.0816138}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771919293.3473842}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771919295.166965}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771919295.2475343}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771919297.885859}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771919327.504284}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771919328.2620368}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771919329.7531385}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771919339.813719}
+{"task": "ppt_compl_js", "ok": true, "ts": 1771919549.3755956}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771919610.9082365}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771919630.0666237}
+{"task": "ppt_compl_js", "ok": true, "ts": 1771919631.4428196}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1772012945.905246, "reason": "The text consists primarily of repeated phrases and does not form coherent sentences or meaningful content in Nuer."}
+{"task": "ppt_compl_py", "ok": false, "ts": 1772012955.476632, "reason": "The text does not contain recognizable Nuer vocabulary or structure; it appears to be repetitive and lacks meaningful content."}
+{"task": "ppt_compl_c", "ok": false, "ts": 1772012959.2983158, "reason": "The text consists primarily of repeated instances of the word 'kɛnɛ', which does not constitute meaningful content in Nuer or any coherent sentence structure."}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1772013029.6641212, "reason": "The text consists primarily of repeated instances of the word 'kɛnɛ', which does not constitute meaningful content in Nuer or any coherent sentence structure."}

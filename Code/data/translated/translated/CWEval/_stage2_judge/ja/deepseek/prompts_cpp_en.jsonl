@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772029916.5431604, "reason": "The text contains a mix of programming code and Japanese comments, but is primarily in English due to the presence of code syntax and keywords."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772029921.3942926}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772029921.824841}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772029922.6138082}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772029922.7584693}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772029922.8026574, "reason": "The text contains a significant amount of English programming code and comments, with only a few Japanese phrases."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772029923.007374}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772029923.9154394}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772029924.5778375}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772029925.2040484, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Japanese."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772029925.2292037}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772029929.1050093}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772029932.1976147, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Japanese."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772029934.282133, "reason": "The text contains a significant amount of English content, including code and variable names, which makes it primarily not in Japanese."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772029935.4428952}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772029936.59355, "reason": "The text contains a mix of programming code and Japanese comments, but the primary content is in English."}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772029936.9390845}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772029941.7363942}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772029942.4604478}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772029943.5595996, "reason": "The text contains a mix of C++ code and Japanese comments, but is primarily written in English due to the presence of code syntax and English keywords."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772029945.0445611}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772029945.0568936, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Japanese."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772029945.9593854}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772029946.5096817}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772029947.7102451}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772029950.6898344, "reason": "The text contains a mix of Japanese and English, primarily in English."}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772029951.534246}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772029952.16427}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772029955.7207289, "reason": "The text contains a significant amount of English programming code and comments, with only a few Japanese phrases."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772029958.7907693}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772029959.8495715, "reason": "The text is primarily written in C++ with some Japanese comments, but the majority is code."}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772029962.2561433}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772029963.9221375}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772029966.1153486, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Japanese."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772029966.2549162, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Japanese."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772029968.4422195, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Japanese."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772029970.7561471}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772029970.8721118, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Japanese."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772029973.5269294}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772029978.236843, "reason": "The text contains a significant amount of English, including code and variable names, which makes it primarily not in Japanese."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772029978.8428233}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772030012.5239544, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Japanese."}

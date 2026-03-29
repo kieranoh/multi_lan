@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027526.2801635, "reason": "The text contains a mix of programming code and comments in Russian, but the primary content is code."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027531.2327332}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772027531.2376554, "reason": "The text is primarily in English with some Russian comments."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027531.2705648}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772027531.4253557}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027532.10739}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772027532.596821}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772027532.7007792}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027533.2229412}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027534.1595721, "reason": "The text is primarily written in English with some Russian comments."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027534.3704932}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772027537.5786135}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772027539.9486592, "reason": "Text contains a mix of Russian and programming code, making it not primarily in Russian."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772027542.5837693}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027543.7456791}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027545.9225807, "reason": "The text contains a mix of programming code and comments in Russian, but the primary content is code."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027548.0229428}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027550.3659155}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772027551.4593275}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027553.312974}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027554.2039752}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772027555.1868126}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772027555.7627525}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027556.4276776}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027557.1905046}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027558.0041666}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772027560.0512226}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027560.367578}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027561.5061057}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772027562.9297116, "reason": "The text is primarily in C++ programming language with some comments in Russian, but the majority is code."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027567.6108608, "reason": "The text contains a significant amount of English programming terminology and code, with only a few Russian phrases."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772027569.3960853, "reason": "The text contains a mix of Russian and programming code, which includes English terms and syntax."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772027574.4038305, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Russian."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772027575.5624733}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027579.0166292}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027579.7373257}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772027580.2841225}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027580.6895437}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772027583.0836318}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027586.3513925}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027587.6439755}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772027623.6353037, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Russian text."}

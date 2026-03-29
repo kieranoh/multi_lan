@@ -1,0 +1,42 @@
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772028467.7175567, "reason": "The text contains a mix of Vietnamese and programming code, making it primarily not in Vietnamese."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772028468.0125413, "reason": "The text contains programming code and comments in Vietnamese, but the majority is in English."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772028470.657667, "reason": "The text contains programming code and comments in Vietnamese, but it is not primarily written in Vietnamese due to the presence of code syntax."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772028470.696264, "reason": "The text contains programming code and comments in Vietnamese, but it is primarily a code snippet."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772028471.1625211, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Vietnamese."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772028473.3085063}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772028474.3233495}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772028474.546667, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Vietnamese."}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772028474.5504222}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772028476.5460756, "reason": "The text contains a mix of Vietnamese and programming code, which makes it primarily not in Vietnamese."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772028476.9293911, "reason": "The text contains a significant amount of code and technical terms, making it primarily in English, despite some Vietnamese comments."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772028482.1193774, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Vietnamese."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772028482.3719196}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772028487.0680823, "reason": "The text contains a mix of Vietnamese and programming code, making it primarily not in Vietnamese."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772028487.3948593, "reason": "The text contains a mix of Vietnamese and programming code, which makes it not primarily in Vietnamese."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772028488.1963072}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772028488.4474149}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772028489.0033174, "reason": "The text contains programming code and comments in Vietnamese, but the majority is in English."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772028490.3504286, "reason": "The text contains programming code and comments in Vietnamese, but it is primarily a code snippet."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772028490.9991221, "reason": "The text contains a significant amount of code and technical terms, which are not primarily in Vietnamese."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772028493.7026303}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772028493.7232652, "reason": "The text contains programming code and comments in Vietnamese, but it is not primarily written in Vietnamese due to the presence of code syntax and English terms."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772028494.0895693, "reason": "The text contains a significant amount of programming code and comments in Vietnamese, but the primary content is not in Vietnamese."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772028496.410473}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772028496.7986915}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772028501.9390454}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772028503.1859837}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772028504.4896061, "reason": "The text contains a mix of Vietnamese and programming code, making it primarily not in Vietnamese."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772028509.3987365, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Vietnamese."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772028510.2625773, "reason": "The text contains a mix of Vietnamese and programming code, which makes it primarily not in Vietnamese."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772028512.220202, "reason": "The text contains a significant amount of English programming terminology and code, making it primarily not in Vietnamese."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772028513.1951096, "reason": "The text contains a mix of Vietnamese and programming code, which makes it not primarily in Vietnamese."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772028514.3029053, "reason": "The text contains programming code and comments in Vietnamese, but it is primarily technical and not purely written in Vietnamese."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772028517.4313352, "reason": "The text contains a significant amount of programming code and comments in Vietnamese, but the presence of code makes it primarily not a Vietnamese text."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772028520.698735, "reason": "The text contains a significant amount of English programming terminology and code, which makes it not primarily written in Vietnamese."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772028521.4005527}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772028521.9406068, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not in Vietnamese."}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772028522.719005}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772028523.6111007}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772028526.608112}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772028526.8176277}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772028571.7425177, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily in English despite some Vietnamese content."}

@@ -1,0 +1,42 @@
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772029549.3236282, "reason": "The text contains programming code and comments in Spanish, but it is primarily a code snippet rather than a text written in Spanish."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772029549.9080741, "reason": "The text contains primarily English programming code and comments, with only a few Spanish phrases."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772029552.005291, "reason": "The text contains a mix of Spanish and programming code, making it primarily in English due to the presence of code syntax."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772029552.2572558, "reason": "The text contains a mix of Spanish and programming code, but the primary content is not in Spanish."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772029552.4375987, "reason": "The text contains a mix of programming code and comments in Spanish, but the primary content is not in Spanish."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772029553.908528, "reason": "The text contains a mix of Spanish and programming code, but the primary language of the text is not Spanish."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772029555.9030197, "reason": "The text contains a mix of Spanish and programming code, but the primary language of the text is not Spanish."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772029556.2524543, "reason": "The text is primarily in English with some Spanish comments."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772029557.0041049}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772029557.745972}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772029558.2681491, "reason": "The text contains a significant amount of programming code and comments in Spanish, but the presence of code and technical terms makes it primarily a technical document rather than purely Spanish."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772029558.4779913, "reason": "The text is primarily written in C++ with comments in Spanish, but the majority of the content is code."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772029563.2325792, "reason": "The text contains a mix of Spanish and programming code, which includes English terms and syntax."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772029564.2192762, "reason": "The text contains a significant amount of English programming terminology and code, making it primarily in English despite the Spanish comments."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772029567.6178758, "reason": "The text contains a significant amount of code and comments in English, making it primarily not in Spanish."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772029568.1436675}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772029570.159541, "reason": "The text contains programming code and comments in Spanish, but it is primarily a code snippet."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772029570.96529, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Spanish."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772029571.3990743, "reason": "The text contains a mix of Spanish and programming code, making it primarily in English due to the presence of code syntax."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772029572.0000246}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772029572.44424, "reason": "The text contains a mix of Spanish and programming code, making it primarily not in Spanish."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772029573.0315604, "reason": "The text contains a significant amount of code and comments in Spanish, but it is primarily a programming code snippet."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772029573.5668423, "reason": "The text contains a mix of Spanish and programming code, but the primary content is not in Spanish."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772029574.9054115, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Spanish."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772029576.862555, "reason": "The text contains a mix of Spanish and programming code, making it primarily not in Spanish."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772029579.2878563}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772029580.9148226}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772029583.999256, "reason": "The text contains a mix of Spanish and programming code, but the primary language is not Spanish."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772029585.190589}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772029588.199466, "reason": "The text contains a mix of Spanish and programming code, which includes English terms and syntax."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772029588.229663, "reason": "The text is primarily in English with some Spanish comments."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772029590.2990682, "reason": "The text is primarily written in C++ with comments in Spanish, but the majority of the content is code."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772029592.4221823, "reason": "The text contains a significant amount of programming code and comments in Spanish, but the presence of code and technical terms makes it primarily a technical document rather than purely Spanish."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772029594.8604078, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Spanish."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772029596.3598375, "reason": "The text contains a mix of Spanish and programming code, but the primary language of the text is not Spanish due to the presence of code."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772029596.887564, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily in English despite some Spanish content."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772029598.224598, "reason": "The text contains a significant amount of English, particularly in the code comments and function signatures, which makes it primarily not in Spanish."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772029601.4991758}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772029602.7760952}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772029605.4248486}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772029605.5289414}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772029643.3259847, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Spanish content."}

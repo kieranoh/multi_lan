@@ -1,0 +1,15 @@
+{"task": "ppt_compl_js", "ok": false, "ts": 1772012488.0510151, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_compl_py", "ok": false, "ts": 1772012488.0752728, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1772012488.2140527, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_compl_go", "ok": false, "ts": 1772012488.5702782, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_compl_c", "ok": false, "ts": 1772012489.4876072, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_direct_c", "ok": false, "ts": 1772012496.2585964, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_direct_go", "ok": false, "ts": 1772012496.2862003, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_direct_js", "ok": false, "ts": 1772012496.5065322, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_secure_js", "ok": false, "ts": 1772012497.090137, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_direct_py", "ok": false, "ts": 1772012497.1319132, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_direct_cpp", "ok": false, "ts": 1772012497.1673288, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_secure_py", "ok": false, "ts": 1772012497.4145014, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_secure_go", "ok": false, "ts": 1772012497.4693317, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_secure_c", "ok": false, "ts": 1772012498.3788908, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1772012499.3130896, "reason": "The text is primarily written in Mongolian, not Buriat."}

@@ -1,0 +1,59 @@
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771957994.6153367}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771957994.9310195}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771957995.373702}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771957996.5325572}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771957998.1879737}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771957999.458332}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771958007.4625354}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771958008.73829}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771958011.8258932}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771958012.4282844}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771958013.4515514}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771958014.0124946}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771958020.2560554}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771958022.157013}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771958024.785773}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771958025.7332945}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771958026.8369646}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771958028.8429577}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771958029.9891248}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771958032.7427812}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771958033.6580608}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771958039.407653}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771958039.7806478}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771958040.872059}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771958046.404044}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771958048.0052602}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771958050.240477}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771958056.404055}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771958057.8901985}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771958057.9418366}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771958062.7552612}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771958064.629555}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017925.8013182, "reason": "The text contains a mix of Irish and programming code, making it not primarily in Irish."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017925.8419247, "reason": "The text contains a mix of English and Irish, primarily written in English."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017927.8670883, "reason": "The text is primarily written in English with only a small portion in Irish."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017928.520009, "reason": "The text contains primarily English programming syntax and comments, with only a small portion in Irish."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017928.5567577, "reason": "The text contains a mix of Irish and programming language syntax, making it primarily not in Irish."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772017931.3785763, "reason": "The text contains a mix of Irish and programming language syntax, making it primarily not in Irish."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772017932.5433052, "reason": "The text contains a mix of Irish and programming language syntax, making it primarily not in Irish."}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1772017935.0052552}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017935.6141913, "reason": "The text is primarily written in English with some Irish phrases."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017935.8555727, "reason": "The text is primarily written in English with a small portion of Irish comments."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017936.419304, "reason": "The text is primarily written in English with some Irish comments."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017936.813866, "reason": "The text contains a mix of programming code and comments in Irish, but the primary content is not in Irish."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772017938.1964734, "reason": "The text contains a mix of programming code and comments in Irish, but the primary language is not Irish due to the presence of English code and syntax."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017939.6310668, "reason": "The text is primarily written in English, with only a small portion in Irish."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017940.4624033, "reason": "The text is primarily written in English with some Irish comments."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017946.6728146, "reason": "The text contains a mix of Irish and programming code, making it primarily not in Irish."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772017947.6968162, "reason": "The text contains a mix of Irish and programming language syntax, making it primarily not in Irish."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017948.5466654, "reason": "The text contains a mix of C programming language syntax and comments in Irish, but the primary content is not in Irish."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017948.752493, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Irish."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017949.0650291, "reason": "The text contains a mix of Irish and programming language syntax, making it primarily not in Irish."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017949.6888695, "reason": "The text is primarily written in English with some Irish phrases."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017953.318712, "reason": "The text is primarily written in English with a small portion of Irish comments."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017954.9143817, "reason": "The text is primarily written in English with only a small portion in Irish."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017956.7416084, "reason": "The text is primarily written in English with some Irish phrases and comments."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772017960.1403525, "reason": "The text contains a mix of programming code and comments in Irish, but the primary language is not Irish due to the presence of English code and syntax."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017963.5219457, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Irish."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017978.6674728, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Irish phrases."}

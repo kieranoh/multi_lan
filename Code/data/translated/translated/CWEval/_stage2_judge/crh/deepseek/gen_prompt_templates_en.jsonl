@@ -1,0 +1,15 @@
+{"task": "ppt_compl_js", "ok": false, "ts": 1772013362.240612, "reason": "The text contains a significant amount of Turkish language elements and structure, which makes it primarily Turkish rather than Crimean Tatar."}
+{"task": "ppt_compl_go", "ok": false, "ts": 1772013363.5868337, "reason": "The text contains a significant amount of Turkish vocabulary and structure, which makes it primarily Turkish rather than Crimean Tatar."}
+{"task": "ppt_compl_py", "ok": false, "ts": 1772013363.589116, "reason": "The text contains a significant amount of Turkish vocabulary and structure, which makes it primarily Turkish rather than Crimean Tatar."}
+{"task": "ppt_compl_c", "ok": false, "ts": 1772013363.6809156, "reason": "The text contains a significant amount of Turkish vocabulary and structure, which makes it primarily Turkish rather than Crimean Tatar."}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1772013364.2590787, "reason": "The text contains a significant amount of Turkish vocabulary and structure, which makes it primarily Turkish rather than Crimean Tatar."}
+{"task": "ppt_direct_js", "ok": false, "ts": 1772013369.536942, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "ppt_direct_c", "ok": false, "ts": 1772013369.99398, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "ppt_direct_go", "ok": false, "ts": 1772013370.1443405, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "ppt_direct_cpp", "ok": false, "ts": 1772013370.46638, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "ppt_secure_js", "ok": false, "ts": 1772013370.6515512, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "ppt_direct_py", "ok": false, "ts": 1772013370.8021116, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "ppt_secure_go", "ok": false, "ts": 1772013370.8511543, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "ppt_secure_py", "ok": false, "ts": 1772013370.9408658, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "ppt_secure_c", "ok": false, "ts": 1772013371.0314257, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1772013372.2115343, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}

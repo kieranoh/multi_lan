@@ -1,0 +1,25 @@
+{"task": "ppt_compl_py", "ok": true, "ts": 1771921267.0674005}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771921268.3496747}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771921273.8337905}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771921274.0482056}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771921274.0803492}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771921274.8482797}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771921275.528756}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771921275.9753613}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771921277.0486708}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771921277.0962837}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771921278.1504352}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771921289.743494}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771921289.8639812}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771921289.9050658}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771921295.2186544}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771921295.6164978}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771921296.6664107}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771921302.3519797}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771921302.9562194}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771921303.186462}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771921304.4117465}
+{"task": "ppt_compl_go", "ok": false, "ts": 1772013321.2572803, "reason": "The text contains a significant amount of English and programming terminology, which is not characteristic of Esperanto."}
+{"task": "ppt_compl_js", "ok": false, "ts": 1772013321.2901795, "reason": "The text contains a significant amount of English and programming terminology, which is not characteristic of Esperanto."}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1772013322.178448, "reason": "The text contains a significant amount of English and programming terminology, which is not characteristic of Esperanto."}
+{"task": "ppt_compl_c", "ok": false, "ts": 1772013323.3112743, "reason": "The text contains a significant amount of English technical terminology and code formatting that is not characteristic of Esperanto."}

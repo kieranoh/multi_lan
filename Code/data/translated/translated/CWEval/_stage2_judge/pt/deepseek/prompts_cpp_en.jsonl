@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027150.5906281, "reason": "The text contains programming code and comments in Portuguese, but the primary content is not in Portuguese."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772027154.259433, "reason": "The text contains programming code and comments in Portuguese, but it is not primarily written in Portuguese as it includes code syntax."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027154.6802373}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772027155.6497483, "reason": "The text contains a mix of programming language syntax and comments in Portuguese, but it is primarily technical and not purely written in Portuguese."}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772027156.5540514}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027156.989888}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027157.4406133}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027157.95863}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027158.2865894}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027160.4530199, "reason": "The text contains a mix of programming code and comments in Portuguese, but the primary content is not in Portuguese."}
+{"task": "cwe_329_0_cpp", "ok": true, "ts": 1772027161.7612917}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772027163.268435}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772027165.5403674, "reason": "The text contains a mix of Portuguese and programming code, which includes English terms and syntax."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772027167.7761605}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027170.519788, "reason": "The text contains programming code and comments in Portuguese, but the primary content is not in Portuguese."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027172.0763812}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027172.5708013}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027175.1907034}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772027177.144083}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027178.3884964}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027178.499418}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772027178.7541502, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Portuguese."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027180.676129}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772027181.1898122, "reason": "The text contains a mix of programming language syntax and comments in Portuguese, but it is primarily technical and not purely written in Portuguese."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027183.4764132}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027184.228621}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772027185.720615}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027186.883617}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027189.080443}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772027194.0380619, "reason": "The text contains a mix of Portuguese and programming code, which includes English terms and syntax."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027195.3968384, "reason": "The text is primarily written in C++ with comments in Portuguese, but the majority of the content is code."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772027196.7909486, "reason": "The text is primarily written in C++ with comments in Portuguese, but the majority of the content is code."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772027197.181114}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027203.165439}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772027203.2921677, "reason": "The text contains a mix of programming code and comments in Portuguese, but the primary content is not in Portuguese."}
+{"task": "cwe_022_2_cpp", "ok": true, "ts": 1772027204.1040742}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027205.941744}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027207.1896038}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772027210.0881598}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027212.004874}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027212.1641927}
+{"task": "cwe_022_2_cpp", "ok": true, "ts": 1772027251.2517638}

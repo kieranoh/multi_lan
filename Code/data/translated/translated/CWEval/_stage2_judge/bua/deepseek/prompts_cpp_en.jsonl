@@ -1,0 +1,22 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772022056.1335835, "reason": "The text contains a mix of programming code and comments in Mongolian, not primarily in Buriat."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772022056.8881497, "reason": "The text contains a mix of programming code and comments in Mongolian, not primarily in Buriat."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772022057.6556008, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772022058.110426, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772022058.257121, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772022058.6132708, "reason": "The text is primarily written in English with some Buriat phrases, but the majority is in English programming context."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772022059.3376012, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772022060.2116468, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772022060.759043, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772022062.8334067, "reason": "The text contains a significant amount of code and comments in a programming context, primarily in English, with some comments in Mongolian, not Buriat."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772022064.4180217, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772022064.7065403, "reason": "The text contains a significant amount of code and comments in Mongolian, not Buriat."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772022068.7683816, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772022070.1258674, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772022071.8268669, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772022075.7539845, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772022078.4357524, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772022080.5373185, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772022081.6288042, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772022082.9771714, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772022083.458327, "reason": "The text is primarily written in Mongolian, not Buriat."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772022106.784726, "reason": "The text is primarily written in Mongolian, not Buriat."}

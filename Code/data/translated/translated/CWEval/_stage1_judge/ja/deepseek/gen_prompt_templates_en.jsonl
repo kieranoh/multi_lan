@@ -1,0 +1,15 @@
+{"task": "ppt_compl_py", "ok": true, "ts": 1771925883.0403428, "attempt": 1}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771925883.3329859, "attempt": 1}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771925883.6808667, "attempt": 1}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1771925884.215917, "attempt": 1}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771925897.143029, "attempt": 1}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771925897.8440738, "attempt": 1}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771925898.3422887, "attempt": 1}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771925898.475639, "attempt": 1}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771925898.8464289, "attempt": 1}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771925900.2785966, "attempt": 1}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771925900.323049, "attempt": 1}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771925900.6500633, "attempt": 1}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771925900.9798412, "attempt": 1}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771925901.2747874, "attempt": 1}
+{"task": "ppt_compl_js", "ok": false, "ts": 1772013512.582793, "attempt": 1, "reason": "The text contains a significant portion in English, specifically the mention of 'JavaScript' and the code block syntax, which indicates it is not primarily in Japanese."}

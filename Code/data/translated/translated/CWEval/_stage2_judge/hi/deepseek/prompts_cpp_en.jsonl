@@ -1,0 +1,41 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026793.4256182, "reason": "The text contains programming code and comments in Hindi, but the primary content is not in Hindi."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772026794.898814, "reason": "The text contains a mix of Hindi and programming code, making it primarily in English."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772026795.195324, "reason": "The text contains a mix of Hindi and programming code, making it primarily not in Hindi."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026795.9628162, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hindi."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772026798.6052027, "reason": "The text contains a mix of Hindi and programming code, making it primarily not in Hindi."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772026798.7254848}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772026800.1484613, "reason": "The text contains a mix of Hindi and programming code, which is primarily in English."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772026800.29543}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772026801.1296594}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026801.2531288, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Hindi."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772026807.0852385}
+{"task": "cwe_327_2_cpp", "ok": true, "ts": 1772026808.493156}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772026812.2719471, "reason": "The text contains a mix of Hindi and programming code, which includes English syntax and keywords."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772026812.4160213}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772026812.7726772}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026814.7090704, "reason": "The text contains programming code and comments in Hindi, but the primary content is not in Hindi."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772026815.3309042, "reason": "The text contains a significant amount of English programming syntax and terminology, making it primarily not in Hindi."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772026818.7369585, "reason": "The text contains programming code and comments in English, which makes it not primarily in Hindi."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772026819.728838, "reason": "The text contains a mix of Hindi and programming code, making it primarily in English."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772026821.5242314, "reason": "The text contains a mix of programming code and Hindi comments, but the primary content is not in Hindi."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772026821.8657079, "reason": "The text contains programming code and comments in Hindi, but it is primarily a technical description in English."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772026822.2847633, "reason": "The text contains a mix of Hindi and programming code, making it primarily not in Hindi."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772026824.6339414, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hindi."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772026826.65246}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026828.5975184, "reason": "The text is primarily in English with only a small portion in Hindi."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772026829.9134963}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772026834.5737498}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772026835.9589899, "reason": "The text contains a mix of Hindi and programming code, making it primarily not in Hindi."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772026836.5470335, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily not in Hindi."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026839.2415855, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Hindi."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772026842.6165688, "reason": "The text contains a mix of Hindi and programming code, which is not primarily in Hindi."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772026844.8680055, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily not in Hindi."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772026846.7024996, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Hindi."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772026847.7136476, "reason": "The text contains a mix of Hindi and programming code, which makes it primarily not in Hindi."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772026850.125443, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hindi."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772026850.7765996}
+{"task": "cwe_327_2_cpp", "ok": true, "ts": 1772026850.8927088}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772026853.972108, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hindi."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772026857.3106174}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772026858.4237103, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Hindi."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772026901.9464905, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Hindi."}

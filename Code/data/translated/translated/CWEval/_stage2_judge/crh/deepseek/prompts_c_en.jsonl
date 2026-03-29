@@ -1,0 +1,57 @@
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771955361.5957768}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771955364.7016304}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771955380.1555796}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771955382.0988376}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771955386.2728844}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771955394.448071}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771955398.7869608}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771955407.8672345}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771955409.5063787}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771955411.510714}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017102.0477629, "reason": "The text contains a mix of programming comments and code, which is not primarily in Crimean Tatar. The language used in the comments is not consistent with standard Crimean Tatar."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772017102.1008866, "reason": "The text contains a mix of programming language syntax and comments in Turkish, not primarily in Crimean Tatar."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017102.7845984, "reason": "The text contains programming code and comments in a mix of English and Turkish, not primarily in Crimean Tatar."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772017103.733273, "reason": "The text is primarily written in a programming context with comments in Turkish, not Crimean Tatar."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772017104.7553606, "reason": "The text contains a mix of programming language syntax and comments in Turkish, not primarily in Crimean Tatar."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017104.9730928, "reason": "The text is primarily written in C programming language with comments in Turkish, not Crimean Tatar."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772017107.794301, "reason": "The text contains a mix of programming comments and code, which is not primarily in Crimean Tatar. Additionally, it includes technical terms and syntax that are not characteristic of the Crimean Tatar language."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017110.2512827, "reason": "The text contains a significant amount of code and comments in a programming context, which may not be primarily in Crimean Tatar. Additionally, the presence of English programming terms and syntax suggests it is not purely Crimean Tatar."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017111.4151816, "reason": "The text contains a significant amount of programming code and comments in a mix of languages, primarily English, with only a few phrases in Crimean Tatar. The overall structure and context do not represent primarily Crimean Tatar."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017111.501407, "reason": "The text contains a significant amount of C programming language code, which is not in Crimean Tatar, and the comments are mixed with technical terms that may not be purely Crimean Tatar."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772017111.8553138, "reason": "The text contains programming code and comments in a mix of English and Crimean Tatar, but is primarily in English."}
+{"task": "cwe_918_1_c", "ok": false, "ts": 1772017113.9340255, "reason": "The text contains a significant amount of technical programming language and English terms, which are not characteristic of Crimean Tatar."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772017116.1397839, "reason": "The text is primarily written in C programming language with comments in Turkish, not Crimean Tatar."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772017116.2019973, "reason": "The text contains programming code and comments in a mix of English and Turkish, which does not primarily represent Crimean Tatar."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772017116.2425637, "reason": "The text is primarily written in C programming language, not in Crimean Tatar."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017116.5194838, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Crimean Tatar."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017117.2039895, "reason": "The text contains a mix of programming language syntax and comments in Azerbaijani, not primarily in Crimean Tatar."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772017117.2702036, "reason": "The text is primarily written in C programming language, not in Crimean Tatar."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772017120.831131, "reason": "The text contains a mix of programming language syntax and comments in a language that resembles Turkish rather than Crimean Tatar."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017123.269676, "reason": "The text contains a mix of programming code and comments, and while the comment is in Crimean Tatar, the presence of code makes it not primarily in Crimean Tatar."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017123.6307855, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Crimean Tatar."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017123.9900365, "reason": "The text is primarily written in Turkish, not Crimean Tatar."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017124.3641856, "reason": "The text contains programming code and comments in Turkish, not primarily in Crimean Tatar."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772017126.0733593, "reason": "The text contains a mix of programming language syntax and comments in Turkish, not primarily in Crimean Tatar."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017126.1226676, "reason": "The text contains programming code and comments in English, which is not primarily Crimean Tatar."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017128.6420085, "reason": "The text contains a mix of programming comments and code, which is not primarily in Crimean Tatar."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772017128.699056, "reason": "The text contains a significant amount of programming code and comments in Turkish, which is not primarily Crimean Tatar."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772017131.5552077, "reason": "The text is primarily written in English with some Crimean Tatar phrases."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772017132.030093, "reason": "The text contains a mix of programming language syntax and comments in Turkish, not primarily in Crimean Tatar."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772017132.3633792, "reason": "The text is primarily written in C programming language with comments in Turkish, not Crimean Tatar."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772017132.491709, "reason": "The text is primarily written in programming language syntax and comments, not in Crimean Tatar."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017133.7033157, "reason": "The text is primarily written in C programming language with comments in Turkish, not Crimean Tatar."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772017136.3535783, "reason": "The text is primarily written in C programming language, not in Crimean Tatar."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017141.9294002, "reason": "The text is primarily written in C programming language, not in Crimean Tatar."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772017142.3835034, "reason": "The text contains a mix of programming comments and code, which is not primarily in Crimean Tatar. It includes technical terms and phrases that are not characteristic of the language."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772017142.535917, "reason": "The text contains a mix of programming language syntax and comments in a language that resembles Turkish rather than Crimean Tatar."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017143.5807188, "reason": "The text contains a mix of programming code and comments, but the comment is primarily in Turkish, not Crimean Tatar."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772017144.5144486, "reason": "The text contains programming code and comments in English, which indicates it is not primarily in Crimean Tatar."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017145.064003, "reason": "The text contains a significant amount of C programming language syntax and comments, which are not in Crimean Tatar, making it primarily not in Crimean Tatar."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017147.1979694, "reason": "The text contains a significant amount of programming code and comments in Turkish, which is not primarily Crimean Tatar."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772017147.9580526, "reason": "The text contains programming code and comments in a mix of English and Crimean Tatar, but is primarily in English."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017148.6939232, "reason": "The text is primarily written in C programming language with only a small portion in Crimean Tatar."}
+{"task": "cwe_918_1_c", "ok": false, "ts": 1772017151.0613837, "reason": "The text contains a significant amount of technical programming language and English terms, which are not characteristic of Crimean Tatar."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017153.5855868, "reason": "The text contains a significant amount of code and technical terms that are not in Crimean Tatar, making it primarily in English with some Crimean Tatar comments."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017155.9420888, "reason": "The text is primarily written in C programming language with comments in Crimean Tatar, but it contains significant portions of English, especially in function names and parameters."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017166.333948, "reason": "The text contains a significant amount of code and comments in English, which is not primarily Crimean Tatar."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017198.6096442, "reason": "The text is primarily written in C programming language with only a few phrases in Crimean Tatar, making it not primarily in Crimean Tatar."}

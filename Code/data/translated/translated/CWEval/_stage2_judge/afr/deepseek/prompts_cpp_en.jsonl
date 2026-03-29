@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025313.4252536, "reason": "The text contains programming code and comments in Afrikaans, but the majority is in English."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772025315.787671, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Afrikaans."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772025316.3727725, "reason": "The text contains a mix of programming code and comments in Afrikaans, but the primary content is not in Afrikaans."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772025318.0911775, "reason": "The text contains a mix of programming code and comments, but the comments are primarily in Afrikaans."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772025319.674623}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772025320.6057873}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772025320.8820536}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025321.2597177, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not Afrikaans."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025321.7981887}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025322.400297, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not Afrikaans."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772025323.0245626}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772025326.7025805}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772025331.19712}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772025331.6814373}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025331.9685853}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025334.7998886, "reason": "The text contains programming code and comments in English, which is not primarily Afrikaans."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772025335.2075076}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772025337.5321157, "reason": "The text contains a mix of programming code and Afrikaans, but the primary content is not in Afrikaans."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772025339.3642752}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772025339.6872}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772025339.8247714, "reason": "The text contains a mix of programming code and comments in Afrikaans, but the primary content is not in Afrikaans."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025340.7154522}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772025341.4783258}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772025342.0393307, "reason": "The text contains a mix of programming code and comments in Afrikaans, but the primary language of the text is not Afrikaans due to the presence of C++ code syntax."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772025343.4797494}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772025346.5522861}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772025347.0738797}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772025349.588973, "reason": "The text contains a mix of programming code and comments, but the comments are primarily in Afrikaans."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025352.3100626, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not Afrikaans."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025353.7137473}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772025357.7451317}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025360.0648346, "reason": "The text contains a significant amount of programming code and comments in Afrikaans, but it is primarily a technical document rather than a text written primarily in Afrikaans."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772025360.1938145}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772025361.565234, "reason": "The text contains a mix of programming code and comments in Afrikaans, but the primary content is not in Afrikaans."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025363.6580691, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not Afrikaans."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772025363.7855024, "reason": "The text contains a mix of programming code and comments in Afrikaans, but the primary language of the code is not Afrikaans."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025365.5811257}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025367.8378751}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772025369.7374964}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772025371.7301283}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772025374.4912713}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025412.2533827, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not Afrikaans."}

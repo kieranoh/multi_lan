@@ -1,0 +1,41 @@
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772008599.345912}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772023320.7678206, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023321.039571, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772023322.7026424, "reason": "The text is written in Japanese, not Santail."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772023322.7091339, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772023322.7645671, "reason": "The text is written in Korean, not Santail."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772023322.8219013, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772023323.857233, "reason": "The text is written in Korean, not Santail."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772023324.0268762, "reason": "The text is primarily written in Bengali, not Santail."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772023326.366387, "reason": "The text is written primarily in Korean, not in Santail."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023327.2403162, "reason": "The text is primarily written in C++ programming language with comments in Korean, not in Santail."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772023329.5176415, "reason": "The text is written primarily in Korean, not Santail."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023330.0529864, "reason": "The text contains a significant amount of code and comments in Korean, which is not in Santail."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772023331.5659516, "reason": "The text is written in C++ programming language, not in Santail."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772023332.6114652, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772023334.7394352, "reason": "The text is written primarily in Korean, not Santail."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772023334.8217614, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772023335.2010055, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772023335.3702295, "reason": "The text is written in C++ programming language, not in Santail."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772023335.3761077, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023336.765291, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772023338.2174847, "reason": "The text is written in C++ programming language, not in Santail."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023338.7309582, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772023339.7875772, "reason": "The text is written in C++ programming language, not in Santail."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023340.1378489, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772023341.9295135, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023342.5675912, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772023343.3789954, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772023343.9953132, "reason": "The text is written in C++ programming language, not in Santail."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772023344.0505104, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772023344.4054105, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023344.8765786, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772023345.2197902, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023345.3371623, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772023346.1942835, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772023347.5099182, "reason": "The text is written in C++ programming language, not in Santail."}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772023348.46492, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023348.6064842, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772023349.1059928, "reason": "The text is written in C++ programming language, not in Santail."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772023349.6079075, "reason": "The text is primarily written in C++ programming language, not in Santail."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772023369.406329, "reason": "The text is primarily written in C/C++ programming language with comments in Korean, not in Santail."}

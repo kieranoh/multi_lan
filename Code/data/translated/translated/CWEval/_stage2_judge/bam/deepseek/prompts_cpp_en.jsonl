@@ -1,0 +1,39 @@
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772003939.3729503}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772004250.8127177}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772004250.882423}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772022787.7569797, "reason": "The text contains programming code and English syntax, which indicates it is not primarily written in Bambara."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772022790.2404516, "reason": "The text contains programming code and English syntax, which indicates it is not primarily written in Bambara."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772022790.5574436, "reason": "The text contains programming code and English terms, which indicates it is not primarily written in Bambara."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772022791.340998, "reason": "The text contains programming code and technical terms that are not in Bambara, indicating it is not primarily written in Bambara."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772022792.1442747, "reason": "The text is primarily written in C++ programming language with comments in English and a small portion in Bambara."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772022793.2451556, "reason": "The text contains programming code and English phrases, which are not primarily in Bambara."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772022795.4308183, "reason": "The text is primarily written in C++ programming language with only a few phrases in Bambara."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772022798.0367482, "reason": "The text is primarily written in C++ programming language with comments in French, not in Bambara."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772022799.2170706, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772022799.7269485, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772022800.2327073, "reason": "The text is written in C++ programming language, not in Bambara."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772022801.589313, "reason": "The text contains a significant amount of programming code and technical terminology that is not in Bambara, making it primarily not in Bambara."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772022801.6111453, "reason": "The text is written in C++ programming language, not in Bambara."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772022802.9480731, "reason": "The text contains programming code and technical terms that are not primarily in Bambara."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772022803.3788984, "reason": "The text is primarily written in French, not Bambara."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772022803.6380732, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772022807.835246, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772022809.5836663, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772022809.7066379, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772022810.4976819, "reason": "The text contains a significant amount of programming code and technical terminology that is not in Bambara, making it primarily not in Bambara."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772022810.8385894, "reason": "The text is written in C++ programming language, not in Bambara."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772022811.120298, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772022811.9575956, "reason": "The text is written in C++ programming language, not in Bambara."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772022812.0885625, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772022812.3915925, "reason": "The text contains a significant amount of English and programming syntax, which indicates it is not primarily written in Bambara."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772022812.8801765, "reason": "The text is written in C++ programming language, not in Bambara."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772022814.5697906, "reason": "The text contains a significant amount of programming code and English, which makes it primarily not in Bambara."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772022816.1604807, "reason": "The text is primarily written in C/C++ programming language, not in Bambara."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772022816.705711, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772022817.8873203, "reason": "The text is primarily written in English, not Bambara."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772022819.1645598, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772022819.4366164, "reason": "The text is primarily written in C++ programming language, not in Bambara."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772022838.0176458, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Bambara."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023020.4769218, "reason": "The text contains programming code and comments primarily in English, with only a small portion in Bambara."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772023106.449891}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772023174.1346173, "reason": "The text contains a significant amount of non-Bambara content, including programming syntax and English terms."}

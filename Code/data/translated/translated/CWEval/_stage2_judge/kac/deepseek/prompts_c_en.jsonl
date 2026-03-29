@@ -1,0 +1,32 @@
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772013526.641356, "reason": "The text is primarily written in English with some Jingpho words, but it is not predominantly in Jingpho."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772013527.5370398, "reason": "The text is primarily written in C programming language, not in Jingpho."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772013530.2317653, "reason": "The text contains a significant amount of English programming terminology and syntax, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772013532.4316752, "reason": "The text contains a significant amount of English and programming syntax, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772013533.9376135, "reason": "The text contains a significant amount of code and comments in English, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772013540.117251, "reason": "The text contains a significant amount of English and programming language syntax, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772013540.1961021, "reason": "The text is primarily written in English with some Jingpho phrases, but it does not constitute a primarily Jingpho text."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772013540.832293, "reason": "The text is primarily written in C programming language with a small portion of Jingpho, but the majority is not in Jingpho."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772013541.2436688, "reason": "The text contains a significant amount of code and comments in English, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772013552.1375601, "reason": "The text is primarily written in English with some phrases in Jingpho, but it does not predominantly use the Jingpho language."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772013552.6535053, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English rather than Jingpho."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772013555.1252756, "reason": "The text contains English programming terminology and comments, which are not in Jingpho."}
+{"task": "cwe_918_1_c", "ok": false, "ts": 1772013555.4702532, "reason": "The text contains a mix of programming language syntax and English, with some phrases that may resemble Jingpho but are not primarily in Jingpho."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772013566.3182876, "reason": "The text contains a mix of programming code and English, and does not primarily consist of Jingpho (kac) language."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772013571.3418815, "reason": "The text is primarily written in English with some Jingpho terms, but it is not predominantly in Jingpho."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772013573.671465, "reason": "The text contains programming code and English phrases, which are not primarily in Jingpho."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772013575.053362, "reason": "The text is primarily written in C programming language with comments in Jingpho, but the majority of the content is code, not Jingpho."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772013575.976628, "reason": "The text contains a significant amount of programming code and comments in English, which is not primarily Jingpho."}
+{"task": "cwe_676_0_c", "ok": false, "ts": 1772013580.557066, "reason": "The text contains a mix of programming code and comments in English, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772013582.577708, "reason": "The text contains a mix of programming code and English, and does not primarily consist of Jingpho (kac)."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772013591.4687588, "reason": "The text contains a significant amount of English programming terminology and syntax, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772013603.5796638, "reason": "The text is primarily in English and contains technical terms, not in Jingpho."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772013607.6902997, "reason": "The text contains a significant amount of programming code and English phrases, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772013622.9076555, "reason": "The text contains a significant amount of C programming code and comments in English, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772013626.5626578, "reason": "The text contains a mix of English and Jingpho, but is primarily written in English."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772013634.098413, "reason": "The text contains a significant amount of programming code and does not primarily consist of Jingpho language."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772013682.7467182, "reason": "The text contains a mix of English and Jingpho, primarily written in English."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772013688.0303087, "reason": "The text contains a significant amount of programming code and comments in English, which is not primarily Jingpho."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772013761.2351134, "reason": "The text is not primarily written in Jingpho (kac); it appears to be a repetitive structure without meaningful content in the Jingpho language."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772013840.219524, "reason": "The text does not appear to be primarily written in Jingpho (kac). It contains a repetitive structure and lacks coherent sentences typical of natural language."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772013869.5088222, "reason": "The text is primarily written in English, not Jingpho."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772013870.2153418, "reason": "The text is primarily written in English, with some words that may resemble Jingpho, but the overall structure and vocabulary are not consistent with Jingpho."}

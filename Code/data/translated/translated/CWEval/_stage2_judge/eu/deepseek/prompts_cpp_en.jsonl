@@ -1,0 +1,41 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772028662.4184055, "reason": "The text contains programming code and comments in English, which is not primarily in Basque."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772028664.749211, "reason": "The text contains programming code and comments in a mix of languages, primarily English, which does not conform to being primarily in Basque."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772028664.9408798, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Basque."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772028665.3256648, "reason": "The text is primarily written in C++ programming language with only a small portion in Basque."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772028665.8756356, "reason": "The text contains a mix of programming code and comments in Basque, but the primary content is not in Basque."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772028666.9347277, "reason": "The text contains programming code and comments in English, which indicates it is not primarily in Basque."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772028668.8834343}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772028669.3576488, "reason": "The text contains programming code and comments in Basque, but it is primarily a code snippet rather than a text written in Basque."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772028670.0160658, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772028670.4583483}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772028671.51985, "reason": "The text is primarily written in C++ with only a few sentences in Basque."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772028675.0501196}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772028675.3332996, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772028678.6052926, "reason": "The text contains a mix of Basque and programming language syntax, making it not primarily in Basque."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772028679.978828}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772028680.9437582, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Basque."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772028681.3351548}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772028682.3635032, "reason": "The text contains programming code and comments in English, which is not primarily in Basque."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772028685.0174263, "reason": "The text contains a mix of programming code and comments in Basque, but the primary content is not in Basque."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772028686.0810277, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Basque."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772028686.9025292, "reason": "The text contains a mix of programming code and comments in Basque, but the primary content is not in Basque."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772028687.2106442, "reason": "The text is primarily written in C++ programming language with comments in Basque, but the majority is code."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772028688.1868017, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772028688.8232956}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772028691.3272462}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772028692.1968026}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772028692.8945174, "reason": "The text contains programming code and comments in English, which indicates it is not primarily in Basque."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772028694.6433704, "reason": "The text contains programming code and comments in English, which indicates it is not primarily in Basque."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772028694.6849875}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772028700.9049897, "reason": "The text is primarily written in C++ programming language with only a small portion in Basque."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772028701.0803776, "reason": "The text contains programming code and comments in Basque, but it is not primarily written in Basque due to the presence of C++ syntax and keywords."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772028701.245365, "reason": "The text contains a mix of Basque and programming language syntax, which makes it not primarily in Basque."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772028703.2660964, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Basque."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772028704.2361455, "reason": "The text is primarily written in C++ with only a few sentences in Basque."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772028708.3558292, "reason": "The text contains a mix of programming code and comments in Basque, but the primary content is not in Basque."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772028711.346128, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772028714.4208808}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772028715.409466}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772028716.6605053}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772028720.8997085}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772028721.7130167, "reason": "The text contains a significant amount of English programming terminology and syntax, which makes it primarily not in Basque."}

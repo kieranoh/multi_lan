@@ -1,0 +1,61 @@
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771960699.5663857}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771960701.517902}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771960702.2144327}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771960711.010405}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771960711.9915423}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771960714.3506815}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771960716.097202}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771960718.4040554}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771960720.7213511}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771960722.2135105}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771960725.5449457}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771960728.2182264}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771960729.8706002}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771960730.113603}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771960732.6309524}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771960735.519233}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771960737.875972}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771960740.7578802}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771960746.8330104}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771960747.1684172}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771960751.262878}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771960754.079162}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771960757.7963917}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771960758.6902077}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771960759.7901878}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771960766.7723863}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771960769.5800912}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772019023.0188737, "reason": "The text contains a mix of Persian and programming code, but is primarily in English."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772019023.4651735, "reason": "The text contains a mix of Persian and programming code, making it primarily not in Persian."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772019023.9903548, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily in English."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019024.5173829, "reason": "The text contains a mix of programming code and comments in Persian, but the primary content is code, which is not in Persian."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772019024.5878444, "reason": "The text contains programming code and comments in Persian, but it is primarily written in English due to the presence of code syntax."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772019024.9534626, "reason": "The text contains programming code and comments in Persian, but it is primarily a code snippet."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019026.356406, "reason": "The text contains a mix of C programming code and Persian comments, but the primary language is C."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772019029.7679057, "reason": "The text is primarily written in English with a small portion in Persian."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019030.906416, "reason": "The text contains a mix of programming code and comments in Persian, but the majority is in English."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019031.5544686, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Persian."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019032.1325026, "reason": "The text contains a significant amount of programming code and comments in Persian, but the primary content is not in Persian."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772019032.2670283, "reason": "The text contains a mix of Persian and programming code, making it primarily not in Persian."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772019033.2378213, "reason": "The text contains programming code and comments in Persian, but it is not primarily written in Persian due to the presence of code syntax and English keywords."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019034.9799886, "reason": "The text contains a mix of Persian and programming code, which is not primarily in Persian."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019037.9172747, "reason": "The text contains a significant amount of programming code and comments in Persian, but the primary language is not Persian due to the presence of English code syntax and keywords."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019038.1480362, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Persian."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772019038.6080806, "reason": "The text contains a mix of Persian and programming code, which is not primarily in Persian."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019041.5471373, "reason": "The text contains a mix of C programming language syntax and Persian comments, but it is primarily written in English due to the presence of code."}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1772019043.326641}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772019044.064069, "reason": "The text contains a significant amount of code and English, with only a portion in Persian."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772019046.3274386, "reason": "The text contains a mix of Persian and English programming terminology, but is primarily in English."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772019046.6440744, "reason": "The text contains a mix of Persian and programming code, making it primarily not in Persian."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019047.5336773, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772019047.7553327, "reason": "The text contains programming code and comments in Persian, but it is primarily written in English due to the presence of code syntax."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019050.1940954, "reason": "The text contains a mix of Persian and programming code, which is not primarily in Persian."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772019051.9320147, "reason": "The text contains a mix of Persian and programming code, but is primarily in English."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019052.5231037, "reason": "The text contains a significant amount of programming code and comments in Persian, but the primary content is not in Persian."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772019054.1985507, "reason": "The text contains a mix of programming code and comments in Persian, but the primary content is not in Persian."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019057.1307795, "reason": "The text contains a significant amount of code and comments in English, with only a small portion in Persian."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019060.1848319, "reason": "The text contains a significant amount of programming code and comments in Persian, but the primary content is not in Persian."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772019061.2053142, "reason": "The text contains programming code and comments in Persian, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772019066.2884622, "reason": "The text contains a significant amount of code and English, with only a portion written in Persian."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019072.8676488, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Persian."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019105.1441867, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Persian."}

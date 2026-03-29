@@ -1,0 +1,29 @@
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772002385.8880515}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772002386.0564945}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772002386.0874143}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772002386.112867}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772002386.1220043}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772002386.408569}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772002386.5228887}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772002386.6200867}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772002386.8452644}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772002388.1534164}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772002695.2482471}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772002697.085248}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772002697.1822495}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772022720.0140083, "reason": "The text is primarily written in C++ programming language, not in Igbo."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772022720.0756023, "reason": "The text is primarily written in C++ programming language, not in Igbo."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772022720.3055823, "reason": "The text is primarily written in C++ programming language, not in Igbo."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772022720.3974044, "reason": "The text is primarily written in C++ programming language, not in Igbo."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772022720.754098, "reason": "The text is primarily written in C++ programming language, not in Igbo."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772022720.8696024, "reason": "The text is primarily written in C++ programming language, not in Igbo."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772022722.0772536, "reason": "The text is primarily written in C++ programming language, not in Igbo."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772022724.2209146, "reason": "The text is primarily written in C++ programming language, not in Igbo."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772022725.3903809, "reason": "The text contains primarily programming code and comments in English, with only a few phrases in Igbo."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772022728.6701128, "reason": "The text contains a mix of C++ code and Igbo comments, but is primarily written in English with only a small portion in Igbo."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772022731.2810678, "reason": "The text contains a mix of programming code and comments in Igbo, but the primary content is not in Igbo."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772022733.1466334, "reason": "The text is primarily written in C++ programming language with only a few phrases in Igbo."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772022733.638287, "reason": "The text contains a mix of programming code and comments in Igbo, but the majority is in English, making it primarily not in Igbo."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772022733.962772, "reason": "The text is primarily written in C++ programming language with only a few sentences in Igbo."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772022743.3694446, "reason": "The text is primarily written in English with some Igbo phrases."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772022774.0473015, "reason": "The text contains a significant amount of programming code and English comments, with only a few sections written in Igbo."}

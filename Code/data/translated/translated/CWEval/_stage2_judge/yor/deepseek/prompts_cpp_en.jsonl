@@ -1,0 +1,39 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772024617.3354447, "reason": "The text contains a significant amount of programming code and English, with only a small portion in Yoruba."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772024619.0802178, "reason": "The text contains a mix of Yoruba and programming code, making it primarily not in Yoruba."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772024620.4080164, "reason": "The text contains a mix of programming code and Yoruba language, but the majority is in English."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772024621.1208909, "reason": "The text contains a mix of Yoruba and programming language syntax, making it not primarily in Yoruba."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772024621.532992, "reason": "The text contains a mix of Yoruba and programming language syntax, which makes it primarily not Yoruba."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772024622.1074774, "reason": "The text contains a significant amount of English programming terminology and syntax, which makes it primarily not in Yoruba."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772024623.457417}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772024623.6405847}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772024625.4755578, "reason": "The text contains a significant amount of code and comments in English, with only a few phrases in Yoruba, making it primarily not in Yoruba."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772024625.5061522, "reason": "The text is primarily written in English with some Yoruba phrases, but the majority is in programming language syntax and English comments."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772024626.7212625}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772024627.0345943, "reason": "The text contains a significant amount of English programming syntax and terminology, which makes it primarily not in Yoruba."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772024631.7589965, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Yoruba."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772024633.3823717, "reason": "The text contains a mix of Yoruba and programming language syntax, making it not primarily in Yoruba."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772024636.6487036, "reason": "The text contains a significant amount of English programming terminology and structure, making it primarily not in Yoruba."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772024636.9014492}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772024638.5324237, "reason": "The text contains a significant amount of programming code and English, which makes it primarily not in Yoruba."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772024639.456992, "reason": "The text contains a mix of Yoruba and programming language syntax, making it primarily not Yoruba."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772024641.9441605, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Yoruba."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772024643.118638}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772024643.657925, "reason": "The text contains a mix of Yoruba and programming code, making it not primarily in Yoruba."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772024644.9909275, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Yoruba."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772024645.3947127, "reason": "The text is primarily written in C++ programming language with only a small portion in Yoruba."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772024646.114732}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772024646.6584473, "reason": "The text contains a mix of Yoruba and programming code, making it not primarily in Yoruba."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772024647.4169388, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily in English."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772024648.9326017, "reason": "The text contains a mix of Yoruba and programming code, which is not primarily Yoruba."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772024654.0475147}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772024655.8787866, "reason": "The text is primarily written in English with some Yoruba comments, but the majority of the content is in programming language syntax and English."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772024659.715264, "reason": "The text contains a mix of Yoruba and programming code, which makes it not primarily in Yoruba."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772024660.0033627, "reason": "The text is primarily written in C++ programming language with only a few Yoruba phrases."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772024662.787006}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772024665.3910644, "reason": "The text contains a mix of Yoruba and programming language syntax, making it primarily not Yoruba."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772024667.7911909, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Yoruba."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772024668.9524434, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not Yoruba."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772024669.204442, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Yoruba."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772024670.0064766, "reason": "The text contains a significant amount of programming code and English, which makes it not primarily in Yoruba."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772024671.2369409, "reason": "The text contains a significant amount of code and technical terms that are not in Yoruba, indicating it is not primarily written in Yoruba."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772024673.2150223}

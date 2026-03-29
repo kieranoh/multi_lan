@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027887.6613133, "reason": "The text contains programming code and comments in Polish, but the primary content is not in Polish."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772027889.7526724, "reason": "The text contains programming code and comments in Polish, but it is primarily written in C++."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027890.7723885}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772027892.2330997, "reason": "The text contains a mix of Polish and programming code, making it not primarily in Polish."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027893.3708096}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772027893.5905304}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772027893.9090042, "reason": "The text contains a significant amount of code and comments in Polish, but the overall structure and context are primarily in English."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027894.5268002}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027894.9519272}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027895.0046177, "reason": "The text contains a significant amount of code and comments in Polish, but the primary content is programming code, which is not in Polish."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027895.7980149}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772027898.2065718}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772027902.1676629, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Polish."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772027904.4440103, "reason": "The text contains a mix of Polish and programming code, which includes English terms and syntax."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027905.7762835}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027906.7198968, "reason": "The text contains programming code and comments in Polish, but the majority is in English."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027909.935153}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772027910.279735, "reason": "The text contains a mix of programming code and comments in Polish, but the primary content is not in Polish."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027911.5805779}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027913.3441432}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027913.6458166}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772027914.1729712}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027915.0593297}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027915.060923}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772027917.6241443}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027920.1999297}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027920.2237794}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027922.8717625}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772027924.7835357}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772027925.570954, "reason": "The text contains a mix of Polish and programming code, which includes English terms and syntax."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772027926.6699493, "reason": "The text contains a mix of programming code and comments in Polish, but the majority of the content is in English, specifically the code itself."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772027930.4401155}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027931.601814, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Polish."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772027932.435607, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Polish text."}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772027937.7295687}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027938.1708193}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027939.280756}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027940.3979123}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772027942.7213397}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027944.610201}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027946.5126688}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772027981.2924373, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it not primarily in Polish."}

@@ -1,0 +1,41 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772028812.1506565, "reason": "The text contains programming code and comments in Hungarian, but the majority is in English."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772028815.2031157, "reason": "The text contains a mix of Hungarian and programming code, which makes it primarily not Hungarian."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772028816.6694486}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772028816.9715097}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772028817.969339}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772028817.9930737, "reason": "The text contains a mix of programming code and Hungarian comments, but the primary content is code, not Hungarian."}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772028818.4114673}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772028819.4090421}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772028819.4526227}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772028820.824351}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772028821.803117, "reason": "The text contains a significant amount of programming code and comments in Hungarian, but the primary content is not in Hungarian."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772028823.3330545}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772028828.643853}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772028828.8972583}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772028831.5274718}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772028832.6462812, "reason": "The text contains programming code and comments in Hungarian, but the majority is in English."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772028834.0841792}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772028836.9642231, "reason": "The text contains programming code and comments in Hungarian, but the presence of code indicates that it is not primarily written in Hungarian."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772028837.1711776, "reason": "The text contains a mix of C++ code and Hungarian comments, but the primary content is programming code, not Hungarian."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772028837.7799}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772028839.7674778}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772028841.7615497}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772028842.0768673}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772028842.568278}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772028845.210428}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772028845.992052}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772028846.8929536}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772028851.8195949}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772028852.6777573}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772028853.3322852, "reason": "The text contains a mix of programming code and Hungarian comments, but the primary content is not in Hungarian."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772028855.8689759, "reason": "The text contains a mix of Hungarian and programming code, which affects its primary language classification."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772028859.3630936}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772028861.9281824, "reason": "The text contains a significant amount of programming code and comments in Hungarian, but the overall structure is primarily in English due to the code syntax and keywords."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772028862.632534, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not Hungarian."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772028864.9149494, "reason": "The text contains a mix of C++ code and Hungarian comments, but the primary content is programming code, not Hungarian."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772028866.1254368}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772028870.2009943}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772028872.7494762}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772028873.0696146}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772028874.172973}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772028878.9449036}

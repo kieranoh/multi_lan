@@ -1,0 +1,18 @@
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772033509.3216052, "attempt": 1, "reason": "The text contains English words and phrases that are not in Nuer."}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772033522.384967, "attempt": 1, "reason": "The text contains a significant amount of non-Nuer words and phrases, indicating it is not primarily written in Nuer."}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772033605.5224257, "attempt": 1, "reason": "The text contains a significant amount of English technical terms and phrases, indicating it is not primarily written in Nuer."}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772033606.1242895, "attempt": 1, "reason": "The text contains a significant amount of English programming terminology and syntax, which is not characteristic of the Nuer language."}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772033714.1659162, "attempt": 1, "reason": "The text is primarily in English with some Nuer words, but it does not constitute a coherent text in Nuer."}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772033824.962558, "attempt": 1, "reason": "The text does not appear to be primarily written in Nuer (nus). It contains repeated phrases in English."}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772033830.0335052, "attempt": 1, "reason": "The text contains a significant amount of English technical terminology and structure, which indicates it is not primarily written in Nuer."}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772033830.168354, "attempt": 1, "reason": "The text contains a significant amount of English and technical terms, making it primarily not in Nuer."}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772033897.4725678, "attempt": 1, "reason": "The text consists primarily of repeated syllables and does not form coherent sentences or phrases in Nuer."}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772033897.7149737, "attempt": 1, "reason": "The text contains a command line input (`ls -l`) which is not in Nuer, and the rest of the text appears to be repetitive and lacks coherent meaning in Nuer."}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772033897.7651622, "attempt": 1, "reason": "The text contains a significant amount of technical jargon and programming references that are not characteristic of the Nuer language."}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772033898.2002778, "attempt": 1, "reason": "The text contains a significant amount of technical jargon and repeated phrases that do not conform to the Nuer language structure, indicating it is not primarily written in Nuer."}
+{"task": "cwe_117_0_go", "ok": true, "ts": 1772033900.8887472, "attempt": 1}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772033904.325906, "attempt": 1, "reason": "The text contains repeated phrases and does not convey meaningful content in Nuer."}
+{"task": "cwe_732_2_go", "ok": true, "ts": 1772033905.9788396, "attempt": 1}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772033955.5950353, "attempt": 1, "reason": "The text contains a mix of non-Nuer words and repeated phrases that do not conform to the Nuer language structure."}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772033958.5125196, "attempt": 1, "reason": "The text consists primarily of repeated syllables and does not form coherent sentences or phrases in Nuer."}
+{"task": "cwe_943_0_go", "ok": true, "ts": 1772034006.3238225, "attempt": 1}

@@ -1,0 +1,39 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772022215.6668158, "reason": "The text contains programming code and comments in a mix of English and Rundi, but is primarily in English."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772022217.6665285, "reason": "The text contains a mix of Rundi and programming language syntax, making it primarily not in Rundi."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772022217.955178, "reason": "The text contains programming code and is not primarily in Rundi."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772022218.2090821, "reason": "The text is primarily in English with a small portion in Rundi."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772022218.2151892, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Rundi."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772022218.77288, "reason": "The text contains a mix of programming code and comments in Rundi, but the primary language is not Rundi due to the presence of C++ syntax."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772022219.6724877, "reason": "The text contains programming code and comments in a mix of Rundi and English, making it primarily not in Rundi."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772022220.2432435, "reason": "The text contains programming code and comments in a mix of Rundi and English, which makes it primarily not in Rundi."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772022220.5573409, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Rundi."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772022223.089522, "reason": "The text contains a significant amount of code and technical terminology in C++, which is not in Rundi. While there are some Rundi phrases, the primary language of the text is programming language (C++)."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772022225.0234177, "reason": "The text contains programming code and technical terms that are not primarily in Rundi."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772022225.60462, "reason": "The text is primarily written in C++ with embedded comments in Rundi, but the majority of the content is code."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772022230.856953, "reason": "The text contains a significant amount of programming code and technical terms that are not in Rundi, indicating that it is primarily written in English with some Rundi phrases."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772022231.4471354, "reason": "The text contains a mix of Rundi and programming language syntax, making it primarily not in Rundi."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772022233.7771575, "reason": "The text contains a mix of Rundi and programming code, making it primarily in English with Rundi elements."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772022234.9789689, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Rundi."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772022235.5778806}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772022237.6283538, "reason": "The text contains a significant amount of English programming terminology and syntax, indicating it is not primarily written in Rundi."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772022238.2063153, "reason": "The text contains a mix of Rundi and programming language syntax, primarily in English."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772022240.133897, "reason": "The text contains a mix of Rundi and programming language syntax, making it primarily not in Rundi."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772022241.1608045, "reason": "The text contains programming code and technical terms that are not primarily in Rundi."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772022241.2642004, "reason": "The text is primarily written in C++ with comments in Rundi, but the majority of the content is code."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772022241.643768, "reason": "The text contains a significant amount of code and technical terms that are not in Rundi, making it primarily in C++ with Rundi comments."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772022242.5079763, "reason": "The text contains programming code and comments primarily in English, with only a small portion in Rundi."}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772022244.7249405, "reason": "The text contains a mix of Rundi and programming language syntax, primarily written in a programming context."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772022245.245355, "reason": "The text contains a significant amount of code and technical terms in English, which indicates it is not primarily written in Rundi."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772022245.525141, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Rundi."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772022251.1840155, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Rundi."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772022252.3362844, "reason": "The text contains a mix of Rundi and programming language syntax, making it primarily not in Rundi."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772022257.424465, "reason": "The text is primarily written in C++ with some comments in Rundi, but the majority is code."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772022260.0729704, "reason": "The text contains programming code and is primarily in English, with only a small portion in Rundi."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772022263.329432, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Rundi."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772022263.587092}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772022263.6830485, "reason": "The text contains programming code and technical terms that are not primarily in Rundi."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772022264.742665, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Rundi."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772022267.9629428, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Rundi."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772022270.759839, "reason": "The text contains a significant amount of technical content and code that is not in Rundi, indicating it is primarily written in English with some Rundi phrases."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772022271.1230094}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772022273.453584, "reason": "The text contains a significant amount of programming code and technical terms that are not in Rundi, indicating it is not primarily written in Rundi."}

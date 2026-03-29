@@ -1,0 +1,41 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026616.8095658, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026620.2518964, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Korean."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772026620.2535799, "reason": "The text contains a mix of Korean and programming code, making it primarily not in Korean."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772026621.9220169, "reason": "The text contains a mix of Korean and programming code, making it primarily not in Korean."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772026622.6495993, "reason": "The text contains a mix of Korean and programming code, making it primarily not in Korean."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772026623.2855804}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772026623.7096176}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772026625.587667}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026625.700786, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Korean."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772026626.6485999}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772026628.4236557, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Korean."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772026630.5428946}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772026635.5238512}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026636.7501535, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772026636.9552655}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772026636.9879947}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772026639.2777216, "reason": "The text contains a significant amount of English and programming code, making it not primarily in Korean."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772026642.8568084}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772026643.0456433, "reason": "The text contains a mix of Korean and programming code, making it primarily not in Korean."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772026643.0680294, "reason": "The text contains a mix of programming code and comments in Korean, but the primary content is not in Korean."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772026644.4328458, "reason": "The text contains a mix of Korean and programming code, making it primarily not in Korean."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772026646.3414774}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772026646.4606164, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Korean."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772026647.1944141}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772026649.2644577}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772026649.8577824}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772026653.2904992}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026653.3163342, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Korean."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026658.29134, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Korean."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772026660.9208553}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772026661.923778}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772026663.7003667}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772026663.8364935, "reason": "The text contains a significant amount of code and technical terms in English, with only a few Korean comments."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772026668.6868424, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Korean."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772026671.3163779, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Korean."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772026671.94055, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Korean."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772026673.3314235}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772026675.2971888}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772026677.8035445}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772026680.182545, "reason": "The text contains a significant amount of English and programming code, which makes it not primarily in Korean."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772026681.1111145}

@@ -1,0 +1,61 @@
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771962574.9085977}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771962578.9381335}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771962587.9115894}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771962594.4251676}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771962594.5253935}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771962595.131277}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771962599.7286606}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771962602.4088185}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771962603.0518556}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771962608.283516}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771962616.5758865}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771962626.625993}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771962630.4828215}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771962631.3661563}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771962632.416454}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771962634.1743374}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771962639.1628523}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772019773.3985584, "reason": "The text is primarily written in English with some Basque phrases."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772019773.4286613, "reason": "The text is primarily written in English with some Basque terms."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019773.6409674, "reason": "The text contains programming code and comments in English, which indicates it is not primarily in Basque."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772019773.8716407, "reason": "The text is primarily written in English with some Basque terms."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772019773.9066658, "reason": "The text is primarily written in English with only a small portion in Basque."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772019775.1463852, "reason": "The text contains programming code and comments in Basque, but it is not primarily written in Basque as it includes technical terms and syntax that are not part of the Basque language."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772019775.2421687, "reason": "The text contains programming code and comments in a mix of English and Basque, but is not primarily written in Basque."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019775.8582509, "reason": "The text is primarily in C programming language with only a small portion in Basque."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772019776.1359386, "reason": "The text contains a mix of programming code and comments in Basque, but the primary content is not in Basque."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019780.1600604, "reason": "The text is primarily written in C programming language with a small portion of comments in Basque."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019780.2248573, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019780.5656087, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772019785.6413047, "reason": "The text is primarily written in English with some Basque comments."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772019785.7850842, "reason": "The text contains a significant amount of technical content and code that is not primarily in Basque, despite some Basque phrases."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019786.0355155, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019786.707077, "reason": "The text contains programming code and is not primarily in Basque."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772019786.8963697, "reason": "The text contains programming code and comments in English, which is not primarily in Basque."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772019788.072632, "reason": "The text contains programming code and comments in English, which makes it not primarily in Basque."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772019789.390818, "reason": "The text is primarily written in English with some Basque terms."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019790.3843079, "reason": "The text contains programming code and comments in English, which is not primarily in Basque."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772019791.3111658, "reason": "The text is primarily written in English with only a small portion in Basque."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772019791.8853173, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1772019793.7507322}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772019797.3071778, "reason": "The text contains programming code and comments in a mix of English and Basque, but is primarily in English."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019798.4847596, "reason": "The text is primarily written in C programming language with comments in Basque, but the majority is code."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772019799.219821, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772019800.8958974, "reason": "The text contains a mix of programming code and comments in Basque, but the primary content is not in Basque."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772019802.2370818, "reason": "The text is primarily written in English with some Basque phrases."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772019802.6415439, "reason": "The text is primarily written in English with some Basque terms."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772019804.1430495, "reason": "The text contains programming code and comments in English, not primarily in Basque."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772019804.7419362, "reason": "The text contains programming code and comments in English, which is not primarily in Basque."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019809.0455914, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772019809.4984212, "reason": "The text contains programming code and comments in Basque, but it is not primarily written in Basque as it includes technical terms and syntax that are not part of the Basque language."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019810.0029001, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019810.7460325, "reason": "The text contains a mix of Basque and C/C++ programming code, making it not primarily in Basque."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772019813.3442457, "reason": "The text contains programming code and comments in English, which makes it not primarily in Basque."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772019815.4288087, "reason": "The text contains a significant amount of English technical terms and code, which makes it primarily not in Basque."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019815.8731878, "reason": "The text is primarily written in C programming language with a small portion of Basque comments."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019817.7450244, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1772019821.1247938}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772019823.5254457, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019823.6263986, "reason": "The text is primarily written in C programming language with only a few comments in Basque."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772019825.5838678, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Basque."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019866.92727, "reason": "The text is primarily written in C programming language with some comments in Basque, but the majority is not in Basque."}

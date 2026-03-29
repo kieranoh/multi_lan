@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025895.514007, "reason": "The text contains programming code and comments in Danish, but the primary content is not in Danish."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772025899.451621, "reason": "The text is primarily written in C++ with comments in Danish, but the majority of the content is code."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772025900.4033191}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772025900.5341597}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772025901.6182492}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772025901.7553587}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772025902.657332}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025902.7005937, "reason": "The text contains a significant amount of programming code and comments in Danish, but the overall structure and context are primarily technical and not primarily in Danish."}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772025903.0275774}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025904.3916953}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025905.3202846, "reason": "The text contains a significant amount of code and technical terms, making it difficult to classify as primarily Danish."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772025908.6345387}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772025913.729275, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not in Danish."}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772025914.9438536}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772025915.1332748}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025916.1675973, "reason": "The text contains programming code and comments in Danish, but the primary content is not in Danish."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025917.369993}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772025920.250815, "reason": "The text contains a mix of programming code and comments in Danish, but the primary content is not in Danish."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772025920.2966638}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772025920.9868293, "reason": "The text contains a mix of programming code and Danish comments, but the primary content is not in Danish."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772025921.6207273}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772025922.978868}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025925.5974805}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772025926.2044048}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772025927.5161483}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772025928.3514524}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772025929.643678}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772025934.936422}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025936.8510897}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772025938.6046057}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025940.724122, "reason": "The text contains a significant amount of code and technical terms, making it difficult to classify as primarily Danish."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772025941.8798578}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025942.545522, "reason": "The text contains a significant amount of code and technical terms in English, with only a few Danish phrases, making it primarily not in Danish."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772025944.648861, "reason": "The text contains a mix of programming code and Danish comments, but the primary content is not in Danish."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025948.111628, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it not primarily in Danish."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772025949.348217, "reason": "The text contains a mix of programming code and comments in Danish, but the primary content is not in Danish."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025951.8325589}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772025953.1222215, "reason": "The text contains a significant amount of English technical terminology and code, which makes it primarily not in Danish."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772025953.8671021}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025954.6678367}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772025955.8702145}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025994.494675, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not in Danish."}

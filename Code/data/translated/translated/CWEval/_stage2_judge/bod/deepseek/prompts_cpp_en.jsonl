@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023531.072213, "reason": "The text is primarily written in English with a small portion in Tibetan."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772023537.2675548}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772023538.513629}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772023538.792323}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772023538.882418}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772023539.049627}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023539.726161, "reason": "The text contains a significant amount of programming code and comments in English, with only a few phrases in Tibetan. Therefore, it is not primarily written in Tibetan."}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772023539.9693456}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772023541.9460151}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772023542.378036}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023545.1174474, "reason": "The text is primarily written in English with some Tibetan comments, but the majority of the content is in English programming syntax."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772023546.6413593}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772023547.8604956, "reason": "The text is primarily written in C++ programming language, not in Tibetan."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772023548.0388913, "reason": "The text is written in C++ programming language, not in Tibetan."}
+{"task": "cwe_020_0_cpp", "ok": false, "ts": 1772023548.2607865, "reason": "The text is written in C++ programming language, not in Tibetan."}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772023549.7182493}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772023550.2805188, "reason": "The text is primarily written in English and contains programming code."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772023550.8988667, "reason": "The text is written in C++ programming language, not in Tibetan."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772023553.4994707, "reason": "The text is primarily written in English and contains programming code, not Tibetan."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772023553.6018395}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023553.7079213, "reason": "The text contains a significant amount of English and XML code, with only a portion written in Tibetan."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772023554.9339483, "reason": "The text is written in C++ programming language, not in Tibetan."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772023555.113634}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772023557.092426, "reason": "The text is primarily written in C++ programming language, not Tibetan."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772023557.629632, "reason": "The text is primarily written in C++ programming language, not in Tibetan."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772023558.9553094, "reason": "The text is written in C++ programming language, not Tibetan."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772023559.1491418, "reason": "The text is written in C++ programming language, not in Tibetan."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772023559.9473808, "reason": "The text is primarily written in C++ programming language, not Tibetan."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772023560.5042627, "reason": "The text is primarily written in C++ programming language, not Tibetan."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772023562.2551134, "reason": "The text is primarily written in English and contains programming code, not Tibetan."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772023562.7987182, "reason": "The text is primarily written in English and contains programming code, not Tibetan."}
+{"task": "cwe_022_0_cpp", "ok": false, "ts": 1772023563.7366152, "reason": "The text is primarily written in C++ programming language, not Tibetan."}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772023563.9159315}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772023565.6351173}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023565.914932, "reason": "The text contains a significant amount of non-Tibetan programming code and comments, making it primarily not in Tibetan."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772023568.6299834}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772023574.8717647}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772023580.4983194, "reason": "The text contains a mix of programming code and Tibetan language, but the primary content is not in Tibetan."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772023580.835923, "reason": "The text contains a significant amount of non-Tibetan programming code and comments, making it primarily not in Tibetan."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772023585.396298}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772023588.3196597}
+{"task": "cwe_022_2_cpp", "ok": true, "ts": 1772023589.1039686}

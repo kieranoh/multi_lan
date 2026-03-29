@@ -1,0 +1,15 @@
+{"task": "ppt_compl_py", "ok": true, "ts": 1771923127.6649318, "attempt": 1}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771923128.9843946, "attempt": 1}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1771923131.7005177, "attempt": 1}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771923142.7642274, "attempt": 1}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771923142.9459622, "attempt": 1}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771923143.3998961, "attempt": 1}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771923144.1562748, "attempt": 1}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771923145.2172697, "attempt": 1}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771923145.7125778, "attempt": 1}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771923145.8639739, "attempt": 1}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771923145.9504857, "attempt": 1}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771923146.4210162, "attempt": 1}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771923146.5997844, "attempt": 2}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771923147.4837627, "attempt": 1}
+{"task": "ppt_compl_js", "ok": false, "ts": 1772013390.2148938, "attempt": 1, "reason": "The text includes a code snippet in JavaScript and uses English terms like 'code' and 'function', which indicates it is not primarily in Afrikaans."}

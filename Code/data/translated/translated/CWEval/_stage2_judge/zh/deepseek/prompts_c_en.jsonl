@@ -1,0 +1,59 @@
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771964665.2114892}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771964666.053413}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771964669.2638552}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771964679.6138475}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771964680.1383698}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771964682.0306728}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771964687.0722656}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771964688.5630188}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771964691.2529745}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771964695.1147184}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771964695.9384735}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771964696.1501987}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771964701.3580217}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771964707.28785}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771964709.699996}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771964712.2257602}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771964717.4012058}
+{"task": "cwe_787_2_c", "ok": true, "ts": 1771964719.5398753}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771964719.978245}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771964720.9668949}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771964721.7741072}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771964725.5785513}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771964729.152467}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772020675.961886, "reason": "The text contains a mix of Chinese and C programming language syntax, but is primarily written in English."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772020676.1882617, "reason": "The text contains a mix of Chinese and programming code, but is primarily in English."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772020676.703208, "reason": "The text contains primarily English programming code and comments, with only a small portion in Chinese."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772020676.8904583, "reason": "The text contains a mix of Chinese and programming code, but is primarily in English."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772020677.2839959, "reason": "The text contains a mix of Chinese and programming code, but the primary content is not in Chinese."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772020678.2256932, "reason": "The text contains a mix of Chinese and English, with significant English content."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772020678.343791, "reason": "The text contains a mix of C code and Chinese comments, but is primarily in English due to the code structure."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772020680.1919487, "reason": "The text contains a mix of Chinese and programming code, but is primarily in English."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772020683.0149996, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772020683.0638797, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772020683.9904795, "reason": "The text contains a mix of C programming code and a comment in Chinese, but the majority of the text is in English."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772020684.789478, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772020685.6065981, "reason": "The text contains a mix of programming code and comments in Chinese, but the primary content is not in Chinese."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772020688.700783, "reason": "The text contains a significant amount of programming code and English comments, with only a small portion in Chinese."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772020690.93966, "reason": "The text contains a mix of Chinese and C programming language syntax, but is primarily written in English."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772020691.9318497, "reason": "The text contains a mix of Chinese and English programming language syntax."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772020692.7283447, "reason": "The text contains a mix of C programming code and comments in Chinese, but the primary content is in English."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772020695.3269484, "reason": "The text contains a mix of C code and Chinese comments, but is primarily in English due to the code structure."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772020695.9005947, "reason": "The text is primarily written in C programming language with only a small portion in Chinese."}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1772020696.1809142}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1772020699.0558689}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772020700.4110923, "reason": "The text contains a mix of Chinese and programming code, but is primarily in English."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772020701.0013149, "reason": "The text contains a mix of Chinese and programming code, but is primarily written in English."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772020701.2640762, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Chinese."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772020704.2817082, "reason": "The text contains a significant amount of English programming code and comments, making it primarily in English."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772020705.4704072, "reason": "The text contains a mix of Chinese and programming code, but is primarily in English."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772020707.8851464, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Chinese."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772020712.008354, "reason": "The text is primarily written in English with some Chinese comments."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772020712.3306003, "reason": "The text contains a mix of Chinese and English programming language syntax."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772020713.645265, "reason": "The text is primarily written in English with some Chinese comments."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772020714.2271612, "reason": "The text is primarily written in C programming language with a small portion of Chinese comments."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772020715.5596995, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Chinese."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772020720.6900978, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Chinese."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772020721.0676107, "reason": "The text is primarily written in C programming language with only a small portion in Chinese."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020727.8552608, "reason": "The text is primarily written in C programming language with comments in both Chinese and English, but the majority of the content is code."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020764.148263, "reason": "The text is primarily written in English with some Chinese comments."}

@@ -1,0 +1,57 @@
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771954868.8813722}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771954890.0361438}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771954913.820942}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771954921.1771681}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772016960.7789843, "reason": "The text contains programming code and comments in a mix of languages, primarily English, rather than being primarily in Esperanto."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772016960.8424287, "reason": "The text contains programming code and comments in a mix of languages, primarily English, which is not consistent with Esperanto."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772016960.8505511, "reason": "The text contains programming code and comments in a mix of languages, primarily English and not primarily in Esperanto."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772016962.0895555, "reason": "The text contains programming code and comments in a language that is not primarily Esperanto."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772016962.722557, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but is primarily in English."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772016963.2138364, "reason": "The text contains programming code and comments in English, which is not primarily in Esperanto."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772016965.0584815, "reason": "The text contains programming code and comments in a mix of languages, primarily English, which is not consistent with Esperanto."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772016966.649896, "reason": "The text contains programming code and comments in a mix of languages, primarily English, with some Esperanto phrases, but it is not primarily written in Esperanto."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772016967.473962, "reason": "The text is primarily written in C programming language with only a small portion in Esperanto."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772016967.769212, "reason": "The text contains a significant amount of programming code and comments in English, which detracts from its primary use of Esperanto."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772016969.5229611, "reason": "The text contains a significant amount of programming code and technical terminology, which is not primarily in Esperanto."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772016969.6833978, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but is primarily in English."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772016973.6249492, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Esperanto."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772016974.3186402, "reason": "The text contains a significant amount of technical programming language and terminology that is not primarily in Esperanto."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772016975.4223354, "reason": "The text is primarily written in English with some Esperanto phrases."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772016975.4799433, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but the primary language is not Esperanto."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772016975.9080193, "reason": "The text contains programming code and comments in a mix of Esperanto and English, which does not constitute primarily Esperanto."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772016976.8255672, "reason": "The text contains programming code and comments in a mix of Esperanto and English, which does not qualify as primarily written in Esperanto."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772016979.1971464, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but primarily consists of technical language and syntax that is not characteristic of natural Esperanto."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772016981.7219074, "reason": "The text contains a significant amount of code and comments in English, which is not primarily in Esperanto."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772016982.223916, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but is primarily in English due to the presence of code syntax and English keywords."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772016982.379586, "reason": "The text contains programming code and is not primarily written in Esperanto."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772016982.4855027, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but primarily uses English syntax and terminology."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772016983.204678, "reason": "The text contains programming code and comments in English, which is not primarily in Esperanto."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772016984.851134, "reason": "The text contains programming code and comments in a mix of Esperanto and English, which does not constitute primarily Esperanto."}
+{"task": "cwe_676_0_c", "ok": false, "ts": 1772016986.795192, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but the primary language is not Esperanto."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772016988.7177744, "reason": "The text contains programming code and comments in a mix of languages, primarily English, which is not consistent with being primarily in Esperanto."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772016989.1743383, "reason": "The text contains programming code and comments in a mix of languages, primarily English, rather than being primarily in Esperanto."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772016990.070681, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but the majority is not in Esperanto."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772016991.226329, "reason": "The text contains programming code and comments in a language that is not primarily Esperanto."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772016993.7739074, "reason": "The text contains programming code and comments in English, which is not primarily in Esperanto."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772016994.6536136, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but is primarily in English."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772016998.387003, "reason": "The text is primarily written in English with some Esperanto phrases."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772016999.1783936, "reason": "The text contains programming code and comments in a mix of languages, primarily English, which is not consistent with Esperanto."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772017000.419136, "reason": "The text contains programming code and comments in Esperanto, but it is not primarily written in Esperanto as it includes technical syntax and structure."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772017002.6074748, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but the primary language is not Esperanto."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017002.9328945, "reason": "The text contains a mix of programming code and comments in Esperanto, but the majority is in English and code syntax."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017004.5559268, "reason": "The text contains a mix of programming language syntax and comments in Esperanto, but the primary content is not in Esperanto."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017005.7266448, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Esperanto."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772017005.8931983, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but primarily consists of technical language and syntax that is not characteristic of natural Esperanto."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772017008.6860073, "reason": "The text contains programming code and comments in a mix of Esperanto and English, which does not qualify as primarily written in Esperanto."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772017008.7281961, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but primarily uses English syntax and terminology."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017009.9630322, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Esperanto."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017010.1433365, "reason": "The text is primarily written in C programming language with comments in Esperanto, but the majority of the content is code."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017010.6755614, "reason": "The text contains programming code and is not primarily in Esperanto."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017011.6451108, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but is primarily in English."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017011.8295593, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Esperanto."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772017012.7878497, "reason": "The text contains a significant amount of technical programming language and terminology that is not primarily in Esperanto."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772017013.197872, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but is primarily in English."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772017017.583478, "reason": "The text contains programming code and comments in a language that is not primarily Esperanto."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017017.8451312, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Esperanto."}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1772017023.9935513}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772017026.156666, "reason": "The text contains programming code and comments in a mix of English and Esperanto, but the majority is not primarily in Esperanto."}

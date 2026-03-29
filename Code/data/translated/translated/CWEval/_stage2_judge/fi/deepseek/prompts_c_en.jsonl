@@ -1,0 +1,61 @@
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771963068.647427}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771963068.853254}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771963069.053066}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771963070.152637}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771963072.0667431}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771963072.4396248}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771963073.612706}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771963081.7493327}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771963083.6386523}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771963084.4281578}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771963085.8093402}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771963085.822409}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771963088.261762}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771963089.6259284}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771963090.1454248}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771963090.803782}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771963091.0785394}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771963093.991556}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771963094.6141167}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771963098.2275786}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771963099.1697206}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771963101.328749}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771963101.9887762}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771963103.2416043}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771963103.5351315}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771963105.3959122}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771963107.8995001}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771963110.1487336}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771963111.5485861}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771963114.2073057}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771963116.058742}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771963116.956928}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771963119.2642624}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771963120.066631}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771963120.4411201}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771963124.27}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771963130.8024433}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771963130.983736}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771963131.081609}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771963131.6259708}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771963132.445832}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771963133.8054526}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771963135.8223825}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771963138.8445842}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771963138.9957683}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019944.9810846, "reason": "The text contains a mix of Finnish and programming code, making it primarily not Finnish."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019945.5361238, "reason": "The text contains a mix of Finnish and programming code, but the primary content is not in Finnish."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019948.2508428, "reason": "The text contains programming code and comments in English, not primarily in Finnish."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019948.3023121, "reason": "The text contains programming code and comments primarily in English, with only a few Finnish words."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019950.432716, "reason": "The text contains programming code and comments in Finnish, but it is primarily written in C programming language."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019951.4931114, "reason": "The text is primarily written in C programming language with comments in Finnish, but the majority of the content is code."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019956.4411874, "reason": "The text is primarily written in C programming language with a small portion of Finnish comments."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019957.2680569, "reason": "The text contains a mix of C/C++ code and comments in Finnish, but the primary content is programming code, not Finnish language."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019957.322, "reason": "The text is primarily written in C programming language with a small portion of Finnish comments."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019957.4597025, "reason": "The text contains a mix of C/C++ code and comments in Finnish, but the primary content is programming code, not Finnish language."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019957.7210388, "reason": "The text contains a significant amount of code and comments in Finnish, but it is primarily a programming code snippet, which does not constitute a text primarily written in Finnish."}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1772019960.60005}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019963.4328208, "reason": "The text is primarily written in C programming language with some Finnish comments, but the majority of the content is not in Finnish."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019963.561204, "reason": "The text is primarily written in C programming language with some Finnish comments, but the majority of the content is not in Finnish."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020000.3493435, "reason": "The text contains a significant amount of English programming comments and code, which makes it not primarily in Finnish."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020001.2160006, "reason": "The text is primarily written in C programming language with comments in Finnish and English, but the majority of the content is code."}

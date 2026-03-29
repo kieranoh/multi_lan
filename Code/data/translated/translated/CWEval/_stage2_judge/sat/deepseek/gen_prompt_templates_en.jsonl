@@ -1,0 +1,15 @@
+{"task": "ppt_compl_py", "ok": false, "ts": 1772013336.9685693, "reason": "The text is written in Korean, not Santail."}
+{"task": "ppt_compl_go", "ok": false, "ts": 1772013337.0686893, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "ppt_compl_js", "ok": false, "ts": 1772013337.8099902, "reason": "The text is written in Korean, not Santail."}
+{"task": "ppt_compl_c", "ok": false, "ts": 1772013338.99712, "reason": "The text is written in Korean, not Santail."}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1772013340.066868, "reason": "The text is written in Korean, not Santail."}
+{"task": "ppt_direct_py", "ok": false, "ts": 1772013345.4219196, "reason": "The text is written primarily in Korean, not Santail."}
+{"task": "ppt_direct_js", "ok": false, "ts": 1772013345.608238, "reason": "The text is written primarily in Korean, not Santail."}
+{"task": "ppt_direct_c", "ok": false, "ts": 1772013345.9959967, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "ppt_direct_go", "ok": false, "ts": 1772013346.1750028, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "ppt_direct_cpp", "ok": false, "ts": 1772013346.6307144, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "ppt_secure_py", "ok": false, "ts": 1772013346.9876506, "reason": "The text is written primarily in Korean, not Santail."}
+{"task": "ppt_secure_c", "ok": false, "ts": 1772013347.0932827, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "ppt_secure_js", "ok": false, "ts": 1772013347.3970063, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "ppt_secure_go", "ok": false, "ts": 1772013347.6051981, "reason": "The text is primarily written in Korean, not Santail."}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1772013348.013799, "reason": "The text is primarily written in Korean, not Santail."}

@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027703.1930604, "reason": "The text contains programming code and comments in Dutch, but the primary content is not in Dutch."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772027707.2171457}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027707.2766142}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027708.6387239}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772027709.2629304, "reason": "The text is primarily written in C++ with some Dutch comments, but the majority of the content is code."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027709.4949863}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027709.5033946}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772027709.5840697}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772027709.7287285}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027710.4850268}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772027711.0171227, "reason": "The text contains a mix of Dutch and programming code, making it primarily not Dutch."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027712.5839832, "reason": "The text contains a significant amount of programming code and comments in Dutch, but it is primarily written in English due to the code structure and syntax."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772027719.8764365}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772027721.0191066}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027722.973081}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027723.6046736}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772027724.1189797, "reason": "The text contains programming code and comments in Dutch, but the primary content is not in Dutch."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772027727.7326834}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772027727.8029358}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772027728.4413881}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772027730.8168905}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772027731.4393306}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772027732.6227455, "reason": "The text contains a mix of programming code and Dutch comments, but is primarily in English due to the code and function definitions."}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027732.8564565}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027733.609458}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772027734.2299044}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027735.0101862}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772027738.4832742, "reason": "The text contains a mix of programming code and Dutch comments, but the primary language is not Dutch due to the presence of C++ code."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772027742.4606287}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772027744.95586, "reason": "The text contains a mix of Dutch and programming code, making it primarily not Dutch."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772027745.8235044, "reason": "The text contains a mix of Dutch and programming code, which includes English terms and syntax."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772027746.4164805, "reason": "The text contains a significant amount of programming code and comments in Dutch, but it is primarily written in English due to the code structure and syntax."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772027747.210976, "reason": "The text contains a significant amount of code and technical terms in English, making it primarily not in Dutch."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772027748.9529023, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not in Dutch."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772027755.676039, "reason": "The text contains a mix of programming code and comments in Dutch, but the primary content is not in Dutch."}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772027755.9401004}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772027757.8674886}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772027759.818661}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772027761.504826}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772027762.0496855}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772027762.2310889}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772027797.0865707, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Dutch phrases."}

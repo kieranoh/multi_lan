@@ -1,0 +1,26 @@
+{"task": "ppt_compl_py", "ok": true, "ts": 1771924104.3962486}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771924104.4971008}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771924104.584231}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771924104.9603593}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771924112.3419578}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771924112.6782618}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771924112.9169471}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771924113.2378268}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771924113.2463682}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771924114.002254}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771924114.175871}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771924114.3915317}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771924114.5316637}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771924114.6077814}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771924130.9334671}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771924131.3914697}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771924131.8598933}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771924132.2710757}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771924138.0899453}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771924138.672074}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771924140.2513413}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771924141.2495368}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771924141.5411167}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771924141.8028958}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1772013405.3016727, "reason": "The text contains a significant portion of English (C++ features, code block, etc.) which makes it primarily not in Hindi."}
+{"task": "ppt_compl_js", "ok": false, "ts": 1772013406.153203, "reason": "The text contains a code snippet in JavaScript, which is not in Hindi."}

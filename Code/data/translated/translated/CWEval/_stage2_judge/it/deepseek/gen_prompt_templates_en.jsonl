@@ -1,0 +1,26 @@
+{"task": "ppt_compl_js", "ok": true, "ts": 1771924980.4518561}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771924980.4833329}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771924980.615301}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771924980.786272}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1771924982.6064203}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771924982.6316469}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771924989.7687824}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771924990.851354}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771924991.1976771}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771924991.329538}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771924991.6056387}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771924991.6244025}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771924992.2222986}
+{"task": "ppt_compl_js", "ok": true, "ts": 1771924998.007185}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771924999.8126175}
+{"task": "ppt_compl_cpp", "ok": true, "ts": 1771925000.22227}
+{"task": "ppt_compl_c", "ok": true, "ts": 1771925000.3854074}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771925009.5069716}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771925010.4414802}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771925015.9718997}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771925017.7253222}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771925018.1345022}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771925018.2022734}
+{"task": "ppt_secure_cpp", "ok": true, "ts": 1771925020.5368278}
+{"task": "ppt_direct_js", "ok": false, "ts": 1772013477.0230794, "reason": "The text contains a mix of Italian and English, particularly in the programming context and instructions."}
+{"task": "ppt_secure_js", "ok": false, "ts": 1772013478.360597, "reason": "The text contains a mix of Italian and English, primarily focusing on programming instructions in English."}

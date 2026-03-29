@@ -1,0 +1,40 @@
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772015557.5858076, "reason": "The text is primarily written in C programming language, not in Nuer."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772015563.8760116, "reason": "The text contains a significant amount of non-Nuer content, including programming code and English phrases."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772015564.3908505, "reason": "The text contains a mix of programming language syntax and English, with some Nuer words, but it is not primarily written in Nuer."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772015565.7972276, "reason": "The text contains a significant amount of C programming code and comments that are not primarily in Nuer."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772015565.9036982, "reason": "The text contains a significant amount of code and comments in English, which is not primarily in Nuer."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772015566.47514, "reason": "The text contains programming syntax and comments, which are not part of the Nuer language."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772015575.0400782, "reason": "The text is primarily written in C programming language, not in Nuer."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772015576.8342714, "reason": "The text is primarily written in C programming language, not in Nuer."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772015577.1210086, "reason": "The text is primarily written in English, not Nuer."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772015581.0021698, "reason": "The text is primarily written in English, not Nuer."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772015589.6753118, "reason": "The text is written in English and contains programming code, not in Nuer."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772015591.7892196, "reason": "The text is primarily written in C programming language with some comments in Nuer, but it is not predominantly in Nuer."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772015592.353767, "reason": "The text contains programming code and comments, which are not primarily in Nuer."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772015595.3341956, "reason": "The text contains a significant amount of code and comments in English, which is not primarily Nuer."}
+{"task": "cwe_676_0_c", "ok": false, "ts": 1772015606.9132874, "reason": "The text contains a significant amount of English programming terminology and syntax, which is not primarily in Nuer."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772015640.804505, "reason": "The text is primarily written in C programming language, not in Nuer."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772015655.6314697, "reason": "The text is primarily written in C programming language, not in Nuer."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772015669.0613213, "reason": "The text contains programming code and comments, which are not primarily in Nuer."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772015722.2813606, "reason": "The text contains a significant amount of code and comments in English, which is not primarily Nuer."}
+{"task": "cwe_918_1_c", "ok": false, "ts": 1772015741.6321015, "reason": "The text contains a significant amount of English programming terminology and structure, which makes it primarily not in Nuer."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772015761.3621032, "reason": "The text contains programming code and comments in C language, which is not primarily written in Nuer."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772015771.052127, "reason": "The text is primarily written in English, with no significant presence of Nuer (nus) language."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772015783.13149, "reason": "The text is primarily written in C programming language, not in Nuer."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772015797.3980277, "reason": "The text is primarily written in C programming language, not in Nuer."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772015801.897853, "reason": "The text is not written in Nuer (nus); it appears to be a repeated sequence of characters and does not convey meaningful content in the Nuer language."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772015815.5976946, "reason": "The text is written in C programming language, not in Nuer."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772015835.2364347, "reason": "The text is primarily written in English, with no significant presence of Nuer (nus) language."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772015849.403637, "reason": "The text contains a large block of repeated characters and does not form coherent sentences in Nuer."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772015857.9903116, "reason": "The text contains a large block of repeated characters and does not form coherent sentences or phrases in Nuer."}
+{"task": "cwe_022_0_c", "ok": false, "ts": 1772015883.6777933, "reason": "The text is primarily written in English, with no significant presence of Nuer (nus) language."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772015894.1151638, "reason": "The text is primarily written in C programming language, not in Nuer."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772015897.7850945, "reason": "The text contains programming code and comments in English, which is not primarily Nuer."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772015900.061406, "reason": "The text is primarily written in C programming language, not in Nuer."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772015926.6535032, "reason": "The text is primarily written in English with a large block of repetitive characters and does not contain meaningful Nuer language content."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772015960.3423364, "reason": "The text is primarily in English with no meaningful content in Nuer."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772015962.5864162, "reason": "The text contains a large number of repeated phrases and does not form coherent sentences in Nuer."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772015963.5008183, "reason": "The text contains a significant amount of repeated phrases in Nuer, but it also includes programming syntax and English terms, indicating it is not primarily written in Nuer."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772016019.102405, "reason": "The text is primarily in English with a large repetition of Nuer words, but it does not constitute a coherent text in Nuer."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772016081.101957, "reason": "The text contains a mix of code and comments, and while it includes Nuer words, it is primarily written in a programming language (C) and not primarily in Nuer."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772016134.1458821, "reason": "The text is not primarily written in Nuer (nus); it appears to be a repetitive sequence of characters without meaningful content."}

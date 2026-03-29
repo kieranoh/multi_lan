@@ -1,0 +1,38 @@
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772030545.5816383, "attempt": 1, "reason": "The text contains a significant amount of English and does not primarily use Jingpho."}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772030549.6841002, "attempt": 1, "reason": "The text contains a significant amount of English terms and phrases, indicating it is not primarily written in Jingpho."}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772030550.2138655, "attempt": 1, "reason": "The text contains a significant amount of English terminology and structure, indicating it is not primarily written in Jingpho."}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772030553.051224, "attempt": 1, "reason": "The text contains a significant amount of English and technical terminology, which suggests it is not primarily written in Jingpho."}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772030554.7005572, "attempt": 1, "reason": "The text contains a significant amount of English technical terminology and structure, indicating it is not primarily written in Jingpho."}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772030554.735184, "attempt": 1, "reason": "The text contains a significant amount of English and does not primarily use Jingpho (kac)."}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772030557.6141307, "attempt": 1, "reason": "The text contains a significant amount of English technical terminology and structure, indicating it is not primarily written in Jingpho."}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772030561.1756232, "attempt": 1, "reason": "The text contains a significant amount of English and technical terms, indicating it is not primarily written in Jingpho."}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772030574.123876, "attempt": 1, "reason": "The text is primarily written in English with some phrases that appear to be in Jingpho, but it does not predominantly use the Jingpho language."}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772030575.449437, "attempt": 1, "reason": "The text contains a significant amount of English and XML code, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772030581.0380757, "attempt": 1, "reason": "The text contains a significant amount of English and programming terminology, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772030583.3728015, "attempt": 1, "reason": "The text contains a significant amount of English technical terminology and structure, indicating it is not primarily written in Jingpho."}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772030617.3887808, "attempt": 1, "reason": "The text contains a repetitive structure and does not appear to be primarily in Jingpho."}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772030697.72787, "attempt": 1, "reason": "The text contains a significant amount of repetitive phrases and does not demonstrate coherent structure or meaning typical of Jingpho language."}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772030704.1909726, "attempt": 1, "reason": "The text contains a significant amount of English technical terms and phrases, indicating it is not primarily written in Jingpho."}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772030772.4716833, "attempt": 1, "reason": "The text does not appear to be primarily written in Jingpho (kac). It consists of repetitive phrases that do not form coherent sentences or meaningful content in the Jingpho language."}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772030774.931175, "attempt": 1, "reason": "The text contains a significant amount of English and technical terms, indicating it is not primarily written in Jingpho."}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772030850.360441, "attempt": 1, "reason": "The text contains a significant amount of English and technical jargon, making it primarily not in Jingpho."}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772030925.3870862, "attempt": 1, "reason": "The text does not appear to be primarily written in Jingpho (kac). It consists of repetitive phrases that do not form coherent sentences or meaningful content in the language."}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772030935.8692374, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772030938.5690644, "reason": "stage2_judge_failed"}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772030939.3392673, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772030941.4972634, "reason": "stage2_judge_failed"}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772030941.671675, "reason": "stage2_judge_failed"}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772030944.973008, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772030945.5075014, "reason": "stage2_judge_failed"}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772030946.310774, "reason": "stage2_judge_failed"}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772030946.9691036, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772030948.8173418, "reason": "stage2_judge_failed"}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772030948.9716005, "reason": "stage2_judge_failed"}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772030956.3297772, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772030959.9668455, "reason": "stage2_judge_failed"}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772030963.5378745, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772030964.2551055, "reason": "stage2_judge_failed"}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772030968.6082609, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772031018.0831103, "reason": "stage2_judge_failed"}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772031103.1705225, "reason": "stage2_judge_failed"}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772031253.4327672, "reason": "stage2_judge_failed"}

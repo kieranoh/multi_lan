@@ -1,0 +1,59 @@
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771956722.2481856}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771956739.46685}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771956750.1720357}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771956752.246001}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771956756.3707697}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771956782.7630043}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772017492.9112902, "reason": "The text contains programming code and comments in English, not primarily in Tswana."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017493.2497597, "reason": "The text contains programming code and comments primarily in English, not Tswana."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017493.3526213, "reason": "The text contains programming code and comments in English, not primarily in Tswana."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017495.2980032, "reason": "The text contains a mix of programming code and comments in Tswana, but the primary content is not in Tswana."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772017496.1650393, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Tswana."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772017497.3498871, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily in English rather than Tswana."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017498.421202, "reason": "The text is primarily written in C programming language with a small portion of Tswana."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017499.1819978, "reason": "The text is primarily written in C programming language with only a few phrases in Tswana."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017500.239379, "reason": "The text is primarily written in English with some Tswana phrases, but the majority of the content is in English programming language syntax and comments."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017501.5675147, "reason": "The text is primarily written in C programming language with a small portion in Tswana, but the majority is code."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017502.0483782, "reason": "The text contains a significant amount of code and comments in English, with only a small portion in Tswana, making it primarily not in Tswana."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772017502.0641472, "reason": "The text contains a significant amount of programming code and comments in English, which indicates it is not primarily written in Tswana."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772017503.0728593, "reason": "The text contains a mix of programming code and English, with only a small portion in Tswana."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772017506.3727038, "reason": "The text contains programming code and comments in English, which indicates it is not primarily in Tswana."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772017507.4234722, "reason": "The text is primarily written in English with some Tswana phrases."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772017507.4351523, "reason": "The text contains a significant amount of technical programming language and English, which makes it primarily not in Tswana."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017508.8886123, "reason": "The text contains a mix of programming language syntax and comments in English, which is not primarily Tswana."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772017509.4358664, "reason": "The text contains programming code and comments in English, not primarily in Tswana."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772017509.627407, "reason": "The text contains programming code and comments in English, which is not primarily Tswana."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772017511.5010748, "reason": "The text is primarily written in English with some Tswana phrases."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017511.827552, "reason": "The text contains a significant amount of code and comments in English, with only a portion in Tswana, making it primarily not in Tswana."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017513.2348897, "reason": "The text contains a mix of Tswana and programming code, making it primarily not in Tswana."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017514.460498, "reason": "The text contains a mix of programming language syntax and comments in English, which is not primarily Tswana."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772017514.8449955, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Tswana."}
+{"task": "cwe_676_0_c", "ok": false, "ts": 1772017515.1388977, "reason": "The text contains a mix of Tswana and English, with significant portions in English."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017517.137869, "reason": "The text contains programming code and comments in English, not primarily in Tswana."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017519.42918, "reason": "The text contains programming code and comments in English, not primarily in Tswana."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772017520.6416578, "reason": "The text contains a mix of programming code and comments in English, which indicates it is not primarily written in Tswana."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772017521.9836915, "reason": "The text contains a mix of programming code and English, with only a small portion in Tswana."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772017522.531208, "reason": "The text contains a mix of programming code and comments in English and Tswana, but the primary language is not Tswana."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772017523.5543246, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Tswana."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017523.5687602, "reason": "The text is primarily written in C programming language with comments in Setswana, but the majority of the content is not in Tswana."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772017526.970883, "reason": "The text contains a significant amount of English programming terminology and syntax, making it primarily in English with some Tswana phrases."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772017528.4914494, "reason": "The text contains programming code and comments in English, not primarily in Tswana."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772017529.4014447, "reason": "The text is primarily written in English with some Tswana phrases."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017530.3717892, "reason": "The text is primarily written in English with some Tswana comments, but the majority is in programming language syntax and English."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772017532.830181, "reason": "The text contains a mix of programming code and comments in English, which is not primarily Tswana."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017533.3619585, "reason": "The text contains a mix of English and Tswana, primarily written in English."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017534.0669377, "reason": "The text is primarily written in C programming language with a small portion in Tswana, but the majority is not in Tswana."}
+{"task": "cwe_476_0_c", "ok": false, "ts": 1772017536.2548485, "reason": "The text contains programming code and comments in English, not primarily in Tswana."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017536.5145829, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not Tswana."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772017538.3560085, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Tswana."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017539.5397646, "reason": "The text contains a mix of Tswana and programming code, which is not primarily in Tswana."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772017540.63035, "reason": "The text is primarily written in English with some Tswana phrases."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017542.1612196, "reason": "The text is primarily written in C programming language with some Tswana comments, but the majority is not in Tswana."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017543.1921003, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Tswana."}
+{"task": "cwe_676_0_c", "ok": false, "ts": 1772017543.3300853, "reason": "The text contains a mix of Tswana and English, with significant portions in English."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772017544.4929976, "reason": "The text contains a significant amount of programming code and technical terminology that is not in Tswana."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017545.4861662, "reason": "The text is primarily written in C programming language with a small portion of Tswana."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772017546.4625995, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Tswana."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017547.098462, "reason": "The text is primarily written in C programming language with a small portion of Tswana."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772017547.4875262, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Tswana."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772017556.5618014, "reason": "The text is primarily written in C programming language with some Tswana comments, but the majority is not in Tswana."}

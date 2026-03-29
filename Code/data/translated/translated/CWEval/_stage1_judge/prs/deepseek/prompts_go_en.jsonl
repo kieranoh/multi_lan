@@ -1,0 +1,44 @@
+{"task": "cwe_326_0_go", "ok": true, "ts": 1772033130.1944091, "attempt": 1}
+{"task": "cwe_117_0_go", "ok": true, "ts": 1772033133.819722, "attempt": 1}
+{"task": "cwe_732_2_go", "ok": true, "ts": 1772033134.5652578, "attempt": 1}
+{"task": "cwe_327_0_go", "ok": true, "ts": 1772033135.9005876, "attempt": 1}
+{"task": "cwe_079_0_go", "ok": true, "ts": 1772033137.8477638, "attempt": 1}
+{"task": "cwe_326_1_go", "ok": true, "ts": 1772033138.2457561, "attempt": 1}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772033138.6061926, "attempt": 1, "reason": "The text contains a significant amount of technical terminology and code syntax that is not typical in Dari language usage."}
+{"task": "cwe_022_2_go", "ok": true, "ts": 1772033140.7127383, "attempt": 1}
+{"task": "cwe_347_0_go", "ok": true, "ts": 1772033140.894773, "attempt": 1}
+{"task": "cwe_022_0_go", "ok": true, "ts": 1772033144.7494476, "attempt": 1}
+{"task": "cwe_760_0_go", "ok": true, "ts": 1772033147.2204874, "attempt": 1}
+{"task": "cwe_329_0_go", "ok": true, "ts": 1772033147.8322754, "attempt": 1}
+{"task": "cwe_020_0_go", "ok": true, "ts": 1772033149.2975836, "attempt": 1}
+{"task": "cwe_327_2_go", "ok": true, "ts": 1772033150.0458007, "attempt": 1}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772033153.6080556, "attempt": 1, "reason": "The text contains a significant amount of English terms and programming syntax, which makes it primarily not in Dari."}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772033163.701798, "attempt": 1, "reason": "The text contains a significant amount of English programming terminology and code snippets, which makes it primarily not in Dari."}
+{"task": "cwe_918_0_go", "ok": true, "ts": 1772033163.7585437, "attempt": 1}
+{"task": "cwe_943_0_go", "ok": true, "ts": 1772033167.4481893, "attempt": 1}
+{"task": "cwe_918_1_go", "ok": true, "ts": 1772033168.9824004, "attempt": 1}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772033179.9473479, "reason": "stage2_judge_failed"}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772033182.683086, "reason": "stage2_judge_failed"}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772033184.124748, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772033184.6300426, "reason": "stage2_judge_failed"}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772033185.4659207, "reason": "stage2_judge_failed"}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772033187.8018727, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772033188.3129175, "reason": "stage2_judge_failed"}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772033190.362848, "reason": "stage2_judge_failed"}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772033191.7140052, "reason": "stage2_judge_failed"}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772033193.179776, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772033196.249812, "reason": "stage2_judge_failed"}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772033198.1070004, "reason": "stage2_judge_failed"}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772033200.7522871, "reason": "stage2_judge_failed"}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772033203.0486047, "reason": "stage2_judge_failed"}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772033205.4152145, "reason": "stage2_judge_failed"}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772033207.7990065, "reason": "stage2_judge_failed"}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772033209.327706, "reason": "stage2_judge_failed"}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772033212.4980834, "reason": "stage2_judge_failed"}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772033213.0135865, "reason": "stage2_judge_failed"}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772033213.2111013, "reason": "stage2_judge_failed"}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772033213.5364578, "reason": "stage2_judge_failed"}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772033216.1580725, "reason": "stage2_judge_failed"}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772033218.8127687, "reason": "stage2_judge_failed"}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772033226.3391857, "reason": "stage2_judge_failed"}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772033226.7098567, "reason": "stage2_judge_failed"}

@@ -1,0 +1,41 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025513.449774, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Greek."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772025516.6877875, "reason": "The text contains a mix of Greek and programming code, making it not primarily in Greek."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772025517.171204, "reason": "The text contains a mix of C++ code and Greek comments, but is primarily in English due to the code structure."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772025518.0203857, "reason": "The text contains a significant amount of English programming terminology and syntax, which makes it primarily not in Greek."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772025519.1473603}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772025519.292956}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772025519.737201}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025520.8286748, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily not in Greek."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025522.1997576}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025523.7154808, "reason": "The text is primarily written in English with some Greek comments."}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772025524.641811}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772025525.91787}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772025527.9603758, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Greek."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772025528.0767257, "reason": "The text contains a mix of Greek and English, specifically in the code section."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772025534.6507857, "reason": "The text contains a significant amount of English text, particularly in the code and XML structure, which makes it not primarily in Greek."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025535.2672653, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Greek."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025537.3134904}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772025539.1794708, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily not in Greek."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772025539.8503919}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772025539.8669453}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772025540.0626285, "reason": "The text contains a mix of C++ code and Greek comments, but is primarily in English due to the code structure."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772025541.6194186, "reason": "The text contains a mix of Greek and programming code, making it not primarily in Greek."}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772025541.7387578, "reason": "The text contains a significant amount of English programming terminology and syntax, which makes it primarily not in Greek."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025543.5645351}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772025544.543762}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772025545.062762, "reason": "The text contains a mix of Greek and programming code, making it not primarily in Greek."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772025547.0703142}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772025552.0655992}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025553.0626152}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772025553.1538255, "reason": "The text contains a mix of Greek and English programming syntax, which makes it not primarily in Greek."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025555.0400062, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily not in Greek."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772025560.7544303}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025562.3291566, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily not in Greek."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772025562.9606078, "reason": "The text contains a significant amount of English programming syntax and comments, making it primarily not in Greek."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025566.1166196}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772025566.9332948}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025567.388675, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Greek."}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772025568.599094, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Greek."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772025573.9072173}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025574.8863857}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025610.9607546, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Greek."}

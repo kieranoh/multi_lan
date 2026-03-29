@@ -1,0 +1,55 @@
+{"task": "cwe_117_0_c", "ok": true, "ts": 1771955695.7874}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771955696.562807}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771955698.8381088}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771955700.4037805}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771955701.3330762}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771955702.9451358}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1771955705.736706}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771955712.9910223}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771955713.4612298}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771955720.3213832}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771955722.0729258}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771955730.7401607}
+{"task": "cwe_787_2_c", "ok": true, "ts": 1771955733.5631375}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771955734.947045}
+{"task": "cwe_117_0_c", "ok": true, "ts": 1771955736.2171118}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771955737.1496038}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771955740.5581036}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771955740.7870321}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771955740.8551512}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771955747.9759305}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771955752.6062722}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771955754.349232}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771955755.5351918}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771955758.4894118}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1771955758.8686798}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771955760.6056056}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771955760.617988}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771955764.6408713}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771955770.37386}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771955771.9777925}
+{"task": "cwe_787_2_c", "ok": true, "ts": 1771955772.7887957}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771955773.726807}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771955780.4395015}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771955783.327221}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771955784.2873147}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771955785.403625}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771955788.8025012}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771955795.4432344}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771955848.8071306}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771955883.5359974}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772017244.8323057, "reason": "The text contains a significant amount of English, which makes it primarily not in Tibetan."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017246.222995, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Tibetan."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772017246.2336977, "reason": "The text contains a significant amount of English and programming syntax, which makes it not primarily written in Tibetan."}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1772017247.0256846}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017251.4474404, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not Tibetan."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017252.337876, "reason": "The text contains a significant amount of code and comments in Tibetan, but it is primarily written in English due to the presence of programming syntax and keywords."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017253.9548953, "reason": "The text is primarily written in C programming language with a small portion of Tibetan text."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017254.322548, "reason": "The text is primarily written in English with a significant portion in Tibetan."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017254.873372, "reason": "The text contains a significant amount of non-Tibetan programming code and comments, making it primarily not in Tibetan."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017255.0137997, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not Tibetan."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017258.569679, "reason": "The text is primarily written in English with some Tibetan phrases interspersed."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017259.131881, "reason": "The text is primarily written in English with some Tibetan phrases interspersed."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017265.9351747, "reason": "The text contains a significant amount of code and English, with only a few Tibetan phrases, making it primarily not in Tibetan."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017288.066336, "reason": "The text is primarily written in C programming language with some Tibetan comments, but the majority is not in Tibetan."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017299.4173543, "reason": "The text is primarily written in C programming language with some Tibetan comments, but the majority of the content is not in Tibetan."}

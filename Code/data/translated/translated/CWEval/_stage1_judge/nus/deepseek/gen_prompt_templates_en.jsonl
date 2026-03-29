@@ -1,0 +1,20 @@
+{"task": "ppt_compl_js", "ok": true, "ts": 1771918268.3835676, "attempt": 1}
+{"task": "ppt_direct_c", "ok": true, "ts": 1771918340.2487693, "attempt": 1}
+{"task": "ppt_direct_go", "ok": true, "ts": 1771918340.5999446, "attempt": 1}
+{"task": "ppt_direct_js", "ok": true, "ts": 1771918341.3728921, "attempt": 1}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771918341.8781064, "attempt": 1}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771918343.7709043, "attempt": 1}
+{"task": "ppt_compl_go", "ok": true, "ts": 1771918344.4573543, "attempt": 1}
+{"task": "ppt_secure_go", "ok": true, "ts": 1771918765.0123727, "attempt": 2}
+{"task": "ppt_secure_js", "ok": true, "ts": 1771918769.0908298, "attempt": 2}
+{"task": "ppt_direct_cpp", "ok": true, "ts": 1771919197.4445066, "attempt": 3}
+{"task": "ppt_direct_cpp", "ok": false, "ts": 1771919207.958901, "reason": "stage2_judge_failed"}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1771919208.6019697, "reason": "stage2_judge_failed"}
+{"task": "ppt_compl_py", "ok": false, "ts": 1771919215.2089152, "reason": "stage2_judge_failed"}
+{"task": "ppt_compl_c", "ok": false, "ts": 1771919217.9876034, "reason": "stage2_judge_failed"}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1771919298.8596125, "reason": "stage2_judge_failed"}
+{"task": "ppt_secure_c", "ok": false, "ts": 1772012933.2620797, "attempt": 1, "reason": "The text consists primarily of repeated phrases and does not form coherent sentences in Nuer."}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1772012945.905593, "reason": "stage2_judge_failed"}
+{"task": "ppt_compl_py", "ok": false, "ts": 1772012955.4769566, "reason": "stage2_judge_failed"}
+{"task": "ppt_compl_c", "ok": false, "ts": 1772012959.2986774, "reason": "stage2_judge_failed"}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1772013029.6644583, "reason": "stage2_judge_failed"}

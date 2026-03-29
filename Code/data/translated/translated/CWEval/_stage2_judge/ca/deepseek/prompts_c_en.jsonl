@@ -1,0 +1,61 @@
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771963490.5842261}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771963491.6317422}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771963494.4854372}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771963495.5719705}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771963503.0496647}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771963503.8463993}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771963508.7869165}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771963509.504687}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771963509.6938336}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771963509.7886186}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771963512.6383731}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771963515.5610688}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771963518.614532}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771963519.4814987}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771963521.1408324}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771963521.5830355}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771963526.6424458}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771963528.3770626}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771963531.028069}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771963534.8964708}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771963536.2094774}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771963542.1973429}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771963546.6456935}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771963547.5910122}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771963547.907131}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771963553.001354}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771963553.1175785}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771963553.2143202}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771963553.2163506}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771963554.5717726}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771963556.6705172}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772020124.7497451, "reason": "The text contains programming code and comments in Catalan, but the primary content is not in Catalan."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772020126.8675556, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Catalan."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772020126.9174125, "reason": "The text contains programming code and comments in Catalan, but it is not primarily written in Catalan."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772020127.1343222, "reason": "The text contains programming code and comments in a mix of Catalan and English, but the primary language is not Catalan."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772020127.6754334, "reason": "The text is primarily written in English, with some Catalan terms."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772020127.8186455, "reason": "The text contains programming code and comments in Catalan, but it is not primarily written in Catalan due to the presence of code syntax."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772020128.153063, "reason": "The text is primarily written in English with some Catalan phrases."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772020130.2539747, "reason": "The text contains programming code and comments in Catalan, but it is not primarily written in Catalan as it includes C programming syntax."}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1772020132.6389992}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772020134.7515168, "reason": "The text contains a mix of programming code and comments in Catalan, but the presence of code and the structure indicates it is not primarily written in Catalan."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772020135.0116847, "reason": "The text contains a mix of programming code and comments in Catalan, but the majority is in English, specifically the code and function definitions."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772020135.9504883, "reason": "The text contains a mix of programming code and comments in Catalan, but the presence of code and English keywords indicates it is not primarily written in Catalan."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772020135.9908223, "reason": "The text contains programming code and comments in Catalan, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772020137.1854208, "reason": "The text contains a mix of programming code and comments in Catalan, but the primary content is not in Catalan."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772020141.4499543, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Catalan."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772020142.5524063, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Catalan."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772020142.7702122, "reason": "The text is primarily written in English, with only a few Catalan words."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772020142.9212732, "reason": "The text contains programming code and comments in Catalan, but it is not primarily written in Catalan."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772020145.3143744, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Catalan."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772020145.8055103, "reason": "The text is primarily written in English with programming syntax and comments, not in Catalan."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772020148.6029968, "reason": "The text contains programming code and comments in Catalan, but it is not primarily written in Catalan."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772020149.5456622, "reason": "The text contains a mix of programming code and comments in Catalan, but the presence of code and English terms suggests it is not primarily written in Catalan."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772020150.2101803, "reason": "The text contains programming code and comments in Catalan, but it is not primarily written in Catalan as it includes C programming syntax."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772020152.7117069, "reason": "The text contains a mix of programming code and comments in Catalan, but the presence of code and English keywords suggests it is not primarily in Catalan."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772020157.6785774, "reason": "The text is primarily written in C programming language with a small portion of comments in Catalan."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772020158.7775598, "reason": "The text contains a significant amount of programming code and comments in English, which indicates it is not primarily written in Catalan."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772020159.5707433, "reason": "The text contains programming code and comments in Catalan, but it is primarily a technical description and not a natural language text."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772020161.717678, "reason": "The text contains a mix of programming code and comments in Catalan, but the primary content is not in Catalan."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020184.274968, "reason": "The text contains a significant amount of code and comments in English, which indicates it is not primarily written in Catalan."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772020206.1891413, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Catalan."}

@@ -1,0 +1,19 @@
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772030935.86898, "reason": "The text contains English programming terminology and syntax, indicating it is not primarily written in Jingpho."}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772030938.5688136, "reason": "The text contains programming code and English phrases, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772030939.3390198, "reason": "The text is primarily written in English, not Jingpho."}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772030941.4969957, "reason": "The text contains a significant amount of technical jargon and programming language syntax that is not characteristic of Jingpho, indicating it is primarily written in English with some Jingpho phrases."}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772030941.6714594, "reason": "The text is primarily written in English with some elements that resemble Jingpho, but it does not conform to the structure or vocabulary of Jingpho."}
+{"task": "cwe_347_0_go", "ok": false, "ts": 1772030944.9727588, "reason": "The text contains a significant amount of English and programming terminology, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772030945.5072522, "reason": "The text contains a mix of programming language syntax and comments in English, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772030946.3105767, "reason": "The text is primarily written in English with some Jingpho words, but it is not predominantly in Jingpho."}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772030946.9688406, "reason": "The text is primarily written in English with some technical terms and comments, not in Jingpho."}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772030948.8170888, "reason": "The text is primarily written in English with some technical terms and does not appear to be in Jingpho."}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772030948.9713938, "reason": "The text contains a significant amount of English programming terminology and syntax, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772030956.3295155, "reason": "The text contains a significant amount of English and programming syntax, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772030959.966588, "reason": "The text is primarily written in English with some phrases that may resemble Jingpho, but it does not constitute a coherent text in Jingpho."}
+{"task": "cwe_943_0_go", "ok": false, "ts": 1772030963.537624, "reason": "The text contains a significant amount of English and programming language syntax, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_918_1_go", "ok": false, "ts": 1772030964.254824, "reason": "The text is primarily written in English with some Jingpho phrases, but it is not predominantly in Jingpho."}
+{"task": "cwe_643_0_go", "ok": false, "ts": 1772030968.6079843, "reason": "The text contains a significant amount of English and programming language syntax, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772031018.0828466, "reason": "The text is primarily written in English, not Jingpho."}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772031103.1702518, "reason": "The text contains a significant amount of English programming terminology and syntax, which indicates it is not primarily written in Jingpho."}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772031253.4325001, "reason": "The text does not appear to be primarily in Jingpho (kac). It seems to be repetitive and lacks coherent structure typical of a natural language."}

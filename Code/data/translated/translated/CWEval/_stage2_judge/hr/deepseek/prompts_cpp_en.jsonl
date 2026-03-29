@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772028077.2746248, "reason": "The text contains programming code and comments in Croatian, but the primary content is not in Croatian."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772028081.6223645}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772028082.7071412}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772028083.550067}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772028083.794979}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772028083.8395736}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772028085.0363984, "reason": "The text contains a mix of programming code and comments, with only a small portion written in Croatian. The majority is in English and code syntax."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772028085.3848565}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772028085.4980795}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772028087.3588347}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772028089.3945432}
+{"task": "cwe_329_0_cpp", "ok": true, "ts": 1772028089.9987218}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772028091.7713048, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not Croatian."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772028094.8112793}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772028096.6811981}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772028098.5823178, "reason": "The text contains programming code and comments in English, not primarily in Croatian."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772028099.5205028}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772028103.5620217, "reason": "The text contains a mix of programming code and comments in Croatian, but the primary content is not in Croatian."}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772028105.8119113}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772028106.0436733}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772028107.2892752, "reason": "The text contains a mix of programming code and comments in Croatian, but the presence of code and English terms indicates it is not primarily written in Croatian."}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772028107.9775262}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772028109.4612455}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772028110.4625337}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772028111.254741}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772028111.9013956}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772028112.5655296}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772028113.8537009}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772028117.4251335}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772028122.333732, "reason": "The text contains a significant amount of code and technical terms in English, with only a few phrases in Croatian, making it primarily not in Croatian."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772028124.5097594, "reason": "Text contains a significant portion of English, particularly in the comments and function signatures, which makes it not primarily in Croatian."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772028126.0162196, "reason": "The text contains a mix of Croatian and programming code, which affects its primary language classification."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772028126.5058138}
+{"task": "cwe_329_0_cpp", "ok": true, "ts": 1772028128.4856105}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772028129.5576236}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772028133.3189704, "reason": "The text contains a mix of programming code and comments in Croatian, but the primary content is not in Croatian."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772028134.0688941, "reason": "The text contains a mix of programming code and comments in Croatian, but the primary content is not in Croatian."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772028134.1024137}
+{"task": "cwe_326_1_cpp", "ok": false, "ts": 1772028136.1152897, "reason": "The text contains a significant amount of technical content and code that is not primarily in Croatian, despite some Croatian phrases."}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772028140.4891155}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772028142.608628}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772028177.2839718, "reason": "The text contains a significant portion of English comments and code, which makes it not primarily written in Croatian."}

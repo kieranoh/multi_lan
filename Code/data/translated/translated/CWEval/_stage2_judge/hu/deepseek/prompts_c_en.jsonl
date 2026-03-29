@@ -1,0 +1,60 @@
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771962898.5124886}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771962898.9778361}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771962899.4089427}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771962899.757232}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771962901.952396}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771962902.0941894}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771962904.6209412}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771962904.807488}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1771962905.8777492}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771962911.5829}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771962912.9899025}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771962917.0535316}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771962920.2819161}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771962921.4674711}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771962922.3242059}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771962922.555416}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771962923.2308109}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771962924.6907885}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771962924.8944018}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771962926.8924625}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771962927.5260832}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771962931.0830712}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771962932.175577}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771962933.1138027}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771962934.7590673}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771962937.3221772}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771962939.5971978}
+{"task": "cwe_347_0_c", "ok": true, "ts": 1771962941.7229767}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771962942.6168447}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771962944.3706884}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771962944.9516714}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771962946.732015}
+{"task": "cwe_329_0_c", "ok": true, "ts": 1771962948.3035538}
+{"task": "cwe_327_2_c", "ok": true, "ts": 1771962951.8006854}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771962953.7527308}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771962953.910548}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771962955.3426967}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771962958.1619236}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771962962.47722}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771962962.9101567}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771962967.3251379}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771962967.3363633}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771962967.7544873}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771962969.0195677}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771962971.0397265}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771962974.0240173}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771962979.0624688}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019878.9842231, "reason": "The text contains programming code and comments in Hungarian, but it is not primarily written in Hungarian."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019879.0652287, "reason": "The text contains programming code and is not primarily written in Hungarian."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772019880.212685, "reason": "The text contains programming code and comments in Hungarian, but it is not primarily written in Hungarian."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772019881.3638613, "reason": "The text contains programming code and comments in Hungarian, but it is not primarily written in Hungarian."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019881.8021219, "reason": "The text contains programming code and comments in Hungarian, but it is not primarily written in Hungarian due to the presence of code syntax and English keywords."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019882.305586, "reason": "The text contains programming code and comments in Hungarian, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019888.9076262, "reason": "The text contains a significant amount of code and comments in Hungarian, but the majority of the content is programming code, which is not primarily in Hungarian."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019889.9371939, "reason": "The text contains a significant amount of code and comments in English, with only a small portion in Hungarian."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019896.063395, "reason": "The text contains a significant amount of programming code and comments in Hungarian, but the majority of the content is in English, making it primarily not Hungarian."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019896.466664, "reason": "The text contains a significant amount of programming code and comments in Hungarian, but the majority of the content is in English, making it primarily not Hungarian."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772019900.848002, "reason": "The text contains a significant amount of code and technical terms that are not in Hungarian, making it primarily not Hungarian."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772019901.376655, "reason": "The text contains a significant amount of code and technical terms that are not in Hungarian, making it primarily not Hungarian."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019932.0249746, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not Hungarian."}

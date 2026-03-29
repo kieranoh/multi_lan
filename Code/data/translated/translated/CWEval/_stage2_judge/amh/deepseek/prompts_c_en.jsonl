@@ -1,0 +1,55 @@
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771957224.807034}
+{"task": "cwe_117_0_c", "ok": true, "ts": 1771957225.3759198}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771957226.6811793}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771957228.3190928}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771957228.6566389}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771957229.5558577}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771957233.2249737}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771957241.8977764}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771957243.5677638}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771957244.230687}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771957246.6181784}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771957249.2737765}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771957252.8055463}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771957258.6112945}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771957260.4994407}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771957261.0349896}
+{"task": "cwe_117_0_c", "ok": true, "ts": 1771957262.4169137}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771957262.9993484}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771957263.417471}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771957268.739254}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771957269.9301226}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771957270.8046553}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771957275.0318537}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771957275.811634}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771957276.8711107}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771957280.0769417}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771957282.8445837}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771957284.504697}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771957285.483185}
+{"task": "cwe_787_2_c", "ok": true, "ts": 1771957287.7067661}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771957298.7149112}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771957302.9707425}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772017652.728489, "reason": "The text contains a mix of Amharic and English, with significant portions in English, particularly in the code and comments."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017655.6857686, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Amharic."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017655.8051183, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Amharic."}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1772017657.4327142}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772017657.4702036, "reason": "The text contains a mix of Amharic and programming language syntax, which makes it primarily not in Amharic."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017659.2612398, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Amharic."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017660.0933566, "reason": "The text is primarily written in English with a significant portion in Amharic."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017660.1490965, "reason": "The text contains a significant amount of code and comments in Amharic, but it is primarily a programming code snippet with mixed language usage."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017660.164559, "reason": "The text contains a significant amount of code and comments in Amharic, but it is primarily written in a programming language (C/C++), which is not Amharic."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017660.6986296, "reason": "The text contains a significant amount of code and comments in Amharic, but it is primarily written in a programming language (C/C++), which is not Amharic."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017661.5708697, "reason": "The text contains a significant amount of code and comments in Amharic, but it is primarily written in English due to the presence of programming syntax and keywords."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017667.7334397, "reason": "The text is primarily written in C programming language with some Amharic comments, but the majority is not in Amharic."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772017667.8810437, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Amharic."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772017668.4427876, "reason": "The text contains a significant amount of code and comments in Amharic, but it is primarily a programming code snippet."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017672.5643358, "reason": "The text contains a significant amount of code and English, with only a portion in Amharic."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772017676.4551237, "reason": "The text contains programming code and comments in Amharic, but the primary content is not in Amharic."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017678.9649715, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Amharic."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017680.1851196, "reason": "The text is primarily written in C programming language with a significant portion of comments in Amharic."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772017681.7684176, "reason": "The text contains a significant amount of programming code and comments in Amharic, but it is primarily a code snippet rather than a text written primarily in Amharic."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772017683.1313128, "reason": "The text contains a mix of Amharic and programming code, which makes it primarily not in Amharic."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017684.305076, "reason": "The text is primarily written in C programming language with some Amharic comments."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017704.0521595, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Amharic."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017725.4987824, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Amharic."}

@@ -1,0 +1,46 @@
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771953891.3944414}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771953942.1219707}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771953958.9544213}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771954337.7317886}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771954395.1363673}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772016395.5117602, "reason": "The text contains programming code and comments in English, which is not primarily Bambara."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772016395.7147646, "reason": "The text contains a mix of Bambara and programming language syntax, making it primarily not in Bambara."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772016396.311275, "reason": "The text contains programming code and comments primarily in English, with only a small portion in Bambara."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772016396.9167354, "reason": "The text is primarily written in C programming language with a small portion in Bambara, but the majority is code."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772016400.8932784, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Bambara."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772016402.678181, "reason": "The text contains programming code and comments primarily in English, with only a portion in Bambara."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772016405.9185207, "reason": "The text is primarily written in C programming language, not in Bambara."}
+{"task": "cwe_326_1_c", "ok": false, "ts": 1772016406.7680457, "reason": "The text is primarily written in French, not Bambara."}
+{"task": "cwe_020_0_c", "ok": false, "ts": 1772016409.769061, "reason": "The text contains programming code and technical terms that are not in Bambara, making it primarily not in Bambara."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772016410.8540497, "reason": "The text contains a significant amount of programming code and English, which makes it primarily not in Bambara."}
+{"task": "cwe_918_1_c", "ok": false, "ts": 1772016410.8809392, "reason": "The text contains programming code and technical terms that are not primarily in Bambara."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772016411.548682, "reason": "The text contains a mix of programming language syntax and English, with only a few phrases in Bambara."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772016413.6970348, "reason": "The text contains programming code and is not primarily in Bambara."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772016415.863223, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Bambara."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772016418.8579187, "reason": "The text contains programming code which is not in Bambara."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772016423.8307385, "reason": "The text contains programming code and is not primarily written in Bambara."}
+{"task": "cwe_676_0_c", "ok": false, "ts": 1772016425.127486, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Bambara."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772016428.4350045, "reason": "The text contains programming code and comments in English, which is not primarily Bambara."}
+{"task": "cwe_326_0_c", "ok": false, "ts": 1772016430.3975618, "reason": "The text contains a mix of Bambara and programming language syntax, making it primarily not in Bambara."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772016431.1174152, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Bambara."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772016433.8262744, "reason": "The text contains programming code and is not primarily in Bambara."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772016438.202949, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Bambara."}
+{"task": "cwe_918_0_c", "ok": false, "ts": 1772016438.9562204, "reason": "The text contains programming code and comments in English, which is not primarily Bambara."}
+{"task": "cwe_676_0_c", "ok": false, "ts": 1772016442.612357, "reason": "The text contains a significant amount of programming code and English, which makes it primarily not in Bambara."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772016443.481487, "reason": "The text contains programming code and is not primarily written in Bambara."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772016444.4672015, "reason": "The text is primarily written in C programming language with some Bambara comments, but the majority is in English and code."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772016446.464137, "reason": "The text contains programming code and comments in English, which is not primarily Bambara."}
+{"task": "cwe_170_0_c", "ok": false, "ts": 1772016448.3721213, "reason": "The text contains a mix of programming code and Bambara language, but the primary content is in English and C programming syntax."}
+{"task": "cwe_078_0_c", "ok": false, "ts": 1772016476.5299656, "reason": "The text contains a significant amount of programming syntax and English terms, which indicates it is not primarily written in Bambara."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772016479.9878538, "reason": "The text is primarily written in C programming language with some Bambara phrases, but the majority is not in Bambara."}
+{"task": "cwe_918_1_c", "ok": false, "ts": 1772016545.1443021, "reason": "The text contains programming code and technical terms that are not in Bambara, indicating it is not primarily written in Bambara."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772016678.9103196, "reason": "The text contains programming code and English, which is not primarily in Bambara."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772016690.805539, "reason": "The text contains a large block of repetitive phrases in Bambara, but it also includes programming syntax and comments that indicate it is not primarily written in Bambara."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772016705.1676803, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Bambara."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772016706.2355087, "reason": "The text contains a mix of programming code and comments in English, which is not primarily Bambara."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772016767.4314618, "reason": "The text contains a significant amount of English programming syntax and comments, which indicates it is not primarily written in Bambara."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772016781.795281, "reason": "The text contains programming code and comments in English, which is not primarily Bambara."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772016799.1508758, "reason": "The text contains a significant amount of English programming syntax and comments, which indicates it is not primarily written in Bambara."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772016807.394493, "reason": "The text contains a significant amount of repetitive phrases and does not represent coherent Bambara language usage."}
+{"task": "cwe_468_0_c", "ok": false, "ts": 1772016812.1067312, "reason": "The text contains a significant amount of non-Bambara content, including programming syntax and comments, which indicates it is not primarily written in Bambara."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772016839.4465158, "reason": "The text contains programming code and comments in English, which is not primarily Bambara."}

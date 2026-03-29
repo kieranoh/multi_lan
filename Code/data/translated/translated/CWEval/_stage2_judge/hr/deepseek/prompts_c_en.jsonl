@@ -1,0 +1,61 @@
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771961887.0881803}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771961887.8152838}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771961888.3674965}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771961888.6609876}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771961890.4078267}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771961892.0568855}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771961898.241079}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771961900.702065}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771961904.45007}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771961905.2304869}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771961906.648256}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771961907.1556933}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771961912.8876708}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771961912.9891589}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771961914.1682534}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771961915.6984913}
+{"task": "cwe_327_0_c", "ok": true, "ts": 1771961916.7610838}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771961916.7666235}
+{"task": "cwe_377_0_c", "ok": true, "ts": 1771961918.2694712}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771961922.5681684}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771961924.7869015}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771961927.907236}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771961929.9208155}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771961930.6125371}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771961942.431475}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771961942.6436105}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771961942.8936372}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771961944.6146588}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771961945.0045366}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771961946.854651}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771961947.304297}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771961947.4662595}
+{"task": "cwe_643_0_c", "ok": true, "ts": 1771961948.442946}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771961954.24429}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771961954.8098772}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019457.9319265, "reason": "The text contains programming code and comments, which are not primarily in Croatian."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772019458.439068, "reason": "The text contains programming code and comments in English, which is not primarily Croatian."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019459.7113664, "reason": "The text contains programming code and comments in Croatian, but it is not primarily written in Croatian."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772019459.7670443, "reason": "The text is primarily written in English with some Croatian comments."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019459.926306, "reason": "The text contains programming code and comments in Croatian, but it is not primarily written in Croatian as it includes code syntax."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772019460.5180619, "reason": "The text contains a mix of Croatian and programming language syntax, but the primary language is not Croatian."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772019461.16474, "reason": "The text contains a mix of Croatian and programming language syntax, but the primary language is not Croatian."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772019461.4459808, "reason": "The text is primarily written in English, with only a few Croatian words."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019462.89793, "reason": "Text contains programming code and comments in Croatian, but the primary content is not in Croatian."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019464.011471, "reason": "Text contains programming code and comments in Croatian, but the primary content is not in Croatian."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019466.4279535, "reason": "The text contains a significant amount of code and comments in Croatian, but the presence of code and English keywords suggests it is not primarily written in Croatian."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019466.7067509, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Croatian."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019468.292278, "reason": "The text contains a mix of programming code and comments in Croatian, but the primary content is not in Croatian."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772019470.210515, "reason": "The text contains a mix of programming code and comments in Croatian, but the primary content is not in Croatian."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772019472.9225135, "reason": "The text contains programming code and comments in English, which is not primarily Croatian."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019474.054719, "reason": "The text contains a significant amount of programming code and comments in Croatian, but the overall structure and context are primarily technical and not purely Croatian."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772019474.4484055, "reason": "The text is primarily written in English with some Croatian comments."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772019475.4276457, "reason": "The text is primarily written in English, with only a few Croatian words."}
+{"task": "cwe_787_2_c", "ok": true, "ts": 1772019476.9359071}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019478.8140638, "reason": "The text contains a significant amount of code and technical terminology, which is not primarily in Croatian. The comments in Croatian are present, but the overall context is dominated by programming language syntax."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019481.1648784, "reason": "The text contains a mix of programming code and comments in Croatian, but the primary content is not in Croatian."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019483.729354, "reason": "The text is primarily written in C programming language with a small portion of comments in Croatian."}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1772019485.7887638}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019486.624089, "reason": "The text contains a significant amount of code and technical terminology, making it primarily a programming text rather than a natural language text in Croatian."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019508.410742, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not Croatian."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019527.7599177, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Croatian."}

@@ -1,0 +1,36 @@
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772033427.7271726, "reason": "The text contains a mix of Rundi and programming language syntax, making it primarily not in Rundi."}
+{"task": "cwe_327_0_go", "ok": false, "ts": 1772033429.1477132, "reason": "The text contains programming code and comments in a mix of Rundi and English, which makes it primarily not in Rundi."}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772033430.3041027, "reason": "The text contains a significant amount of technical programming language and terminology that is not primarily in Rundi."}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772033430.7425997, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Rundi."}
+{"task": "cwe_117_0_go", "ok": false, "ts": 1772033430.8470209, "reason": "The text contains programming code and comments in a mix of English and Rundi, but is primarily in English."}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772033431.8205886, "reason": "The text contains programming code and is not primarily in Rundi."}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772033431.8969781, "reason": "The text is primarily written in English with some Rundi phrases."}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772033434.505485, "reason": "The text contains a mix of programming language syntax and comments in Kinyarwanda, not primarily in Rundi."}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772033436.518637, "reason": "The text is primarily written in a programming language (likely Go) and includes comments in Kinyarwanda, not Rundi."}
+{"task": "cwe_347_0_go", "ok": true, "ts": 1772033436.6623101}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772033437.039072, "reason": "The text contains a significant amount of programming code and technical terms that are not in Rundi, indicating that it is not primarily written in Rundi."}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772033437.7151763, "reason": "The text contains programming code and technical terms that are not primarily in Rundi."}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772033437.9264216, "reason": "The text contains a mix of Rundi and programming language syntax, making it primarily not in Rundi."}
+{"task": "cwe_327_2_go", "ok": true, "ts": 1772033441.842106}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772033443.0513043, "reason": "The text contains programming code and comments in a mix of Rundi and English, which makes it primarily not in Rundi."}
+{"task": "cwe_326_0_go", "ok": false, "ts": 1772033443.193853, "reason": "The text contains a mix of Rundi and programming language syntax, making it primarily not in Rundi."}
+{"task": "cwe_732_2_go", "ok": false, "ts": 1772033447.7961373, "reason": "The text contains a mix of Rundi and programming language syntax, making it not primarily in Rundi."}
+{"task": "cwe_079_0_go", "ok": false, "ts": 1772033448.88435, "reason": "The text contains a mix of Rundi and programming code, making it primarily not in Rundi."}
+{"task": "cwe_326_1_go", "ok": false, "ts": 1772033449.5966852, "reason": "The text contains a significant amount of technical programming language and terminology that is not primarily in Rundi."}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772033451.5172646, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Rundi."}
+{"task": "cwe_022_2_go", "ok": false, "ts": 1772033454.125894, "reason": "The text contains programming code and comments in a mix of Rundi and English, making it not primarily in Rundi."}
+{"task": "cwe_078_0_go", "ok": false, "ts": 1772033456.5170372, "reason": "The text contains programming code and comments in Kinyarwanda, not primarily in Rundi."}
+{"task": "cwe_943_0_go", "ok": true, "ts": 1772033458.4867284}
+{"task": "cwe_022_0_go", "ok": false, "ts": 1772033459.130531, "reason": "The text is primarily written in a programming language (likely Go) with comments in Kinyarwanda, not Rundi."}
+{"task": "cwe_347_0_go", "ok": true, "ts": 1772033459.4409766}
+{"task": "cwe_643_0_go", "ok": true, "ts": 1772033460.0393057}
+{"task": "cwe_918_1_go", "ok": true, "ts": 1772033460.4961}
+{"task": "cwe_760_0_go", "ok": false, "ts": 1772033461.9471176, "reason": "The text is primarily written in a programming language (likely Go) with comments in Kinyarwanda, not Rundi."}
+{"task": "cwe_329_0_go", "ok": false, "ts": 1772033465.6500063, "reason": "The text contains programming code and technical terms that are not primarily in Rundi."}
+{"task": "cwe_327_2_go", "ok": false, "ts": 1772033467.9277134, "reason": "The text contains programming code and technical terms that are not primarily in Rundi."}
+{"task": "cwe_020_0_go", "ok": false, "ts": 1772033468.5893755, "reason": "The text contains programming code and comments in Rundi, but it is primarily written in a programming language (likely Go) with embedded Rundi comments."}
+{"task": "cwe_113_0_go", "ok": false, "ts": 1772033468.9954312, "reason": "The text contains programming code and terms that are not in Rundi, indicating it is not primarily written in Rundi."}
+{"task": "cwe_918_0_go", "ok": false, "ts": 1772033472.3767116, "reason": "The text contains programming code and technical terms that are not primarily in Rundi."}
+{"task": "cwe_943_0_go", "ok": true, "ts": 1772033477.6213787}
+{"task": "cwe_918_1_go", "ok": true, "ts": 1772033483.7351172}
+{"task": "cwe_643_0_go", "ok": true, "ts": 1772033497.4032958}

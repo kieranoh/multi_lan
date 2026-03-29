@@ -1,0 +1,20 @@
+{"task": "ppt_compl_py", "ok": true, "ts": 1771917652.0728219}
+{"task": "ppt_compl_py", "ok": true, "ts": 1771917652.0852056}
+{"task": "ppt_compl_js", "ok": true, "ts": 1771917653.335686}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771917659.4233155}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771917660.886845}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771917661.3822114}
+{"task": "ppt_compl_js", "ok": true, "ts": 1771917667.4828746}
+{"task": "ppt_secure_py", "ok": true, "ts": 1771917678.481989}
+{"task": "ppt_direct_py", "ok": true, "ts": 1771917679.4469306}
+{"task": "ppt_secure_c", "ok": true, "ts": 1771917679.7935693}
+{"task": "ppt_compl_c", "ok": false, "ts": 1772012516.369698, "reason": "The text contains a significant portion of English, specifically programming terminology and code syntax, which is not in Dari."}
+{"task": "ppt_compl_cpp", "ok": false, "ts": 1772012516.5995138, "reason": "The text contains a significant portion of English, specifically programming terminology and code syntax, which makes it not primarily in Dari."}
+{"task": "ppt_compl_go", "ok": false, "ts": 1772012516.715735, "reason": "The text contains a significant portion of English (specifically programming-related terms) which makes it not primarily in Dari."}
+{"task": "ppt_direct_go", "ok": false, "ts": 1772012522.4297588, "reason": "The text contains a significant amount of English technical terms and instructions that are not in Dari, indicating it is not primarily written in Dari."}
+{"task": "ppt_direct_js", "ok": false, "ts": 1772012522.6442194, "reason": "The text contains a significant amount of English technical terms and instructions that are not in Dari, making it primarily in English."}
+{"task": "ppt_secure_go", "ok": false, "ts": 1772012523.732507, "reason": "The text contains a significant amount of English technical terms and instructions that are not in Dari, indicating it is not primarily written in Dari."}
+{"task": "ppt_direct_cpp", "ok": false, "ts": 1772012524.2141027, "reason": "The text contains a significant amount of English technical terms and instructions that are not in Dari, which makes it primarily not in Dari."}
+{"task": "ppt_secure_js", "ok": false, "ts": 1772012524.5317159, "reason": "The text contains a significant amount of English technical terms and instructions that are not in Dari, which makes it primarily not in Dari."}
+{"task": "ppt_secure_cpp", "ok": false, "ts": 1772012525.0693383, "reason": "The text contains a significant amount of English technical terms and instructions that are not in Dari, making it primarily not in Dari."}
+{"task": "ppt_direct_c", "ok": true, "ts": 1772012527.068888}

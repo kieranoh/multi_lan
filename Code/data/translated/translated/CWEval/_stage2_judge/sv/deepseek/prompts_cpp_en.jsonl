@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026224.1347556, "reason": "Text contains programming code and English comments, making it not primarily in Swedish."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026227.2032807, "reason": "Text contains programming code and comments in Swedish, but the primary content is not in Swedish."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772026227.2730274}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772026229.1773932}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772026230.1919422}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772026230.4297328}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772026230.8581314}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772026231.0668707}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772026231.07016}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026232.2042286, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Swedish despite some Swedish comments."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772026232.8799121, "reason": "Text contains a significant amount of English programming terminology and code, making it primarily not in Swedish."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772026237.376939}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772026240.8733132}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772026242.9248593}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772026243.0009203}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772026243.7632155, "reason": "Text contains programming code and English comments, making it not primarily in Swedish."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772026247.8413959}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772026248.1758213, "reason": "Text contains programming code and comments in Swedish, but is primarily written in C++."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772026248.6578608}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772026249.4397683, "reason": "Text contains programming code and comments in Swedish, but the primary content is not in Swedish."}
+{"task": "cwe_117_0_cpp", "ok": true, "ts": 1772026250.6903253}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772026252.2976317}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772026253.7329154}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772026253.807044, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Swedish."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772026253.9272754}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772026258.970282}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772026259.295742}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772026262.839954}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772026266.108403}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772026267.020438, "reason": "The text contains a significant amount of code and technical terms, making it primarily in English despite some Swedish comments."}
+{"task": "cwe_732_2_cpp", "ok": true, "ts": 1772026268.601874}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772026269.99672, "reason": "The text contains a mix of programming code and comments in Swedish, but the primary content is code, which is not in Swedish."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772026270.6779313}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772026275.0453234, "reason": "The text contains a mix of programming code and comments in Swedish, but the primary content is code, which is not in Swedish."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772026277.2714324, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it not primarily in Swedish."}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772026277.6978493, "reason": "The text contains a mix of programming code and comments in Swedish, but the primary content is not in Swedish."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772026280.5584712}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772026282.4009583}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772026283.9466155}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772026285.1572392}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772026288.1990092}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772026328.408324, "reason": "The text contains a significant amount of English programming terminology and comments, which makes it primarily not in Swedish."}

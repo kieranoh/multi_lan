@@ -1,0 +1,58 @@
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771956330.328608}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771956330.7452476}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771956332.9459648}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771956333.210427}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771956343.6959436}
+{"task": "cwe_125_0_c", "ok": true, "ts": 1771956349.071702}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771956350.0901139}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771956355.048311}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771956356.642282}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771956359.59768}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771956360.3506546}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771956360.6084425}
+{"task": "cwe_732_2_c", "ok": true, "ts": 1771956365.5413144}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771956366.5340116}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771956372.249089}
+{"task": "cwe_120_0_c", "ok": true, "ts": 1771956378.9738388}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771956379.133361}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771956390.269512}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771956393.1080499}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771956395.1994898}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771956395.3993998}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771956395.7938752}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771956397.6066458}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771956404.34264}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772017396.4685447, "reason": "The text contains a mix of Marathi and programming code, making it primarily not in Marathi."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017396.6978965, "reason": "The text contains programming code and comments in English, which makes it not primarily in Marathi."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772017396.7511754, "reason": "The text contains a mix of programming code and comments in English, which makes it not primarily in Marathi."}
+{"task": "cwe_190_0_c", "ok": false, "ts": 1772017397.6541831, "reason": "The text contains a mix of Marathi and programming code, making it primarily not in Marathi."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772017398.9010596, "reason": "The text contains a mix of programming code and comments in Marathi, but the primary content is not in Marathi."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017399.6407154, "reason": "The text contains programming code and comments in English, which makes it primarily not in Marathi."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017399.7632322, "reason": "The text contains a mix of programming code and comments in Marathi, but the primary content is not in Marathi."}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1772017400.0036988}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772017401.5889738, "reason": "The text contains a mix of Marathi and programming code, making it primarily not in Marathi."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017402.5289884, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Marathi."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017403.1298103, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Marathi."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017404.4206529, "reason": "The text is primarily written in English with a small portion in Marathi."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017404.7132719, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Marathi."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017406.525651, "reason": "The text contains a mix of Marathi and programming code, making it primarily not in Marathi."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772017410.375922, "reason": "The text contains programming code and comments in English, which makes it primarily not in Marathi."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017411.0885446, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Marathi."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772017411.3702195, "reason": "The text contains programming code and comments in English, which makes it not primarily in Marathi."}
+{"task": "cwe_079_0_c", "ok": false, "ts": 1772017412.6182582, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Marathi."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772017413.0702896, "reason": "The text contains programming code and comments in English, which indicates it is not primarily written in Marathi."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772017416.1146984, "reason": "The text contains a mix of programming code and comments in Marathi, but the primary content is not in Marathi."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017416.186431, "reason": "The text contains a significant amount of code and comments in English, making it primarily not in Marathi."}
+{"task": "cwe_134_0_c", "ok": false, "ts": 1772017416.9295366, "reason": "The text contains a mix of Marathi and programming code, making it primarily not in Marathi."}
+{"task": "cwe_119_0_c", "ok": false, "ts": 1772017417.6727953, "reason": "The text contains a mix of programming code and comments in English, which makes it not primarily in Marathi."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772017419.076424, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Marathi."}
+{"task": "cwe_131_0_c", "ok": false, "ts": 1772017420.1854274, "reason": "The text contains a mix of Marathi and programming code, making it primarily in English."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772017421.5774915, "reason": "The text contains a mix of Marathi and programming code, making it primarily not in Marathi."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772017422.9853523, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Marathi."}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1772017427.3612907}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772017427.3626347, "reason": "The text is primarily written in English with a small portion in Marathi."}
+{"task": "cwe_943_0_c", "ok": false, "ts": 1772017430.7503586, "reason": "The text contains a significant amount of English programming code and comments, making it primarily not in Marathi."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772017432.6440098, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Marathi."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772017433.3444815, "reason": "The text contains a significant amount of code and English, with only a small portion in Marathi."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017445.8723161, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Marathi."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772017478.1980815, "reason": "The text contains a significant amount of code and comments in English, which makes it primarily not in Marathi."}

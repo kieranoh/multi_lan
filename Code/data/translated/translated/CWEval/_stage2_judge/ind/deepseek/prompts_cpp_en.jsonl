@@ -1,0 +1,42 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025123.2364743, "reason": "The text contains programming code and comments in Indonesian, but the primary content is not in Indonesian."}
+{"task": "cwe_079_0_cpp", "ok": false, "ts": 1772025123.9308116, "reason": "The text contains programming code and comments in English, which makes it not primarily in Indonesian."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772025124.6400871, "reason": "The text contains programming code and comments in English, which makes it not primarily in Indonesian."}
+{"task": "cwe_347_0_cpp", "ok": false, "ts": 1772025125.4093282, "reason": "The text contains a mix of programming code and comments in Indonesian, but the primary content is not in Indonesian."}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772025125.4692917, "reason": "Text contains programming code and comments in English, which indicates it is not primarily in Indonesian."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772025126.543039, "reason": "Text contains programming code and English phrases, making it not primarily in Indonesian."}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772025128.1037924, "reason": "The text contains a mix of programming code and comments in Indonesian, but the primary content is not in Indonesian."}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025129.3127623, "reason": "The text contains a significant amount of code and technical terms in English, which makes it primarily not in Indonesian."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772025131.765866}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025132.1979034}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025132.7435486, "reason": "The text contains a significant amount of programming code and technical terms, which are not primarily in Indonesian."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772025133.2670763, "reason": "The text contains programming code and comments in Indonesian, but it is primarily a technical description and not a natural language text."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772025138.4120846, "reason": "Text contains a mix of Indonesian and programming code, making it not primarily in Indonesian."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772025140.6859274}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025141.0560443}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772025142.4210086, "reason": "Text contains programming code and comments in English, which indicates it is not primarily in Indonesian."}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772025144.236365, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Indonesian."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772025144.9327693, "reason": "Text contains programming code and English phrases, making it not primarily in Indonesian."}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772025145.3512604, "reason": "The text contains programming code and comments primarily in English, with only a few Indonesian phrases."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772025147.6172059}
+{"task": "cwe_1333_0_cpp", "ok": false, "ts": 1772025147.8066056, "reason": "Text contains programming code and comments in English, which indicates it is not primarily written in Indonesian."}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772025147.9373617}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025148.5328648}
+{"task": "cwe_918_1_cpp", "ok": false, "ts": 1772025150.6430151, "reason": "The text contains a mix of Indonesian and programming code, making it primarily not in Indonesian."}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772025151.1147995}
+{"task": "cwe_400_0_cpp", "ok": false, "ts": 1772025151.2121904, "reason": "The text contains programming code and comments in Indonesian, but it is primarily a code snippet rather than a text written in Indonesian."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772025156.669847}
+{"task": "cwe_078_0_cpp", "ok": false, "ts": 1772025157.5704205, "reason": "Text contains programming code and comments, not primarily in Indonesian."}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772025158.164638}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772025161.644807, "reason": "The text contains a significant amount of programming code and technical terms in English, which makes it primarily not in Indonesian."}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772025162.1392446, "reason": "Text contains programming code and English terms that are not primarily in Indonesian."}
+{"task": "cwe_113_0_cpp", "ok": false, "ts": 1772025165.0808284, "reason": "The text contains a mix of Indonesian and programming language syntax, making it primarily not in Indonesian."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772025166.6651392, "reason": "The text contains a significant amount of programming code and comments in English, which makes it primarily not in Indonesian."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025173.611301, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Indonesian phrases."}
+{"task": "cwe_760_0_cpp", "ok": false, "ts": 1772025173.6667762, "reason": "The text contains a mix of programming code and comments in Indonesian, but the primary content is not in Indonesian."}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772025173.8751185}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772025176.0813613}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772025176.179279}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772025177.9469023}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772025179.633899}
+{"task": "cwe_643_0_cpp", "ok": false, "ts": 1772025181.8293135, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Indonesian."}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772025218.789339, "reason": "The text contains a significant amount of English programming terminology and comments, making it primarily in English despite some Indonesian phrases."}

@@ -1,0 +1,41 @@
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772029171.024758, "reason": "The text contains programming code and comments in Serbian, but the primary content is not in Serbian."}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772029172.9437008, "reason": "Text contains programming code and comments, not primarily written in Serbian."}
+{"task": "cwe_326_0_cpp", "ok": false, "ts": 1772029174.1186857, "reason": "Text contains programming code and comments in English, which makes it not primarily in Serbian."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772029175.3410537}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772029176.3306305}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772029176.413053}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772029176.7212706, "reason": "The text contains a mix of programming code and comments in Serbian, but the primary content is code, which is not in Serbian."}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772029177.956639}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772029178.5808575}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772029178.6669724, "reason": "The text contains a significant amount of code and comments in Serbian, but it is primarily a programming code snippet, which is not considered primarily written in Serbian."}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772029178.7068264}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772029182.7480576}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772029185.359397, "reason": "Text contains a mix of Serbian and programming syntax, making it not primarily in Serbian."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772029186.525937}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772029188.4010062}
+{"task": "cwe_327_0_cpp", "ok": false, "ts": 1772029189.8338563, "reason": "The text contains programming code and comments in Serbian, but the primary content is not in Serbian."}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772029192.0243886}
+{"task": "cwe_117_0_cpp", "ok": false, "ts": 1772029194.364438, "reason": "The text contains programming code and comments in English, which makes it not primarily in Serbian."}
+{"task": "cwe_079_0_cpp", "ok": true, "ts": 1772029196.689703}
+{"task": "cwe_326_0_cpp", "ok": true, "ts": 1772029197.9449074}
+{"task": "cwe_760_0_cpp", "ok": true, "ts": 1772029198.6476176}
+{"task": "cwe_347_0_cpp", "ok": true, "ts": 1772029199.4940538}
+{"task": "cwe_1333_0_cpp", "ok": true, "ts": 1772029200.2197642}
+{"task": "cwe_918_0_cpp", "ok": true, "ts": 1772029201.4078543}
+{"task": "cwe_943_0_cpp", "ok": true, "ts": 1772029202.5882359}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772029204.0891082}
+{"task": "cwe_078_0_cpp", "ok": true, "ts": 1772029205.9153893}
+{"task": "cwe_400_0_cpp", "ok": true, "ts": 1772029207.5704165}
+{"task": "cwe_329_0_cpp", "ok": false, "ts": 1772029209.7299442, "reason": "Text contains a significant amount of code and technical terms, making it primarily a programming text rather than written primarily in Serbian."}
+{"task": "cwe_022_0_cpp", "ok": true, "ts": 1772029209.8628998}
+{"task": "cwe_732_2_cpp", "ok": false, "ts": 1772029214.5096498, "reason": "The text contains a mix of Serbian and programming code, which affects its primary language classification."}
+{"task": "cwe_327_2_cpp", "ok": false, "ts": 1772029218.6286163, "reason": "The text contains a significant amount of code and comments in Serbian, but it is primarily written in C++ programming language, which is not Serbian."}
+{"task": "cwe_113_0_cpp", "ok": true, "ts": 1772029218.7468953}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772029222.4801106, "reason": "The text contains a significant portion of English programming comments and code, which makes it not primarily in Serbian."}
+{"task": "cwe_020_0_cpp", "ok": true, "ts": 1772029224.2771027}
+{"task": "cwe_943_0_cpp", "ok": false, "ts": 1772029224.5426512, "reason": "Text contains a mix of programming code and Serbian language, but the primary language of the text is not Serbian due to the presence of code syntax."}
+{"task": "cwe_918_0_cpp", "ok": false, "ts": 1772029226.0179968, "reason": "Text contains programming code and comments, which are not primarily in Serbian."}
+{"task": "cwe_326_1_cpp", "ok": true, "ts": 1772029230.3759458}
+{"task": "cwe_918_1_cpp", "ok": true, "ts": 1772029231.118711}
+{"task": "cwe_643_0_cpp", "ok": true, "ts": 1772029235.0188832}
+{"task": "cwe_022_2_cpp", "ok": false, "ts": 1772029268.1781988, "reason": "The text contains a significant portion of English, particularly in the code comments and function signatures, which makes it not primarily in Serbian."}

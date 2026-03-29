@@ -1,0 +1,61 @@
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771961492.3126419}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771961494.0358887}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771961494.6035457}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771961495.8685193}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771961504.835011}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771961506.9011385}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771961508.770208}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771961509.0379643}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771961511.389336}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771961512.0859294}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771961514.4625556}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771961515.3221858}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771961517.2314692}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771961519.9030757}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771961520.7607536}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771961522.6556373}
+{"task": "cwe_079_0_c", "ok": true, "ts": 1771961525.1514876}
+{"task": "cwe_326_0_c", "ok": true, "ts": 1771961530.6390054}
+{"task": "cwe_078_0_c", "ok": true, "ts": 1771961532.7516866}
+{"task": "cwe_022_0_c", "ok": true, "ts": 1771961535.9422643}
+{"task": "cwe_131_0_c", "ok": true, "ts": 1771961536.7694018}
+{"task": "cwe_119_0_c", "ok": true, "ts": 1771961537.7745726}
+{"task": "cwe_134_0_c", "ok": true, "ts": 1771961542.0469625}
+{"task": "cwe_190_0_c", "ok": true, "ts": 1771961549.430481}
+{"task": "cwe_020_0_c", "ok": true, "ts": 1771961549.4673572}
+{"task": "cwe_326_1_c", "ok": true, "ts": 1771961549.9036999}
+{"task": "cwe_476_0_c", "ok": true, "ts": 1771961550.1785336}
+{"task": "cwe_468_0_c", "ok": true, "ts": 1771961553.1637726}
+{"task": "cwe_943_0_c", "ok": true, "ts": 1771961553.2781515}
+{"task": "cwe_676_0_c", "ok": true, "ts": 1771961554.721909}
+{"task": "cwe_918_0_c", "ok": true, "ts": 1771961557.393177}
+{"task": "cwe_918_1_c", "ok": true, "ts": 1771961559.4594152}
+{"task": "cwe_170_0_c", "ok": true, "ts": 1771961563.0155325}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019311.395359, "reason": "The text contains programming code and comments in Dutch, but it is not primarily written in Dutch."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019313.28873, "reason": "The text contains programming code and comments in Dutch, but it is primarily written in English due to the use of English programming syntax and keywords."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772019313.3611128, "reason": "The text contains programming code and comments in Dutch, but it is not primarily written in Dutch as it includes technical syntax and terminology."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772019314.1003141, "reason": "The text contains a mix of programming code and comments, but the comments are primarily in Dutch."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772019314.3643012, "reason": "The text contains programming code and comments, which are not primarily in Dutch."}
+{"task": "cwe_117_0_c", "ok": false, "ts": 1772019314.4244697, "reason": "The text contains programming code and comments in Dutch, but it is primarily written in English due to the use of English programming syntax and keywords."}
+{"task": "cwe_327_0_c", "ok": false, "ts": 1772019314.4506164, "reason": "The text contains a mix of programming code and comments, with only a small portion in Dutch."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772019314.8948436, "reason": "The text contains a mix of Dutch and programming code, but the primary language is not Dutch due to the presence of code syntax."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772019316.0101247, "reason": "The text contains programming code and comments in Dutch, but it is not primarily written in Dutch as it includes code syntax."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019316.673178, "reason": "The text contains a significant amount of code and comments in Dutch, but the overall structure and context are primarily in English due to the programming language syntax."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019319.811423, "reason": "The text contains a mix of C programming code and Dutch comments, but the primary language is not Dutch."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019320.1026633, "reason": "The text contains a significant amount of English programming terminology and code comments, which makes it primarily not in Dutch."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019323.217029, "reason": "The text is primarily written in English with some Dutch phrases."}
+{"task": "cwe_377_0_c", "ok": false, "ts": 1772019326.4726217, "reason": "The text contains programming code and comments in Dutch, but it is primarily a code snippet rather than a text written in Dutch."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019326.948665, "reason": "The text contains a significant amount of programming code and comments in English, with only a small portion in Dutch."}
+{"task": "cwe_732_2_c", "ok": false, "ts": 1772019329.032339, "reason": "The text contains a mix of Dutch and programming code, but the primary language is not Dutch due to the presence of code syntax."}
+{"task": "cwe_120_0_c", "ok": false, "ts": 1772019330.2203531, "reason": "The text contains programming code and comments in Dutch, but it is not primarily written in Dutch as it includes technical syntax and terminology."}
+{"task": "cwe_787_2_c", "ok": false, "ts": 1772019331.3734477, "reason": "The text contains programming code and comments in Dutch, but it is not primarily written in Dutch."}
+{"task": "cwe_347_0_c", "ok": false, "ts": 1772019331.3957663, "reason": "The text contains a mix of programming code and comments in Dutch, but the primary content is not in Dutch."}
+{"task": "cwe_125_0_c", "ok": false, "ts": 1772019333.037809, "reason": "The text contains programming code and comments in Dutch, but it is not primarily written in Dutch as it includes code syntax."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772019333.4132023, "reason": "The text contains a mix of programming code and Dutch comments, but the primary language is not Dutch due to the presence of C code syntax."}
+{"task": "cwe_329_0_c", "ok": false, "ts": 1772019335.4791257, "reason": "The text contains a significant amount of English programming terminology and code comments, making it primarily in English despite some Dutch phrases."}
+{"task": "cwe_327_2_c", "ok": false, "ts": 1772019337.511708, "reason": "The text contains a significant amount of programming code and comments in Dutch, but it is primarily written in English due to the presence of code syntax and keywords."}
+{"task": "cwe_760_0_c", "ok": false, "ts": 1772019338.9353795, "reason": "The text is primarily written in C programming language with a comment in Dutch."}
+{"task": "cwe_113_0_c", "ok": false, "ts": 1772019341.10196, "reason": "The text contains a significant amount of programming code and comments in English, which indicates it is not primarily written in Dutch."}
+{"task": "cwe_643_0_c", "ok": false, "ts": 1772019349.1883378, "reason": "The text contains a significant amount of English programming terminology and code, which makes it primarily not in Dutch."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019362.2448804, "reason": "The text contains a significant amount of English programming terminology and comments, making it not primarily in Dutch."}
+{"task": "cwe_022_2_c", "ok": false, "ts": 1772019382.2923129, "reason": "The text contains a significant amount of English programming terminology and comments, making it not primarily in Dutch."}
