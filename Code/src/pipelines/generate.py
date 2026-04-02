@@ -8,6 +8,8 @@ import random
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 
 from dotenv import load_dotenv
 from tqdm import tqdm
@@ -272,6 +274,116 @@ def load_best_task_prompts(best_overall_dir: Path) -> List[Tuple[str, str, str, 
 
 
 # -------------------------
+# Worker task
+# -------------------------
+
+def _process_one_task(
+    *,
+    client: GenClient,
+    dataset: str,
+    tgt: str,
+    gm: str,
+    ppt_type: str,
+    src_file: str,
+    task: str,
+    code_lang: str,
+    best_code_prompt: str,
+    templates: Dict[Tuple[str, str], Dict[str, str]],
+    code_root: Path,
+    n_samples: int,
+    temperature: float,
+    max_completion_tokens: int,
+    strip_fences: bool,
+    resume: bool,
+    retry_max: int,
+    backoff0: float,
+    backoff_cap: float,
+    gen_log: Path,
+    log_lock: Lock,
+) -> Dict[str, Any]:
+    tpl_rec = templates.get((ppt_type, code_lang))
+    if tpl_rec is None:
+        raise RuntimeError(f"Missing template for ppt={ppt_type} lang={code_lang} (tgt={tgt})")
+
+    system_msg = tpl_rec["system"]
+    user_msg = (tpl_rec.get("user_prefix") or "") + best_code_prompt
+
+    ext = lang_to_ext(code_lang)
+    short_task = _task_to_short_name(task)
+
+    out_dir = code_root / tgt / gm / code_lang / task
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    # 이어하기(완료된 task는 통째로 skip)
+    if resume and _is_task_done(out_dir, short_task, ext, n_samples):
+        return {
+            "task": task,
+            "task_short": short_task,
+            "lang": code_lang,
+            "status": "skipped_done",
+        }
+
+    attempt = 0
+    while True:
+        try:
+            t0 = time.perf_counter()
+            outs = client.generate_n(
+                system=system_msg,
+                user=user_msg,
+                n=n_samples,
+                temperature=temperature,
+                max_completion_tokens=max_completion_tokens,
+            )
+            dt = time.perf_counter() - t0
+
+            for k, text in enumerate(outs):
+                out_path = out_dir / f"{short_task}_{k}.{ext}"
+                # 이어하기: 이미 있는 샘플은 건드리지 않음
+                if resume and out_path.exists():
+                    continue
+                if strip_fences:
+                    text = strip_triple_backticks(text)
+                write_text(out_path, text)
+
+            with log_lock:
+                append_jsonl(
+                    gen_log,
+                    {
+                        "ts": time.time(),
+                        "duration_sec": dt,
+                        "retry_attempts": attempt,
+                        "dataset": dataset,
+                        "target_lang": tgt,
+                        "gen_model": gm,
+                        "model_name": client.model,
+                        "ppt_type": ppt_type,
+                        "src_prompts_file": src_file,
+                        "task": task,
+                        "task_short": short_task,
+                        "lang": code_lang,
+                        "n_samples": n_samples,
+                    },
+                )
+
+            return {
+                "task": task,
+                "task_short": short_task,
+                "lang": code_lang,
+                "status": "ok",
+                "duration_sec": dt,
+                "retry_attempts": attempt,
+            }
+
+        except Exception as e:
+            if retry_max >= 0 and attempt >= retry_max:
+                raise RuntimeError(
+                    f"[GEN FAIL] tgt={tgt} gm={gm} task={task} lang={code_lang} src={src_file} last={e}"
+                ) from e
+            _sleep_backoff(attempt, backoff0, backoff_cap)
+            attempt += 1
+
+
+# -------------------------
 # Main
 # -------------------------
 
@@ -288,7 +400,7 @@ def main() -> None:
     code_root.mkdir(parents=True, exist_ok=True)
 
     # generation settings
-    gen_models = _env_list("GEN_MODELS", "openai,deepseek")  # <- 여기로 openai/deepseek 분리 실행 가능
+    gen_models = _env_list("GEN_MODELS", "openai,deepseek")
     ppt_type = str(os.environ.get("CWEVAL_PPT_TYPE", "direct")).strip().lower()
     if ppt_type not in ("direct", "secure", "compl"):
         raise ValueError("CWEVAL_PPT_TYPE must be one of: direct, secure, compl")
@@ -300,7 +412,12 @@ def main() -> None:
     strip_fences = _env_flag("STRIP_CODE_FENCES", "1")
     resume = _env_flag("RESUME", "1")
 
-    # NEW: 샤딩(여러 tmux/프로세스로 나눠 돌릴 때 서로 겹치지 않게)
+    # NEW: worker 기반 병렬 처리 수 (기본 1 = 기존과 동일)
+    gen_workers = _env_int("GEN_WORKERS", 1)
+    if gen_workers < 1:
+        gen_workers = 1
+
+    # 기존 sharding 로직은 유지
     shard_count = _env_int("GEN_SHARD_COUNT", 1)
     shard_index = _env_int("GEN_SHARD_INDEX", 0)
     if shard_count < 1:
@@ -313,6 +430,7 @@ def main() -> None:
     backoff_cap = _env_float("GEN_RETRY_BACKOFF_MAX_SEC", 30.0)
 
     gen_log = code_root / "_logs" / "generate.jsonl"
+    log_lock = Lock()
 
     target_langs = _resolve_target_langs(final_prompts_root)
     if not target_langs:
@@ -329,78 +447,54 @@ def main() -> None:
         for gm in gen_models:
             client = GenClient.from_env(gm)
 
-            desc = f"GEN {dataset} tgt={tgt} gm={gm} ppt={ppt_type} shard={shard_index}/{shard_count}"
-            pbar = tqdm(list(enumerate(tasks)), desc=desc, unit="task", dynamic_ncols=True)
+            desc = (
+                f"GEN {dataset} tgt={tgt} gm={gm} ppt={ppt_type} "
+                f"shard={shard_index}/{shard_count} workers={gen_workers}"
+            )
 
-            for global_i, (src_file, task, code_lang, best_code_prompt) in pbar:
-                # NEW: 샤딩으로 작업 분배
+            # 기존 sharding 유지: 먼저 대상 task만 추립니다.
+            selected_tasks: List[Tuple[str, str, str, str]] = []
+            for global_i, item in enumerate(tasks):
                 if (global_i % shard_count) != shard_index:
                     continue
+                selected_tasks.append(item)
 
-                tpl_rec = templates.get((ppt_type, code_lang))
-                if tpl_rec is None:
-                    raise RuntimeError(f"Missing template for ppt={ppt_type} lang={code_lang} (tgt={tgt})")
+            pbar = tqdm(total=len(selected_tasks), desc=desc, unit="task", dynamic_ncols=True)
 
-                system_msg = tpl_rec["system"]
-                user_msg = (tpl_rec.get("user_prefix") or "") + best_code_prompt
-
-                ext = lang_to_ext(code_lang)
-                short_task = _task_to_short_name(task)
-
-                out_dir = code_root / tgt / gm / code_lang / task
-                out_dir.mkdir(parents=True, exist_ok=True)
-
-                # NEW: 이어하기(완료된 task는 통째로 skip)
-                if resume and _is_task_done(out_dir, short_task, ext, n_samples):
-                    continue
-
-                attempt = 0
-                while True:
-                    try:
-                        outs = client.generate_n(
-                            system=system_msg,
-                            user=user_msg,
-                            n=n_samples,
+            with ThreadPoolExecutor(max_workers=gen_workers) as ex:
+                futures = []
+                for src_file, task, code_lang, best_code_prompt in selected_tasks:
+                    futures.append(
+                        ex.submit(
+                            _process_one_task,
+                            client=client,
+                            dataset=dataset,
+                            tgt=tgt,
+                            gm=gm,
+                            ppt_type=ppt_type,
+                            src_file=src_file,
+                            task=task,
+                            code_lang=code_lang,
+                            best_code_prompt=best_code_prompt,
+                            templates=templates,
+                            code_root=code_root,
+                            n_samples=n_samples,
                             temperature=temperature,
                             max_completion_tokens=max_completion_tokens,
+                            strip_fences=strip_fences,
+                            resume=resume,
+                            retry_max=retry_max,
+                            backoff0=backoff0,
+                            backoff_cap=backoff_cap,
+                            gen_log=gen_log,
+                            log_lock=log_lock,
                         )
+                    )
 
-                        for k, text in enumerate(outs):
-                            out_path = out_dir / f"{short_task}_{k}.{ext}"
-                            # 이어하기: 이미 있는 샘플은 건드리지 않음
-                            if resume and out_path.exists():
-                                continue
-                            if strip_fences:
-                                text = strip_triple_backticks(text)
-                            write_text(out_path, text)
-
-                        append_jsonl(
-                            gen_log,
-                            {
-                                "ts": time.time(),
-                                "dataset": dataset,
-                                "target_lang": tgt,
-                                "gen_model": gm,
-                                "model_name": client.model,
-                                "ppt_type": ppt_type,
-                                "src_prompts_file": src_file,
-                                "task": task,
-                                "task_short": short_task,
-                                "lang": code_lang,
-                                "n_samples": n_samples,
-                                "shard_count": shard_count,
-                                "shard_index": shard_index,
-                            },
-                        )
-                        break
-
-                    except Exception as e:
-                        if retry_max >= 0 and attempt >= retry_max:
-                            raise RuntimeError(
-                                f"[GEN FAIL] tgt={tgt} gm={gm} task={task} lang={code_lang} src={src_file} last={e}"
-                            ) from e
-                        _sleep_backoff(attempt, backoff0, backoff_cap)
-                        attempt += 1
+                for fut in as_completed(futures):
+                    # 원래처럼 실패 시 전체 실행을 중단하도록 fut.result()에서 예외를 그대로 올립니다.
+                    fut.result()
+                    pbar.update(1)
 
             pbar.close()
 

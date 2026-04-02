@@ -15,69 +15,70 @@ CLINE_BLOCK = re.compile(r"((?:^\s*//.*\n?)+)", re.MULTILINE)
 
 LANG_MAP: Dict[str, str] = {
     # ---- level 0 ----
-    "kac": "Jingpho",
-    "ndo": "Ndonga",
-    "dyu": "Dyula",
-    "bua": "Buriat",
-    "lis": "Lisu",
-    "tig": "Tigré",
-    "ful": "Fula",
+     "kac": "Jingpho",
+     "ndo": "Ndonga",
+     "dyu": "Dyula",
+     "bua": "Buriat",
+     "prs": "Dari",
+     "run": "Rundi",
+     "nus": "Nuer",
 
     # ---- level 1 ----
-    "tel": "Telugu",
-    "som": "Somali",
-    "gla": "Scottish Gaelic",
-    "ibo": "Igbo",
-    "bam": "Bambara",
-    "asm": "Assamese",
-    "sqi": "Albanian",
+     "ibo": "Igbo",
+     "bam": "Bambara",
+     "asm": "Assamese",
+     "epo": "Esperanto",
+     "sat": "Santail",
+     "crh": "Crimean Tatar",
+     "bod": "tibetan",
 
     # ---- level 2 ----
-    "pnb": "Western Punjabi",
-    "hau": "Hausa",
-    "mar": "Marathi",
-    "xho": "Xhosa",
-    "swa": "Swahili",
-    "san": "Sanskrit",
-    "zul": "Zulu",
+     "hau": "Hausa",
+     "mar": "Marathi",
+     "tsn": "Tswana",
+     "isl": "Icelandic",
+     "amh": "Amharic",
+     "yor": "Yoruba",
+     "gle": "Irish",
+     "mar": "Marathi",
 
     # ---- level 3 ----
-    "ukr": "Ukrainian",
-    "ceb": "Cebuano",
-    "arz": "Egyptian Arabic",
-    "lav": "Latvian",
-    "ind": "Indonesian",
-    "afr": "Afrikaans",
-    "bos": "Bosnian",
+     "ceb": "Cebuano",
+     "ind": "Indonesian",
+     "afr": "Afrikaans",
+     "ell": "Greek",
+     "heb": "Hebrew",
+     "dan": "Danish",
+     "tgl": "Tagalog",
     
     # ---- level 4 ----
-    "sv": "Swedish",
-    "tr": "Turkish",
-    "ko": "Korean",
-    "hi": "Hindi",
-    "fa": "Persian",
-    "pt": "Portuguese",
-    "cs": "Czech",
-    "ru": "Russian",
-    "nl": "Dutch",
-    "pl": "Polish",
-    "hr": "Croatian",
-    "it": "Italian",
-    "vi": "Vietnamese",
-    "eu": "Basque",
-    "hu": "Hungarian",
-    "fi": "Finnish",
-    "sr": "Serbian",
-    "ca": "Catalan",
+      "sv": "Swedish",
+      "tr": "Turkish",
+      "ko": "Korean",
+      "hi": "Hindi",
+      "fa": "Persian",
+      "pt": "Portuguese",
+      "cs": "Czech",
+      "ru": "Russian",
+      "nl": "Dutch",
+      "pl": "Polish",
+      "hr": "Croatian",
+      "it": "Italian",
+      "vi": "Vietnamese",
+      "eu": "Basque",
+      "hu": "Hungarian",
+      "fi": "Finnish",
+      "sr": "Serbian",
+      "ca": "Catalan",
 
     # ---- level 5 ----
-    "en": "English",
-    "es": "Spanish",
-    "de": "German",
-    "ja": "Japanese",
-    "fr": "French",
-    "ar": "Arabic",
-    "zh": "Chinese",
+     "en": "English",
+     "es": "Spanish",
+     "de": "German",
+     "ja": "Japanese",
+     "fr": "French",
+     "ar": "Arabic",
+     "zh": "Chinese",
 }
 
 
@@ -101,24 +102,75 @@ def unpack_labeled_json(obj: Any, n_segments: int) -> List[str]:
     return out
 
 
-def safe_json_loads(text: str) -> Any:
-    if not text:
-        raise ValueError("Empty response from model")
-    t = text.strip()
+def safe_json_loads(t: str):
+    """
+    Best-effort JSON loader for model outputs.
+    - Accepts true JSON
+    - Repairs common LLM mistakes: code fences, leading text, single quotes, trailing commas
+    """
+    import json, re, ast
 
-    # strip ```json fences
-    if t.startswith("```"):
-        t = re.sub(r"^```(?:json)?", "", t).strip()
-        t = re.sub(r"```$", "", t).strip()
+    if t is None:
+        raise ValueError("empty response")
 
-    # strip leading junk before first { or [
-    brace = t.find("{")
-    bracket = t.find("[")
-    starts = [x for x in [brace, bracket] if x != -1]
-    if starts:
-        t = t[min(starts):].strip()
+    s = str(t).strip()
 
-    return json.loads(t)
+    # Remove fenced blocks like ```json ... ```
+    s = re.sub(r"^```(?:json)?\s*", "", s, flags=re.IGNORECASE)
+    s = re.sub(r"\s*```$", "", s)
+
+    # If there is leading chatter, try to extract the first {...} block
+    m = re.search(r"\{.*\}", s, flags=re.DOTALL)
+    if m:
+        s = m.group(0).strip()
+
+    # 1) Try strict JSON first
+    try:
+        return json.loads(s)
+    except Exception:
+        pass
+
+    # 2) Fix common issues: trailing commas
+    s2 = re.sub(r",\s*([}\]])", r"\1", s)
+
+    # 3) If it looks like Python dict (single quotes), try ast.literal_eval
+    try:
+        obj = ast.literal_eval(s2)
+        if isinstance(obj, dict):
+            return obj
+    except Exception:
+        pass
+
+        # 3.5) Quote bare keys like: {prompt_1: "..."} -> {"prompt_1": "..."}
+    # This is the most common remaining failure pattern.
+    s2 = re.sub(r'(?m)(^\s*)(prompt_\d+)\s*:', r'\1"\2":', s2)
+    s2 = re.sub(r'(?m)(^\s*)(prompt_\d+)\s*=', r'\1"\2":', s2)  # just in case someone uses '='
+
+
+    # 4) Last attempt: replace single quotes with double quotes (best-effort)
+    s3 = s2
+    # only when keys are quoted with single quotes
+    s3 = re.sub(r"'\s*([A-Za-z0-9_]+)\s*'\s*:", r'"\1":', s3)
+    s3 = s3.replace("\\'", "'")
+    s3 = s3.replace("'", '"')
+    s3 = re.sub(r",\s*([}\]])", r"\1", s3)
+
+        # Try parsing after bare-key quoting fix
+    try:
+        return json.loads(s2)
+    except Exception:
+        pass
+
+    # 4) Last attempt: replace single quotes with double quotes (best-effort)
+    s3 = s2
+    s3 = re.sub(r"'\s*([A-Za-z0-9_]+)\s*'\s*:", r'"\1":', s3)
+    s3 = s3.replace("\\'", "'")
+    s3 = s3.replace("'", '"')
+    s3 = re.sub(r",\s*([}\]])", r"\1", s3)
+
+    return json.loads(s3)
+
+
 
 
 def _find_all_blocks(full_prompt: str, lang: str) -> List[Tuple[Tuple[int, int], str, str]]:

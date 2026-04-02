@@ -32,16 +32,44 @@ except Exception:
 
 
 NLLB_LANG: Dict[str, str] = {
-    # -------- level 5 (high-resource) --------
-    "en": "eng_Latn",      
-    "es": "spa_Latn",      
-    "de": "deu_Latn",      
-    "fr": "fra_Latn",      
-    "ja": "jpn_Jpan",      
-    "zh": "zho_Hans",       
-    "ar": "arb_Arab",      
+    
+    # ---- level 0 ----
+    "kac": "kac_Latn",    # Jingpho
+    "ndo": "ndo_Latn",    # Ndonga
+    "dyu": "dyu_Latn",    # Dyula
+    "bua": "bua_Cyrl",   # Buriat
+    "lis": "lis_Latn",   # Lisu
+    "tig": "tig_Ethi",   # Tigré
+    "ful": "ful_Latn",   # Fula
 
-    # -------- level 4 (mid-resource) --------
+    # ---- level 1 ----
+    "tel": "tel_Telu",   # Telugu
+    "som": "som_Latn",   # Somali
+    "gla": "gla_Latn",   # Scottish Gaelic
+    "ibo": "ibo_Latn",   # Igbo
+    "bam": "bam_Latn",   # Bambara
+    "asm": "asm_Beng",   # Assamese
+    "sqi": "sqi_Latn",   # Albanian
+
+    # ---- level 2 ----
+    "pnb": "pnb_Arab",   # Western Punjabi
+    "hau": "hau_Latn",   # Hausa
+    "mar": "mar_Deva",   # Marathi
+    "xho": "xho_Latn",   # Xhosa
+    "swa": "swa_Latn",   # Swahili
+    "san": "san_Deva",   # Sanskrit
+    "zul": "zul_Latn",   # Zulu
+
+    # ---- level 3 ----
+    "ukr": "ukr_Cyrl",   # Ukrainian
+    "ceb": "ceb_Latn",   # Cebuano
+    "arz": "arz_Arab",   # Egyptian Arabic
+    "lav": "lav_Latn",   # Latvian
+    "ind": "ind_Latn",   # Indonesian
+    "afr": "afr_Latn",   # Afrikaans
+    "bos": "bos_Latn",   # Bosnian
+
+     # -------- level 4  --------
     "sv": "swe_Latn",      
     "tr": "tur_Latn",      
     "ko": "kor_Hang",      
@@ -60,6 +88,15 @@ NLLB_LANG: Dict[str, str] = {
     "ca": "cat_Latn",     
     "eu": "eus_Latn",      
     "fa": "pes_Arab",     
+    
+    # -------- level 5  --------
+    "en": "eng_Latn",      
+    "es": "spa_Latn",      
+    "de": "deu_Latn",      
+    "fr": "fra_Latn",      
+    "ja": "jpn_Jpan",      
+    "zh": "zho_Hans",       
+    "ar": "arb_Arab",      
 }
 
 
@@ -105,7 +142,19 @@ class NLLBTranslator:
         encoded = self.tokenizer(text, return_tensors="pt", truncation=True)
         encoded = {k: v.to(self.device) for k, v in encoded.items()}
 
-        forced_bos_token_id = self.tokenizer.convert_tokens_to_ids(NLLB_LANG[tgt_lang])
+        tgt_code = NLLB_LANG[tgt_lang]
+
+        # ✅ NLLB 권장: lang_code_to_id 사용
+        lang2id = getattr(self.tokenizer, "lang_code_to_id", None)
+        if isinstance(lang2id, dict) and tgt_code in lang2id:
+            forced_bos_token_id = lang2id[tgt_code]
+        else:
+            # fallback: convert_tokens_to_ids (but guard unk)
+            forced_bos_token_id = self.tokenizer.convert_tokens_to_ids(tgt_code)
+        
+        unk_id = getattr(self.tokenizer, "unk_token_id", None)
+        if unk_id is not None and forced_bos_token_id == unk_id:
+            raise ValueError(f"[nllb] target lang token not found in tokenizer vocab: {tgt_code}")
 
         gen = self.model.generate(
             **encoded,
