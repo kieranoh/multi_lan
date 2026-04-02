@@ -42,8 +42,19 @@ from tqdm import tqdm
 from src.io.reader import read_jsonl, list_en_jsonl_files
 from src.io.writer import write_jsonl, append_jsonl
 from src.metrics.bertscore import bertscore_mean_f1
+import src.metrics.bertscore as bertscore_mod
 from src.metrics.cometkiwi import comet_default_model_name
 import src.metrics.cometkiwi as cometkiwi_mod
+from src.metrics.metricx24_ref_free import (
+    metricx24_supports_lang,
+    metricx24_score_groups_mean,
+    metricx24_error_to_good,
+)
+from src.metrics.gemba_da_ref_free import (
+    gemba_da_supports_lang,
+    gemba_da_score_groups_mean,
+    gemba_da_score_to_good,
+)
 from src.postprocess.preserve_code import (
     extract_code_and_prompts,
     fill_code_template,
@@ -326,6 +337,98 @@ def _select_best_idx_by_score_then_langcheck(
     best_i = order[0] if order else 0
     best_score = float(scores[best_i]) if scores else 0.0
     return best_i, 1, best_score, False, trials
+
+
+def _parse_score_metrics(env: Dict[str, str]) -> List[str]:
+    raw = (env.get("SCORE_METRICS") or "bertscore,cometkiwi,metricx24,gemba_da").strip()
+    return [x.strip().lower() for x in raw.split(",") if x.strip()]
+
+
+def _clamp01(x: Optional[float]) -> Optional[float]:
+    if x is None:
+        return None
+    try:
+        return max(0.0, min(1.0, float(x)))
+    except Exception:
+        return None
+
+
+def _group_metric_key(task: str, variant_idx1: int) -> str:
+    return f"{task}::__v{variant_idx1}"
+
+
+def _precompute_metricx24_for_pending(
+    pending: List[Dict[str, Any]],
+    tgt_lang: str,
+    env: Dict[str, str],
+) -> Tuple[Dict[str, Optional[float]], Optional[str]]:
+    if "metricx24" not in _parse_score_metrics(env):
+        return {}, "disabled"
+    if not metricx24_supports_lang(tgt_lang, LANG_MAP, env):
+        return {}, "unsupported_target_lang"
+
+    groups: List[Dict[str, Any]] = []
+    for rec in pending:
+        prompts_en = list(rec.get("prompts_en") or [])
+        n_variants = int(rec.get("n_variants", 0) or 0)
+        for i in range(n_variants):
+            mt_segments = list(rec.get(f"prompt_{i+1}_segments") or [])
+            if prompts_en and mt_segments:
+                groups.append(
+                    {
+                        "key": _group_metric_key(str(rec["task"]), i + 1),
+                        "src_segments": prompts_en,
+                        "mt_segments": mt_segments,
+                    }
+                )
+    if not groups:
+        return {}, "no_segments"
+    return metricx24_score_groups_mean(groups, env=env), None
+
+
+def _precompute_gemba_da_for_pending(
+    pending: List[Dict[str, Any]],
+    tgt_lang: str,
+    env: Dict[str, str],
+) -> Tuple[Dict[str, Optional[float]], Optional[str]]:
+    if "gemba_da" not in _parse_score_metrics(env):
+        return {}, "disabled"
+    if not gemba_da_supports_lang(tgt_lang, LANG_MAP, env):
+        return {}, "unsupported_target_lang"
+
+    groups: List[Dict[str, Any]] = []
+    src_lang_name = LANG_MAP.get("en", "English")
+    tgt_lang_name = LANG_MAP.get(tgt_lang, tgt_lang)
+
+    for rec in pending:
+        prompts_en = list(rec.get("prompts_en") or [])
+        n_variants = int(rec.get("n_variants", 0) or 0)
+        for i in range(n_variants):
+            mt_segments = list(rec.get(f"prompt_{i+1}_segments") or [])
+            if prompts_en and mt_segments:
+                groups.append(
+                    {
+                        "key": _group_metric_key(str(rec["task"]), i + 1),
+                        "source_lang_name": src_lang_name,
+                        "target_lang_name": tgt_lang_name,
+                        "src_segments": prompts_en,
+                        "mt_segments": mt_segments,
+                    }
+                )
+    if not groups:
+        return {}, "no_segments"
+    return gemba_da_score_groups_mean(groups, env=env), None
+
+
+def _safe_metric_release() -> None:
+    try:
+        bertscore_mod.bertscore_release()
+    except Exception:
+        pass
+    try:
+        cometkiwi_mod.cometkiwi_release()
+    except Exception:
+        pass
 
 
 # ─────────────────────────────────────────────────────────────
@@ -862,22 +965,25 @@ def run_translate(cfg: TranslateConfig, env: Dict[str, str]) -> None:
 # Score (modified: score → rank → LLM langcheck)
 # ─────────────────────────────────────────────────────────────
 
+
 def run_calculate_score(cfg: ScoreConfig, env: Optional[Dict[str, str]] = None) -> None:
     """
     Reads stage2_meta and writes scored jsonl into cfg.final_dir/<tgt>/<module>/<file>.
     RESUME=1: if out file exists, skip tasks already present and append only remaining.
 
-    Modified behavior:
-    - compute mixed_mean scores
-    - sort variants by score descending
-    - from rank 1 onward, use LLM to verify target language
-    - choose the first language-validated candidate
-    - store best.rank / best.idx / best.score / best.lang_ok
+    Ranking flow:
+    - compute enabled metric scores
+    - normalize to a higher-is-better common scale
+    - average only over non-skipped / non-None metrics
+    - rank by mixed_mean
+    - language-check only after ranking (best -> next best ...)
     """
-    resume = _env_flag(env or {}, "RESUME", "0")
+    env = dict(env or {})
+    resume = _env_flag(env, "RESUME", "0")
+    score_metrics = _parse_score_metrics(env)
 
-    threshold = float((env or {}).get("QE_ACCEPT_THRESHOLD", "0.50"))
-    allow_below_threshold = _env_flag((env or {}), "ALLOW_LANGCHECK_BELOW_QE_THRESHOLD", "0")
+    threshold = float(env.get("QE_ACCEPT_THRESHOLD", "0.50"))
+    allow_below_threshold = _env_flag(env, "ALLOW_LANGCHECK_BELOW_QE_THRESHOLD", "0")
 
     total_recs = 0
     for _tgt in cfg.target_langs:
@@ -913,87 +1019,143 @@ def run_calculate_score(cfg: ScoreConfig, env: Optional[Dict[str, str]] = None) 
 
                 out_path = cfg.final_dir / tgt_lang / module_name / in_path.name
                 done_scored = _load_done_tasks(out_path) if resume else set()
-
                 pending = [r for r in recs if (not resume) or (r.get("task") not in done_scored)]
                 if not pending:
                     print(f"[SKIP] score already done: {out_path}")
                     continue
 
+                metricx_map, metricx_skip_reason = _precompute_metricx24_for_pending(pending, tgt_lang, env)
+                gemba_map, gemba_skip_reason = _precompute_gemba_da_for_pending(pending, tgt_lang, env)
+
                 out_recs: List[Dict[str, Any]] = []
                 desc = f"score:{cfg.dataset}:{in_path.name} ({tgt_lang}/{module_name})"
-                for rec in tqdm(
-                    pending,
-                    desc=desc,
-                    unit="prompt",
-                    dynamic_ncols=True,
-                    leave=False,
-                    bar_format="{desc}: {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}] | {postfix}",
-                ):
-                    score_all_pbar.update(1)
-                    prompts_en: List[str] = rec["prompts_en"]
-                    n_variants = int(rec.get("n_variants", 0))
+                try:
+                    for rec in tqdm(
+                        pending,
+                        desc=desc,
+                        unit="prompt",
+                        dynamic_ncols=True,
+                        leave=False,
+                        bar_format="{desc}: {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}] | {postfix}",
+                    ):
+                        score_all_pbar.update(1)
+                        prompts_en: List[str] = rec["prompts_en"]
+                        n_variants = int(rec.get("n_variants", 0))
 
-                    bert_vals: List[float] = []
-                    comet_vals: List[float] = []
-                    mixed_vals: List[float] = []
+                        bert_vals: List[Optional[float]] = [None for _ in range(n_variants)]
+                        bert_norm_vals: List[Optional[float]] = [None for _ in range(n_variants)]
+                        comet_vals: List[Optional[float]] = [None for _ in range(n_variants)]
+                        comet_norm_vals: List[Optional[float]] = [None for _ in range(n_variants)]
+                        metricx_vals: List[Optional[float]] = [None for _ in range(n_variants)]
+                        metricx_good_vals: List[Optional[float]] = [None for _ in range(n_variants)]
+                        gemba_vals: List[Optional[float]] = [None for _ in range(n_variants)]
+                        gemba_good_vals: List[Optional[float]] = [None for _ in range(n_variants)]
+                        mixed_vals: List[float] = []
+                        mixed_metrics_used: List[List[str]] = []
 
-                    mt_by_variant: List[List[str]] = [rec[f"prompt_{j+1}_segments"] for j in range(n_variants)]
-                    comet_vals = _cometkiwi_means_for_variants(
-                        prompts_en,
-                        mt_by_variant,
-                        cfg.comet_model,
-                        batch_size=int((env or {}).get("COMET_BATCH_SIZE", "8")),
-                    )
+                        if "cometkiwi" in score_metrics and prompts_en and n_variants > 0:
+                            mt_by_variant: List[List[str]] = [rec[f"prompt_{j+1}_segments"] for j in range(n_variants)]
+                            comet_batch = _cometkiwi_means_for_variants(
+                                prompts_en,
+                                mt_by_variant,
+                                cfg.comet_model,
+                                batch_size=int(env.get("COMET_BATCH_SIZE", "8")),
+                            )
+                            for i, c in enumerate(comet_batch):
+                                comet_vals[i] = float(c)
+                                comet_norm_vals[i] = _clamp01(float(c))
 
-                    for i in range(n_variants):
-                        bt_segs_en: List[str] = rec[f"prompt_{i+1}_bt_segments_en"]
-                        b = bertscore_mean_f1(prompts_en, bt_segs_en) if prompts_en else 0.0
-                        c = float(comet_vals[i]) if prompts_en else 0.0
-                        bert_vals.append(b)
-                        mixed_vals.append((b + c) / 2.0)
+                        for i in range(n_variants):
+                            variant_key = _group_metric_key(str(rec["task"]), i + 1)
 
-                    prompt_variants: List[str] = [
-                        rec[f"prompt_{i+1}"] for i in range(n_variants)
-                    ] if n_variants else [rec["prompt_en"]]
+                            if "bertscore" in score_metrics and prompts_en:
+                                bt_segs_en: List[str] = rec[f"prompt_{i+1}_bt_segments_en"]
+                                b = bertscore_mean_f1(prompts_en, bt_segs_en)
+                                bert_vals[i] = float(b)
+                                bert_norm_vals[i] = _clamp01(float(b))
 
-                    best_idx0, best_rank, best_score, lang_ok, langcheck_trials = _select_best_idx_by_score_then_langcheck(
-                        env=(env or {}),
-                        target_lang=tgt_lang,
-                        prompts=prompt_variants,
-                        scores=mixed_vals,
-                        module_name=module_name,
-                        threshold=threshold,
-                        allow_below_threshold=allow_below_threshold,
-                    )
+                            if variant_key in metricx_map:
+                                metricx_vals[i] = metricx_map[variant_key]
+                                metricx_good_vals[i] = metricx24_error_to_good(metricx_vals[i])
 
-                    best_prompt = rec[f"prompt_{best_idx0+1}"] if n_variants else rec["prompt_en"]
+                            if variant_key in gemba_map:
+                                gemba_vals[i] = gemba_map[variant_key]
+                                gemba_good_vals[i] = gemba_da_score_to_good(gemba_vals[i])
 
-                    out_recs.append(
-                        {
-                            "task": rec["task"],
-                            "lang": rec["lang"],
-                            "target_lang": tgt_lang,
-                            "module": module_name,
-                            "n_variants": n_variants,
-                            "scores": {
-                                "BERTScore_F1_mean": bert_vals,
-                                "COMETKiwi_mean": comet_vals,
-                                "mixed_mean": mixed_vals,
-                            },
-                            "best": {
-                                "idx": best_idx0 + 1,
-                                "rank": best_rank,
-                                "score": float(best_score),
-                                "lang_ok": bool(lang_ok),
-                                "prompt": best_prompt,
-                            },
-                            "langcheck_trials": langcheck_trials,
-                        }
-                    )
+                            usable: List[float] = []
+                            used_names: List[str] = []
+                            if bert_norm_vals[i] is not None:
+                                usable.append(float(bert_norm_vals[i]))
+                                used_names.append("bertscore")
+                            if comet_norm_vals[i] is not None:
+                                usable.append(float(comet_norm_vals[i]))
+                                used_names.append("cometkiwi")
+                            if metricx_good_vals[i] is not None:
+                                usable.append(float(metricx_good_vals[i]))
+                                used_names.append("metricx24")
+                            if gemba_good_vals[i] is not None:
+                                usable.append(float(gemba_good_vals[i]))
+                                used_names.append("gemba_da")
+
+                            mixed_metrics_used.append(used_names)
+                            mixed_vals.append(float(sum(usable) / len(usable)) if usable else 0.0)
+
+                        prompt_variants: List[str] = [
+                            rec[f"prompt_{i+1}"] for i in range(n_variants)
+                        ] if n_variants else [rec["prompt_en"]]
+
+                        best_idx0, best_rank, best_score, lang_ok, langcheck_trials = _select_best_idx_by_score_then_langcheck(
+                            env=env,
+                            target_lang=tgt_lang,
+                            prompts=prompt_variants,
+                            scores=mixed_vals,
+                            module_name=module_name,
+                            threshold=threshold,
+                            allow_below_threshold=allow_below_threshold,
+                        )
+
+                        best_prompt = rec[f"prompt_{best_idx0+1}"] if n_variants else rec["prompt_en"]
+
+                        out_recs.append(
+                            {
+                                "task": rec["task"],
+                                "lang": rec["lang"],
+                                "target_lang": tgt_lang,
+                                "module": module_name,
+                                "n_variants": n_variants,
+                                "scores": {
+                                    "BERTScore_F1_mean": bert_vals,
+                                    "BERTScore_F1_mean_norm": bert_norm_vals,
+                                    "COMETKiwi_mean": comet_vals,
+                                    "COMETKiwi_mean_norm": comet_norm_vals,
+                                    "MetricX24_QE_error_mean": metricx_vals,
+                                    "MetricX24_QE_good_mean": metricx_good_vals,
+                                    "GEMBA_DA_noref_mean": gemba_vals,
+                                    "GEMBA_DA_noref_good_mean": gemba_good_vals,
+                                    "mixed_mean": mixed_vals,
+                                    "mixed_metrics_used": mixed_metrics_used,
+                                    "skipped_metrics": {
+                                        "metricx24": metricx_skip_reason,
+                                        "gemba_da": gemba_skip_reason,
+                                    },
+                                },
+                                "best": {
+                                    "idx": best_idx0 + 1,
+                                    "rank": best_rank,
+                                    "score": float(best_score),
+                                    "lang_ok": bool(lang_ok),
+                                    "prompt": best_prompt,
+                                },
+                                "langcheck_trials": langcheck_trials,
+                            }
+                        )
+                finally:
+                    _safe_metric_release()
 
                 _append_or_write_jsonl(out_path, out_recs, resume=resume)
                 print(f"[DONE] score saved: {out_path} (+{len(out_recs)} recs)")
 
+    _safe_metric_release()
     score_all_pbar.close()
 
 
